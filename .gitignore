@@ -1,5 +1,7 @@
 .idea/**
 **/.idea/**
+**/market_data.sql
+**/stocks.sql
 config/config_key.properties
 
 **/superset/**
@@ -84,8 +86,7 @@ cmake-build-*/
 
 # IntelliJ
 out/
-**/market_data.sql
-**/stocks.sql
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
