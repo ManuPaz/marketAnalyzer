@@ -1,0 +1,141 @@
+bd:
+  host: localhost
+  user: usuario1
+  password: password
+  port: 33062
+  database_stocks: stocks
+  database_market_data: market_data
+series_temporales:
+  fecha_minima: "2010-01-01"
+  fecha_largo: "2010-01-01"
+  fecha_medio: "2016-01-01"
+  fecha_corto: "2022-01-01"
+  fecha_dia: "2022-03-01"
+  fecha_sep: "2021-06-01"
+  number_combs: 20
+  freq: "M" #frecuencia, para el resample del dataframe
+  min_tam_train: 100
+  cross_validation: True
+  variables_externas: False
+  usar_macro: True # si usan las variables macro o no
+  feature_macro: "Building Permits" #feature macro a predecir
+  country_usado: "united states" #pais del que se pillan las macro
+  variables_macro_fijas: { "united states": [ "Core CPI (yoy)","Fed Interest Rate Decision","Building Permits", #variales macro para cada pais
+                                              "EUR/USD","s&p 500","nasdaq" ],
+                           "germany": [ "EUR/USD","s&p 500","NASDAQ", "dax",
+                           ],
+                           "spain": [ "EUR/USD","s&p 500","nasdaq", "dax", "ibex 35",
+                                      'Spanish CPI (YoY)','Spanish CPI (MoM)', 'Spanish Industrial Production (YoY)',
+                                      'Spanish Retail Sales (YoY)' ,  'Spanish Unemployment Rate','Spanish Manufacturing PMI',
+                                      'Spanish Services PMI','Spanish GDP (QoQ)' ],
+
+  }
+  predict_macro: False #si se predice una variable macro o no
+
+
+factores_de_correccion_monetarios: {"LSE":{"adjusted_close":0.01222}}
+
+fecha_ini_default: '2010-01-01'
+
+reportes:
+  analisis_general: "reportes/analisis_general/"
+
+cambio_unidades:
+  factores_moneda: {"united kingdom":{"adjusted_close":0.0119}}
+
+
+
+
+
+macro:
+  country_exchange: { "united states": [ "US" ],
+                      "germany": [ "XETRA", "F", "BE", "DU" ],  "spain": [ "MC" ],
+                      "united kingdom": [ "LSE" ], "canada": [ "TO" ],
+                      "france": [ "PA" ]
+                      }
+
+
+
+  indices: ["s&p 500","dax","ibex 35","ftse 100","s&p/tsx 60","nasdaq","cac 40"]
+  materias_primas: ["crude oil wti", "gold"]
+  indice_country: {"DOW":"united states", "S&P 500":"united states",
+                  "DAX":"germany", "IBEX 35":"spain",
+                  "FTSE 100": "united kingdom","S&P/TSX 60":"canada",
+                  "NASDAQ":"united states","CAC 40":"france",
+                  }
+  country_indices: {"united states": ["s&p 500", "nasdaq" ],
+                    "germany": ["dax"],  "spain": ["IBEX 35"],
+                    "united kingdom":["ftse 100"], "canada":["s&p/tsx 60"],
+                    "france":["cac 40"]
+                  }
+  country_forex:  {"united states": ["EUR/USD","GBP/USD" ],
+                    "germany": ["EUR/USD","EUR/GBP"],  "spain": ["EUR/USD","EUR/GBP"],
+                    "united kingdom":["GBP/USD","EUR/GBP"], "canada":["EUR/CAD","GBP/CAD"],
+                    "france":["EUR/USD","EUR/GBP"]
+                  }
+
+  eventos_fundamentales: { "united states":['%Factory orders (MOM)%', '%ISM Non-Manufacturing PMI%',
+                                '%ISM Manufacturing PMI%', '%Core CPI (MoM)%',
+                                '%Core CPI (yoy)%', '%Industrial Production (MoM)%',
+                                '%Core Retail Sales (MoM)%','%GDP (QoQ)%',
+                                '%Building Permits  (%)','%Fed Interest Rate Decision%',
+                                'Unemployment Rate%'],
+                          "united kingdom":['%BoE Interest Rate Decision%','%Manufacturing PMI%',
+                            '%Core Retail Sales (MoM)%','%Core Retail Sales (YoY)%',
+                            '%CPI (MoM)%','%Core CPI (YoY)%','%Industrial Production (MoM)%',
+                            '%Industrial Production (YoY)%','%Unemployment Rate%','%GDP (QoQ)%'],
+                          "spain":['%Spanish CPI (YoY)%','%Spanish CPI (MoM)%',
+                                    '%Spanish Industrial Production (YoY)%','%Spanish Retail Sales (YoY)%',
+                                   '%Spanish Unemployment Rate%','%Spanish Manufacturing PMI%',
+                                   '%Spanish Services PMI%','%Spanish GDP (QoQ)%'
+                                  ],
+                          "france":[],
+                          "canada":[],
+                          "germany": []
+                        }
+
+prophet:
+
+  param_grid:
+     'changepoint_prior_scale': [ 0.01, 0.1, 0.05, 0.5 ]
+     'seasonality_prior_scale': [ 0.01, 0.1, 1,5, 10,15,20 ]
+     "monthly_seasonality": [ True, False ]
+     "use_holidays": [ False ]
+     "oil": [ True, False ]
+     "monthly_N": [ 3 ]
+     "yearly_N": [ 10 ]
+     "weekly_N": [ 3 ]
+  cutoffs: ["2008-01-01","2010-02-01","2011-07-01",
+            "2013-05-01","2015-04-01","2015-09-01",
+            "2018-01-01","2018-11-01","2019-01-01",
+            "2020-05-01", "2021-02-01","2021-12-01"]
+  use_cutoffs: False
+  period: "300 days" #periodo para el cross validatin
+  horizon: "300 days" #horizonte para el cross validation
+
+  params_default: {"monthly_seasonality":False, "use_holidays":False,'changepoint_prior_scale':0.05,'seasonality_prior_scale':10,
+                   "monthly_N": 3, "yearly_N": 10, "weekly_N":  False}
+
+
+
+superset:
+  lista_paises: ["UNITED STATES","CHINA", "JAPAN",
+                              "RUSSIA", "SPAIN","GERMANY","ITALY",
+                              "FRANCE", "UNITED KINGDOM", "AUSTRALIA", "EURO ZONE"]
+  list_other_equities: ["market_data.forex", "market_data.crypto", "market_data.commodities"]
+  list_events: ["cpi (mom)", "interest rate decision", "retail sales (yoy)", "retail sales (mom)",
+              "industrial production (yoy)", "industrial production (mom)", "factory orders (mom)","factory orders (yoy)",
+                "building permits (mom)","building permits (yoy)",
+              "manufacturing pmi", "services pmi", "gdp (YOY)", "gdp (qoq)", "unemployment rate"]
+  title_ref_macro: "UNITED STATES MACRO"
+  country_ref: "UNITED STATES"
+  filters_replace: {"UNITED STATES": {"%cpi":"cpi","%retail sales":"retail sales", "%manufacturing":"ism manufacturing" },
+                    "CHINA":{"%manufacturing":"manufacturing"}}
+
+analyze_groups_stocks:
+  base_dir: "reports/stocks/"
+  energias: "reports/energies/"
+processed_data:
+  base_dir: "data/processed/"
+
+
