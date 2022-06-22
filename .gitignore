@@ -84,7 +84,8 @@ cmake-build-*/
 
 # IntelliJ
 out/
-
+**/market_data.sql
+**/stocks.sql
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
