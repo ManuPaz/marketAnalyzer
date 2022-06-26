@@ -8,6 +8,7 @@ import configparser
 from utils.get_new_data.stocks_data_EOD_implementation.get_prizes import  get_eod_prizes
 from utils.get_new_data.stocks_data_EOD_implementation.get_fundamentals import  get_fundamentals
 from utils.get_new_data import  highlights
+from utils.get_new_data.datosProcesados.ratios_earnings import  ratios_earnings
 logger = logging.getLogger('getting_data')
 config = configparser.ConfigParser()
 config.read('config/config_key.properties')
@@ -88,6 +89,13 @@ def update_one_stock_in_all_tables(exchange,stock,bd):
     stocks.save_stocks_data(stock,exchange, "precios", bd)
     stocks.save_stocks_data(stock, exchange, "fundamental", bd)
     highlights.update_highlights([stock,exchange], dt.datetime.today().date(), bd)
+
+def update_all_stocks_in_all_tables(stocks,bd):
+    for stock in stocks:
+        exchange= stock.split("_")[0]
+        stock = stock.split("_")[1]
+        update_one_stock_in_all_tables(exchange, stock, bd)
+    ratios_earnings()
 
 
 

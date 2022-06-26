@@ -29,6 +29,7 @@ if __name__ == '__main__':
 
     data, feature, df_train, df_test ,fecha_sep = dataframe_equities_with_options.get_dataframe_default()
 
+    print(data.columns)
     # tamaño minimo de entrenamiento (usado para los cutoffs)
     min_tam_train = config["series_temporales"]["min_tam_train"]
     period = config["prophet"]["period"]

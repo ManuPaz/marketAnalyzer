@@ -6,18 +6,18 @@ bd:
   database_stocks: stocks
   database_market_data: market_data
 series_temporales:
-  fecha_minima: "2010-01-01"
-  fecha_largo: "2010-01-01"
+  fecha_minima: "2018-01-01"
+  fecha_largo: "2018-01-01"
   fecha_medio: "2016-01-01"
   fecha_corto: "2022-01-01"
   fecha_dia: "2022-03-01"
   fecha_sep: "2021-06-01"
   number_combs: 20
-  freq: "M" #frecuencia, para el resample del dataframe
+  freq: "D" #frecuencia, para el resample del dataframe
   min_tam_train: 100
   cross_validation: True
   variables_externas: False
-  usar_macro: True # si usan las variables macro o no
+  usar_macro: False # si usan las variables macro o no
   feature_macro: "Building Permits" #feature macro a predecir
   country_usado: "united states" #pais del que se pillan las macro
   variables_macro_fijas: { "united states": [ "Core CPI (yoy)","Fed Interest Rate Decision","Building Permits", #variales macro para cada pais
@@ -54,8 +54,11 @@ macro:
                       "france": [ "PA" ]
                       }
 
-
-
+  events_to_save: ["core cpi", "cpi", "house prizes index", "interest rate decision", "retail sales",
+                  "unemployment rate", "bluiding permits", "industrial production", "factory orders", "manufacturing pmi", "services pmi",
+                  "gdp","consumer confidence"]
+  countries_working: [ "germany",  "spain", "france",
+                      "euro zone", "united kingdom", "australia", "russia", "china", "japan", "united states"]
   indices: ["s&p 500","dax","ibex 35","ftse 100","s&p/tsx 60","nasdaq","cac 40"]
   materias_primas: ["crude oil wti", "gold"]
   indice_country: {"DOW":"united states", "S&P 500":"united states",
@@ -110,8 +113,8 @@ prophet:
             "2018-01-01","2018-11-01","2019-01-01",
             "2020-05-01", "2021-02-01","2021-12-01"]
   use_cutoffs: False
-  period: "300 days" #periodo para el cross validatin
-  horizon: "300 days" #horizonte para el cross validation
+  period: "30 days" #periodo para el cross validatin
+  horizon: "20 days" #horizonte para el cross validation
 
   params_default: {"monthly_seasonality":False, "use_holidays":False,'changepoint_prior_scale':0.05,'seasonality_prior_scale':10,
                    "monthly_N": 3, "yearly_N": 10, "weekly_N":  False}
@@ -123,14 +126,14 @@ superset:
                               "RUSSIA", "SPAIN","GERMANY","ITALY",
                               "FRANCE", "UNITED KINGDOM", "AUSTRALIA", "EURO ZONE"]
   list_other_equities: ["market_data.forex", "market_data.crypto", "market_data.commodities"]
-  list_events: ["cpi (mom)", "interest rate decision", "retail sales (yoy)", "retail sales (mom)",
+  list_events: ["cpi (mom)","cpi (yoy)", "interest rate decision", "retail sales (yoy)", "retail sales (mom)",
               "industrial production (yoy)", "industrial production (mom)", "factory orders (mom)","factory orders (yoy)",
                 "building permits (mom)","building permits (yoy)",
               "manufacturing pmi", "services pmi", "gdp (YOY)", "gdp (qoq)", "unemployment rate"]
   title_ref_macro: "UNITED STATES MACRO"
   country_ref: "UNITED STATES"
-  filters_replace: {"UNITED STATES": {"%cpi":"cpi","%retail sales":"retail sales", "%manufacturing":"ism manufacturing" },
-                    "CHINA":{"%manufacturing":"manufacturing"}}
+  filters_replace: {"UNITED STATES": {"%cpi":"cpi","%retail sales":"retail sales", "%manufacturing":"ism manufacturing", "%unemployment":"unemployment" },
+                    "CHINA":{"%manufacturing":"manufacturing"}, "UNITED KINGDOM":{"%cpi":"cpi"},"EURO ZONE":{"%cpi":"cpi"}}
 
 analyze_groups_stocks:
   base_dir: "reports/stocks/"

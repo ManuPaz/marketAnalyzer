@@ -138,10 +138,9 @@ if __name__=="__main__":
         arma_=arma_-2*min(arma_)
     print(min(arma_))
 
-    data=pd.read_csv("data/raw/energies/dayly_energy.csv")
-    arm=data.loc[:,"MI_TOT"].dropna()
 
-    print(hurst.hurst_exponent(arm, method="all", max_chunksize=100, min_chunksize=8, num_chunksize=1))
+
+    print(hurst.hurst_exponent(arma_, method="all", max_chunksize=100, min_chunksize=8, num_chunksize=1))
     res=(stastmodels_functions.adfuller_(arma_))
     print(res)
     suma=0

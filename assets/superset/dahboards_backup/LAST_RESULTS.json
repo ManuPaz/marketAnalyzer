@@ -1,0 +1,2646 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "LAST RESULTS AND ESTIMATES",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"\", \"positions\": {\"CHART-K1qLJrKI5L\": {\"children\": [], \"id\": \"CHART-K1qLJrKI5L\", \"meta\": {\"chartId\": 1, \"height\": 59, \"sliceName\": \"LAST RESULTS XETRA\", \"sliceNameOverride\": \"LAST RESULTS GERMANY\", \"uuid\": \"f1d42068-51a1-4667-9e54-963e93f49fea\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-mqEL_zaYK\", \"ROW-u7ZfPGMQBj\"], \"type\": \"CHART\"}, \"CHART-PgThO3iZdy\": {\"children\": [], \"id\": \"CHART-PgThO3iZdy\", \"meta\": {\"chartId\": 3, \"height\": 72, \"sliceName\": \"LAST RESULTS PA\", \"sliceNameOverride\": \"LAST RESULTS FRANCE\", \"uuid\": \"dabe37b7-da5b-4359-b38f-af546430ec61\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-rBDqGWlGs\", \"ROW-aj7AvGuJfu\"], \"type\": \"CHART\"}, \"CHART-nglA9Feowd\": {\"children\": [], \"id\": \"CHART-nglA9Feowd\", \"meta\": {\"chartId\": 6, \"height\": 59, \"sliceName\": \"LAST RESULTS NASDAQ100\", \"uuid\": \"21ced3a2-fa7c-464b-b51e-c2e77123989c\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-VoXNc5ZITs\", \"ROW-451yH6i1p7\"], \"type\": \"CHART\"}, \"CHART-q_22hBjyYu\": {\"children\": [], \"id\": \"CHART-q_22hBjyYu\", \"meta\": {\"chartId\": 2, \"height\": 59, \"sliceName\": \"LAST RESULTS MC\", \"sliceNameOverride\": \"LAST RESULTS SPAIN\", \"uuid\": \"b5d79204-f9f0-45bf-add0-cd9660f1f262\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-3VwR_3dnR\", \"ROW-Z7tvlYRBqj\"], \"type\": \"CHART\"}, \"CHART-rX1Vcs-MS-\": {\"children\": [], \"id\": \"CHART-rX1Vcs-MS-\", \"meta\": {\"chartId\": 5, \"height\": 63, \"sliceName\": \"LAST RESULTS FTSE100\", \"uuid\": \"11aa0735-ef0f-4b2a-8b4a-74352a8e020d\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-rxmHU4Gix\", \"ROW-J0LnX475CZ\"], \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"ROW-vECqJPegFr\", \"TABS-kC2ZAXn6je\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"type\": \"HEADER\", \"meta\": {\"text\": \"LAST RESULTS AND ESTIMATES\"}}, \"MARKDOWN-WGTfOmCuZg\": {\"children\": [], \"id\": \"MARKDOWN-WGTfOmCuZg\", \"meta\": {\"code\": \"<h1 style=\\\"color:blue\\\"> Last results from companies of diferent indices and countries. </h1>\\n\", \"height\": 16, \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-vECqJPegFr\"], \"type\": \"MARKDOWN\"}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-451yH6i1p7\": {\"children\": [\"CHART-nglA9Feowd\"], \"id\": \"ROW-451yH6i1p7\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-VoXNc5ZITs\"], \"type\": \"ROW\"}, \"ROW-J0LnX475CZ\": {\"children\": [\"CHART-rX1Vcs-MS-\"], \"id\": \"ROW-J0LnX475CZ\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-rxmHU4Gix\"], \"type\": \"ROW\"}, \"ROW-Z7tvlYRBqj\": {\"children\": [\"CHART-q_22hBjyYu\"], \"id\": \"ROW-Z7tvlYRBqj\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-3VwR_3dnR\"], \"type\": \"ROW\"}, \"ROW-aj7AvGuJfu\": {\"children\": [\"CHART-PgThO3iZdy\"], \"id\": \"ROW-aj7AvGuJfu\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-rBDqGWlGs\"], \"type\": \"ROW\"}, \"ROW-u7ZfPGMQBj\": {\"children\": [\"CHART-K1qLJrKI5L\"], \"id\": \"ROW-u7ZfPGMQBj\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-mqEL_zaYK\"], \"type\": \"ROW\"}, \"ROW-vECqJPegFr\": {\"children\": [\"MARKDOWN-WGTfOmCuZg\"], \"id\": \"ROW-vECqJPegFr\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"ROW\"}, \"TAB-3VwR_3dnR\": {\"children\": [\"ROW-Z7tvlYRBqj\"], \"id\": \"TAB-3VwR_3dnR\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"SPAIN\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-ITkaCprbA\": {\"children\": [\"ROW-i_I6ZaKE-f\"], \"id\": \"TAB-ITkaCprbA\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"SP500 MEDIUM\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-JohKIY3Or\": {\"children\": [\"ROW-70sS5yWtAn\"], \"id\": \"TAB-JohKIY3Or\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"SP500 SMALL\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-VoXNc5ZITs\": {\"children\": [\"ROW-451yH6i1p7\"], \"id\": \"TAB-VoXNc5ZITs\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"NASDAQ\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-mqEL_zaYK\": {\"children\": [\"ROW-u7ZfPGMQBj\"], \"id\": \"TAB-mqEL_zaYK\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"GERMANY\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-rBDqGWlGs\": {\"children\": [\"ROW-aj7AvGuJfu\"], \"id\": \"TAB-rBDqGWlGs\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"FRANCE\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-rxmHU4Gix\": {\"children\": [\"ROW-J0LnX475CZ\"], \"id\": \"TAB-rxmHU4Gix\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"FTSE 100\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TAB-yjQSjps7x\": {\"children\": [\"ROW-n3-z_1nBGK\"], \"id\": \"TAB-yjQSjps7x\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"SP500 BIG\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\"], \"type\": \"TAB\"}, \"TABS-kC2ZAXn6je\": {\"children\": [\"TAB-VoXNc5ZITs\", \"TAB-yjQSjps7x\", \"TAB-ITkaCprbA\", \"TAB-JohKIY3Or\", \"TAB-rxmHU4Gix\", \"TAB-3VwR_3dnR\", \"TAB-rBDqGWlGs\", \"TAB-mqEL_zaYK\"], \"id\": \"TABS-kC2ZAXn6je\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"TABS\"}, \"CHART-XLEM_i8yfs\": {\"type\": \"CHART\", \"id\": \"CHART-XLEM_i8yfs\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-JohKIY3Or\", \"ROW-70sS5yWtAn\"], \"meta\": {\"width\": 12, \"height\": 61, \"chartId\": 9, \"sliceName\": \"LAST RESULTS SP500 SMALL\"}}, \"ROW-70sS5yWtAn\": {\"type\": \"ROW\", \"id\": \"ROW-70sS5yWtAn\", \"children\": [\"CHART-XLEM_i8yfs\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-JohKIY3Or\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-ohM1amv__j\": {\"type\": \"CHART\", \"id\": \"CHART-ohM1amv__j\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-ITkaCprbA\", \"ROW-i_I6ZaKE-f\"], \"meta\": {\"width\": 12, \"height\": 63, \"chartId\": 8, \"sliceName\": \"LAST RESULTS SP500 MEDIUM\"}}, \"ROW-i_I6ZaKE-f\": {\"type\": \"ROW\", \"id\": \"ROW-i_I6ZaKE-f\", \"children\": [\"CHART-ohM1amv__j\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-ITkaCprbA\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-NEDPGXloLp\": {\"type\": \"CHART\", \"id\": \"CHART-NEDPGXloLp\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-yjQSjps7x\", \"ROW-n3-z_1nBGK\"], \"meta\": {\"width\": 12, \"height\": 60, \"chartId\": 7, \"sliceName\": \"LAST RESULTS SP500 BIG\"}}, \"ROW-n3-z_1nBGK\": {\"type\": \"ROW\", \"id\": \"ROW-n3-z_1nBGK\", \"children\": [\"CHART-NEDPGXloLp\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-kC2ZAXn6je\", \"TAB-yjQSjps7x\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}}, \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"remote_id\": 1}",
+                "position_json": "{\"CHART-K1qLJrKI5L\":{\"children\":[],\"id\":\"CHART-K1qLJrKI5L\",\"meta\":{\"chartId\":1,\"height\":59,\"sliceName\":\"LAST RESULTS XETRA\",\"sliceNameOverride\":\"LAST RESULTS GERMANY\",\"uuid\":\"f1d42068-51a1-4667-9e54-963e93f49fea\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-mqEL_zaYK\",\"ROW-u7ZfPGMQBj\"],\"type\":\"CHART\"},\"CHART-NEDPGXloLp\":{\"children\":[],\"id\":\"CHART-NEDPGXloLp\",\"meta\":{\"chartId\":7,\"height\":60,\"sliceName\":\"LAST RESULTS SP500 BIG\",\"uuid\":\"4fc7f0f4-e7c6-42ea-9267-905fe6851f4d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-yjQSjps7x\",\"ROW-n3-z_1nBGK\"],\"type\":\"CHART\"},\"CHART-PgThO3iZdy\":{\"children\":[],\"id\":\"CHART-PgThO3iZdy\",\"meta\":{\"chartId\":3,\"height\":72,\"sliceName\":\"LAST RESULTS PA\",\"sliceNameOverride\":\"LAST RESULTS FRANCE\",\"uuid\":\"dabe37b7-da5b-4359-b38f-af546430ec61\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-rBDqGWlGs\",\"ROW-aj7AvGuJfu\"],\"type\":\"CHART\"},\"CHART-XLEM_i8yfs\":{\"children\":[],\"id\":\"CHART-XLEM_i8yfs\",\"meta\":{\"chartId\":9,\"height\":61,\"sliceName\":\"LAST RESULTS SP500 SMALL\",\"uuid\":\"a5db3f59-f13d-4264-bc10-8c9e71472a6d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-JohKIY3Or\",\"ROW-70sS5yWtAn\"],\"type\":\"CHART\"},\"CHART-nglA9Feowd\":{\"children\":[],\"id\":\"CHART-nglA9Feowd\",\"meta\":{\"chartId\":6,\"height\":59,\"sliceName\":\"LAST RESULTS NASDAQ100\",\"uuid\":\"21ced3a2-fa7c-464b-b51e-c2e77123989c\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-VoXNc5ZITs\",\"ROW-451yH6i1p7\"],\"type\":\"CHART\"},\"CHART-ohM1amv__j\":{\"children\":[],\"id\":\"CHART-ohM1amv__j\",\"meta\":{\"chartId\":8,\"height\":63,\"sliceName\":\"LAST RESULTS SP500 MEDIUM\",\"uuid\":\"7602e4ae-0048-40df-96e4-25f2af6ab180\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-ITkaCprbA\",\"ROW-i_I6ZaKE-f\"],\"type\":\"CHART\"},\"CHART-q_22hBjyYu\":{\"children\":[],\"id\":\"CHART-q_22hBjyYu\",\"meta\":{\"chartId\":2,\"height\":59,\"sliceName\":\"LAST RESULTS MC\",\"sliceNameOverride\":\"LAST RESULTS SPAIN\",\"uuid\":\"b5d79204-f9f0-45bf-add0-cd9660f1f262\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-3VwR_3dnR\",\"ROW-Z7tvlYRBqj\"],\"type\":\"CHART\"},\"CHART-rX1Vcs-MS-\":{\"children\":[],\"id\":\"CHART-rX1Vcs-MS-\",\"meta\":{\"chartId\":5,\"height\":63,\"sliceName\":\"LAST RESULTS FTSE100\",\"uuid\":\"11aa0735-ef0f-4b2a-8b4a-74352a8e020d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-rxmHU4Gix\",\"ROW-J0LnX475CZ\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-vECqJPegFr\",\"TABS-kC2ZAXn6je\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"LAST RESULTS AND ESTIMATES\"},\"type\":\"HEADER\"},\"MARKDOWN-WGTfOmCuZg\":{\"children\":[],\"id\":\"MARKDOWN-WGTfOmCuZg\",\"meta\":{\"code\":\"<h1 style=\\\"color:blue\\\"> Last results from companies of diferent indices and countries. </h1>\\n\",\"height\":16,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vECqJPegFr\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-451yH6i1p7\":{\"children\":[\"CHART-nglA9Feowd\"],\"id\":\"ROW-451yH6i1p7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-VoXNc5ZITs\"],\"type\":\"ROW\"},\"ROW-70sS5yWtAn\":{\"children\":[\"CHART-XLEM_i8yfs\"],\"id\":\"ROW-70sS5yWtAn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-JohKIY3Or\"],\"type\":\"ROW\"},\"ROW-J0LnX475CZ\":{\"children\":[\"CHART-rX1Vcs-MS-\"],\"id\":\"ROW-J0LnX475CZ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-rxmHU4Gix\"],\"type\":\"ROW\"},\"ROW-Z7tvlYRBqj\":{\"children\":[\"CHART-q_22hBjyYu\"],\"id\":\"ROW-Z7tvlYRBqj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-3VwR_3dnR\"],\"type\":\"ROW\"},\"ROW-aj7AvGuJfu\":{\"children\":[\"CHART-PgThO3iZdy\"],\"id\":\"ROW-aj7AvGuJfu\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-rBDqGWlGs\"],\"type\":\"ROW\"},\"ROW-i_I6ZaKE-f\":{\"children\":[\"CHART-ohM1amv__j\"],\"id\":\"ROW-i_I6ZaKE-f\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-ITkaCprbA\"],\"type\":\"ROW\"},\"ROW-n3-z_1nBGK\":{\"children\":[\"CHART-NEDPGXloLp\"],\"id\":\"ROW-n3-z_1nBGK\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-yjQSjps7x\"],\"type\":\"ROW\"},\"ROW-u7ZfPGMQBj\":{\"children\":[\"CHART-K1qLJrKI5L\"],\"id\":\"ROW-u7ZfPGMQBj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\",\"TAB-mqEL_zaYK\"],\"type\":\"ROW\"},\"ROW-vECqJPegFr\":{\"children\":[\"MARKDOWN-WGTfOmCuZg\"],\"id\":\"ROW-vECqJPegFr\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"TAB-3VwR_3dnR\":{\"children\":[\"ROW-Z7tvlYRBqj\"],\"id\":\"TAB-3VwR_3dnR\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"SPAIN\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-ITkaCprbA\":{\"children\":[\"ROW-i_I6ZaKE-f\"],\"id\":\"TAB-ITkaCprbA\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"SP500 MEDIUM\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-JohKIY3Or\":{\"children\":[\"ROW-70sS5yWtAn\"],\"id\":\"TAB-JohKIY3Or\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"SP500 SMALL\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-VoXNc5ZITs\":{\"children\":[\"ROW-451yH6i1p7\"],\"id\":\"TAB-VoXNc5ZITs\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"NASDAQ\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-mqEL_zaYK\":{\"children\":[\"ROW-u7ZfPGMQBj\"],\"id\":\"TAB-mqEL_zaYK\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"GERMANY\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-rBDqGWlGs\":{\"children\":[\"ROW-aj7AvGuJfu\"],\"id\":\"TAB-rBDqGWlGs\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"FRANCE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-rxmHU4Gix\":{\"children\":[\"ROW-J0LnX475CZ\"],\"id\":\"TAB-rxmHU4Gix\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"FTSE 100\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TAB-yjQSjps7x\":{\"children\":[\"ROW-n3-z_1nBGK\"],\"id\":\"TAB-yjQSjps7x\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"SP500 BIG\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-kC2ZAXn6je\"],\"type\":\"TAB\"},\"TABS-kC2ZAXn6je\":{\"children\":[\"TAB-VoXNc5ZITs\",\"TAB-yjQSjps7x\",\"TAB-ITkaCprbA\",\"TAB-JohKIY3Or\",\"TAB-rxmHU4Gix\",\"TAB-3VwR_3dnR\",\"TAB-rBDqGWlGs\",\"TAB-mqEL_zaYK\"],\"id\":\"TABS-kC2ZAXn6je\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.xetra results",
+                            "datasource_type": "table",
+                            "id": 1,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"11__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 1, \"datasource_name\": \"xetra results\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":11,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"11__table\",\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"adhoc_filters\":[],\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS XETRA",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.mc results",
+                            "datasource_type": "table",
+                            "id": 2,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"9__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 2, \"datasource_name\": \"mc results\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":9,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"9__table\",\"slice_id\":1,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS MC",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.pa results",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyRevenueGrowthYOY\", \"QuarterlyEarningsGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"10__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3, \"datasource_name\": \"pa results\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":10,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyRevenueGrowthYOY\",\"QuarterlyEarningsGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"10__table\",\"slice_id\":2,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyRevenueGrowthYOY\",\"QuarterlyEarningsGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS PA",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.lse results",
+                            "datasource_type": "table",
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"8__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 5, \"datasource_name\": \"lse results\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":8,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"8__table\",\"slice_id\":4,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"adhoc_filters\":[],\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS FTSE100",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.nasdaq  results",
+                            "datasource_type": "table",
+                            "id": 6,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"7__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 6, \"datasource_name\": \"nasdaq  results\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":7,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"7__table\",\"slice_id\":5,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS NASDAQ100",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.SP500 RESULTS",
+                            "datasource_type": "table",
+                            "id": 9,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"10000000000\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_5zzs2v53tp8_mdogip0myv\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<\", \"operatorId\": \"LESS_THAN\", \"sqlExpression\": null, \"subject\": \"MarketCapitalization\"}], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"6__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 9, \"datasource_name\": \"SP500 RESULTS\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":6,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[{\"col\":\"MarketCapitalization\",\"op\":\"<\",\"val\":\"10000000000\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"6__table\",\"slice_id\":8,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"MarketCapitalization\",\"operator\":\"<\",\"operatorId\":\"LESS_THAN\",\"comparator\":\"10000000000\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_5zzs2v53tp8_mdogip0myv\"}],\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS SP500 SMALL",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.SP500 RESULTS",
+                            "datasource_type": "table",
+                            "id": 7,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"100000000000\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_55ie2urnak5_jxwe1akqhjg\", \"isExtra\": false, \"isNew\": false, \"operator\": \">\", \"operatorId\": \"GREATER_THAN\", \"sqlExpression\": null, \"subject\": \"MarketCapitalization\"}], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"6__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 7, \"datasource_name\": \"SP500 RESULTS\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":6,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[{\"col\":\"MarketCapitalization\",\"op\":\">\",\"val\":\"100000000000\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"6__table\",\"slice_id\":6,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"MarketCapitalization\",\"operator\":\">\",\"operatorId\":\"GREATER_THAN\",\"comparator\":\"100000000000\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_55ie2urnak5_jxwe1akqhjg\"}],\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS SP500 BIG",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stocks.SP500 RESULTS",
+                            "datasource_type": "table",
+                            "id": 8,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"100000000000\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_55ie2urnak5_jxwe1akqhjg\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<=\", \"operatorId\": \"LESS_THAN_OR_EQUAL\", \"sqlExpression\": null, \"subject\": \"MarketCapitalization\"}, {\"clause\": \"WHERE\", \"comparator\": \"10000000000\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_5zzs2v53tp8_mdogip0myv\", \"isExtra\": false, \"isNew\": false, \"operator\": \">=\", \"operatorId\": \"GREATER_THAN_OR_EQUAL\", \"sqlExpression\": null, \"subject\": \"MarketCapitalization\"}], \"all_columns\": [\"date\", \"report_date\", \"exchange\", \"stock\", \"name\", \"sector\", \"actual\", \"estimate\", \"MarketCapitalization\", \"peratio\", \"QuarterlyEarningsGrowthYOY\", \"QuarterlyRevenueGrowthYOY\", \"bookvalue\", \"ebitda\"], \"color_pn\": true, \"datasource\": \"6__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"report_date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"report_date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 8, \"datasource_name\": \"SP500 RESULTS\", \"schema\": \"stocks\", \"database_name\": \"stocks\"}",
+                            "query_context": "{\"datasource\":{\"id\":6,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"report_date\",\"filters\":[{\"col\":\"MarketCapitalization\",\"op\":\"<=\",\"val\":\"100000000000\"},{\"col\":\"MarketCapitalization\",\"op\":\">=\",\"val\":\"10000000000\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"orderby\":[[\"report_date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"6__table\",\"slice_id\":7,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"report_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"all_columns\":[\"date\",\"report_date\",\"exchange\",\"stock\",\"name\",\"sector\",\"actual\",\"estimate\",\"MarketCapitalization\",\"peratio\",\"QuarterlyEarningsGrowthYOY\",\"QuarterlyRevenueGrowthYOY\",\"bookvalue\",\"ebitda\"],\"percent_metrics\":[],\"order_by_cols\":[\"[\\\"report_date\\\", false]\"],\"row_limit\":10000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"MarketCapitalization\",\"operator\":\"<=\",\"operatorId\":\"LESS_THAN_OR_EQUAL\",\"comparator\":\"100000000000\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_55ie2urnak5_jxwe1akqhjg\"},{\"expressionType\":\"SIMPLE\",\"subject\":\"MarketCapitalization\",\"operator\":\">=\",\"operatorId\":\"GREATER_THAN_OR_EQUAL\",\"comparator\":\"10000000000\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_5zzs2v53tp8_mdogip0myv\"}],\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "LAST RESULTS SP500 MEDIUM",
+                            "viz_type": "table"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 53,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VAR_STRING",
+                            "uuid": "f8cd2bf5-e2c6-4a3d-8bc0-9c3c6e0dbabd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "indice",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 54,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VAR_STRING",
+                            "uuid": "7709cb63-3c70-4fff-a8e4-02a019619858",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "stock",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 55,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VAR_STRING",
+                            "uuid": "5b9230b0-b350-4127-bc67-b6e4d62487e6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "exchange",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 56,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VAR_STRING",
+                            "uuid": "23709a31-4998-49db-8815-ba86c8264cfe",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "MarketCapitalization",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 57,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "e3d9fa6d-0356-4867-bd4c-f6e74830d1bc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 58,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "a8745ee4-3197-44b9-bff6-ae68846c825b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 59,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "cf8121eb-2780-427d-82a1-91dd5728a46e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "report_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DATE",
+                            "uuid": "c55cf2e3-1605-4928-adf7-42ac1c76498c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 61,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DATE",
+                            "uuid": "0e485013-4f14-4b30-8da8-19e749884653",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "ebitda",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 62,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "877b98ee-77eb-4da7-aac6-228975bdaa56",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "peratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 63,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "cd625ce8-17db-441a-bb34-8c5b5f972cee",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "bookvalue",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "e56c83fb-5bb4-45cc-9117-c8cb17084416",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "QuarterlyEarningsGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 65,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "9338efa3-63fd-4966-9018-0d750cfeaadc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "QuarterlyRevenueGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 66,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE",
+                            "uuid": "971b7195-6b2e-41ef-92f3-615177364400",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "column_name": "sector",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 67,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "BLOB",
+                            "uuid": "b4be8567-bf58-442a-af2b-4c62facd746e",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:50:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 7,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 7,
+                            "uuid": "254c203b-bb87-4f23-8eb2-2a56158f1518",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 7, \"database_name\": \"stocks\"}",
+                "schema": "stocks",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect stocks.name,indices.indice,ca.stock,ca.exchange, h.MarketCapitalization,ca.actual,ca.estimate,ca.report_date,ca.date, h.ebitda,peratio, bookvalue,h.QuarterlyEarningsGrowthYOY,h.QuarterlyRevenueGrowthYOY,sector from (select * from calendarioResultados where  exchange='US' and report_date>DATE_ADD(now(),interval -60 day ))  ca\n    inner join indices on ca.stock=indices.company\n    inner join  stocks on stocks.code=ca.stock\n    inner join last_highlights as h on h.stock=ca.stock and h.exchange=ca.exchange\n    inner join sectors on sectors.stock=ca.stock and sectors.exchange=ca.exchange\nwhere indices.indice='nasdaq' and ca.report_date<now() AND (STOCKS.exchange='US')\norder by report_date desc",
+                "table_name": "nasdaq  results",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 68,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "VAR_STRING",
+                            "uuid": "91285499-917b-46d6-a125-e0db472b27c0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "indice",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 69,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "VAR_STRING",
+                            "uuid": "5126214b-2d36-4d15-8689-701fa54631dc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "stock",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 70,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "VAR_STRING",
+                            "uuid": "7f6f8156-e414-437b-952e-13eca0eae709",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "exchange",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 71,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "VAR_STRING",
+                            "uuid": "c741081e-dfc4-4730-bd38-3df4163cab9f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "MarketCapitalization",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 72,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "c8b2e3d3-09b1-4d28-8eeb-d25e3b2f9f86",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 73,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "e8f312f7-3eff-4716-ab48-ab1ba531eb77",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 74,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "4d3fb45b-d8ca-4ecc-a7b4-0e1be2e94627",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "report_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 75,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DATE",
+                            "uuid": "82cf6034-5b1f-4bb0-8e8b-7934a4c61e16",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 76,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DATE",
+                            "uuid": "0e7bdf5c-2af2-42fe-887a-14dea01fe240",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "ebitda",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 77,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "3928ca3b-c75a-469f-abff-84d84f2e3d62",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "peratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 78,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "99616ea5-1349-43cc-88f2-84206eb2f5c5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "bookvalue",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 79,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "d27f53cd-76d9-4980-a6fc-7f02eca996bc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "QuarterlyEarningsGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 80,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "68f84143-8183-4f27-9a9e-c8fe9d8eede9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "QuarterlyRevenueGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 81,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE",
+                            "uuid": "6d7a72f6-c103-49cf-976e-d9ebc179cfb4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "column_name": "sector",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 82,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "BLOB",
+                            "uuid": "dcdcc9a6-836d-453d-bbc0-6835b9283c81",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:00"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:51:53"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 8,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 8,
+                            "uuid": "6f4993c9-295b-409e-bdc3-e261b28af054",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 8, \"database_name\": \"stocks\"}",
+                "schema": "stocks",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect stocks.name,indices.indice,ca.stock,ca.exchange, h.MarketCapitalization,ca.actual,ca.estimate,ca.report_date,ca.date, h.ebitda,peratio, bookvalue,h.QuarterlyEarningsGrowthYOY,h.QuarterlyRevenueGrowthYOY,sector from (select * from calendarioResultados where  exchange='lse' and report_date>DATE_ADD(now(),interval -60 day ))  ca\n    inner join indices on ca.stock=indices.company\n    inner join  stocks on stocks.code=ca.stock\n    inner join last_highlights as h on h.stock=ca.stock and h.exchange=ca.exchange\n    inner join sectors on sectors.stock=ca.stock and sectors.exchange=ca.exchange\nwhere indices.indice='ftse 100' and ca.report_date<now() AND (STOCKS.exchange='lse')\norder by report_date desc",
+                "table_name": "lse results",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 97,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "VAR_STRING",
+                            "uuid": "110e35a2-a4ec-4ed0-a4ef-8f295b24627c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "stock",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 98,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "VAR_STRING",
+                            "uuid": "3dee269e-4e1a-4402-a424-8659aa624421",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "exchange",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 99,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "VAR_STRING",
+                            "uuid": "0357b41a-3235-4f10-88df-8b52649de2a3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "MarketCapitalization",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 100,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "a1b1d717-7808-4b05-a42a-7be74de669df",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 101,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "6fbc677b-6513-4039-bdb8-56318fd8dc34",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 102,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "45a2fc13-56cb-4cbe-af94-57fc776085d8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "report_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 103,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DATE",
+                            "uuid": "e1a0d01f-eaaf-4b32-b41b-0cb81c46c68b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 104,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DATE",
+                            "uuid": "93d1ade0-5295-4a0a-8d1a-d8816adc5cf2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "ebitda",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 105,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "aac27be2-78c3-4643-ab71-e41c2649eb76",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "peratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 106,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "4fc3ab1c-129f-4792-b1b4-0c5b6451485e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "bookvalue",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 107,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "e120b19c-452c-43f6-b393-1cb2906cf534",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "QuarterlyEarningsGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 108,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "328f67aa-c151-4ef4-bcdc-11c1845706cf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "QuarterlyRevenueGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 109,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "DOUBLE",
+                            "uuid": "5af02306-19ab-49cc-8355-c343f99a1680",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "column_name": "sector",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 110,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 10,
+                            "type": "BLOB",
+                            "uuid": "8bafb8a5-ef06-41fa-bfd3-85274a66d4ca",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:18:16"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:17"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 10,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 10,
+                            "uuid": "3ab0ebf2-51fd-4f60-a14f-1a14c224f3f8",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 10, \"database_name\": \"stocks\"}",
+                "schema": "stocks",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect stocks.name,ca.stock,ca.exchange, h.MarketCapitalization,ca.actual,ca.estimate,ca.report_date,ca.date, h.ebitda,peratio, bookvalue,h.QuarterlyEarningsGrowthYOY,h.QuarterlyRevenueGrowthYOY,sector from (select * from calendarioResultados where  exchange='pa' and report_date>DATE_ADD(now(),interval -60 day ))  ca\n    inner join  stocks on stocks.code=ca.stock\n    inner join last_highlights as h on h.stock=ca.stock and h.exchange=ca.exchange\n    inner join sectors on sectors.stock=ca.stock and sectors.exchange=ca.exchange\nwhere ca.report_date<now() AND (STOCKS.exchange='pa')\norder by report_date desc",
+                "table_name": "pa results",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 38,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "VAR_STRING",
+                            "uuid": "9b45fc92-c77a-481f-89a2-973d6894a870",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "indice",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 39,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "VAR_STRING",
+                            "uuid": "27e6fc9b-3031-4528-97c3-cb80f1a4b4bc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "stock",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 40,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "VAR_STRING",
+                            "uuid": "8eda7e64-4e04-4b07-8a3a-59eb9d2cb3be",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "exchange",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 41,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "VAR_STRING",
+                            "uuid": "23a484fd-aab0-46a6-9b81-b9e72991bafa",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "MarketCapitalization",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 42,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "412b8acf-05a3-4763-8234-35292e5931e0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 43,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "8a634857-b02e-467d-9529-c6e86ce73424",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 44,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "84ea00ce-82f1-4a7d-a811-f4d30eef646d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "report_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 45,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DATE",
+                            "uuid": "98c13863-46a8-40b4-92f8-6d7780e4acb5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 46,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DATE",
+                            "uuid": "1aff9335-05e9-4461-b453-b8a7b09666d0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "ebitda",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 47,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "0538a53b-a111-424f-92e5-c2b3b36830d8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "peratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 48,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "0a41f593-ee22-472c-8cd0-78b7febfa080",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "bookvalue",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 49,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "90b9dd38-6807-41d0-b703-b830656bddcd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "QuarterlyEarningsGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 50,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "7294c3a0-f4b0-4fce-8c8a-cdc0fb6e3c4c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "QuarterlyRevenueGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 51,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE",
+                            "uuid": "a8108763-41c9-459a-9717-d7410c255ace",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "column_name": "sector",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 52,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "BLOB",
+                            "uuid": "41b00db4-ba39-40a0-94f4-a07694829af2",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:49:44"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 6,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 6,
+                            "uuid": "65e5c58b-e463-45e9-be0f-4145c6d62b85",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 6, \"database_name\": \"stocks\"}",
+                "schema": "stocks",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect stocks.name,indices.indice,ca.stock,ca.exchange, h.MarketCapitalization,ca.actual,ca.estimate,ca.report_date,ca.date, h.ebitda,peratio, bookvalue,h.QuarterlyEarningsGrowthYOY,h.QuarterlyRevenueGrowthYOY,sector from (select * from calendarioResultados where  exchange='US' and report_date>DATE_ADD(now(),interval -60 day ))  ca\n    inner join indices on ca.stock=indices.company\n    inner join  stocks on stocks.code=ca.stock\n    inner join last_highlights as h on h.stock=ca.stock and h.exchange=ca.exchange\n    inner join sectors on sectors.stock=ca.stock and sectors.exchange=ca.exchange\nwhere indices.indice='S&P 500' and ca.report_date<now() AND (STOCKS.exchange='US')\norder by report_date desc",
+                "table_name": "SP500 RESULTS",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 83,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "VAR_STRING",
+                            "uuid": "af022746-e2df-4857-abd7-ca0dd982f55f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "stock",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 84,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "VAR_STRING",
+                            "uuid": "a806dde7-ea6f-4180-8d8c-ab3032b84b42",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "exchange",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 85,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "VAR_STRING",
+                            "uuid": "14c2fbe1-cc8b-4fac-9521-ec70526fa48a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "MarketCapitalization",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 86,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "a7d51327-6b8c-4d0f-bd51-bba952d8b110",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 87,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "3280fff0-03f3-4754-85cb-716e73e5f041",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 88,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "ae772d61-1b9f-4ecd-9775-82eb30a033e7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "report_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 89,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DATE",
+                            "uuid": "ba55102a-b274-4dff-bcd3-0c2ce239cba5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 90,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DATE",
+                            "uuid": "c735d9b2-8004-4886-9911-4aa674c4ad34",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "ebitda",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 91,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "3269f57c-16e6-4852-8de6-0fd5c5dc9561",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "peratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 92,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "b7ea495c-6e6f-4af6-b380-21af029a6e4d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "bookvalue",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 93,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "03f258a0-5312-4f8c-bb24-7c6e24a82e1a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "QuarterlyEarningsGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 94,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "7580f52a-a288-4d08-b2e3-3bf06762c86a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "QuarterlyRevenueGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 95,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "DOUBLE",
+                            "uuid": "90a00f62-fc60-48a2-baa9-65e5f24e1e45",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "column_name": "sector",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 96,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 9,
+                            "type": "BLOB",
+                            "uuid": "dd08972c-eaa9-4836-b948-cf141d919d71",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:42"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:53:50"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 9,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 9,
+                            "uuid": "49862e65-de19-4102-9670-491f3057b4f8",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 9, \"database_name\": \"stocks\"}",
+                "schema": "stocks",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect stocks.name,ca.stock,ca.exchange, h.MarketCapitalization,ca.actual,ca.estimate,ca.report_date,ca.date, h.ebitda,peratio, bookvalue,h.QuarterlyEarningsGrowthYOY,h.QuarterlyRevenueGrowthYOY,sector from (select * from calendarioResultados where  exchange='mc' and report_date>DATE_ADD(now(),interval -60 day ))  ca\n    inner join  stocks on stocks.code=ca.stock\n    inner join last_highlights as h on h.stock=ca.stock and h.exchange=ca.exchange\n    inner join sectors on sectors.stock=ca.stock and sectors.exchange=ca.exchange\nwhere ca.report_date<now() AND (STOCKS.exchange='mc')\norder by report_date desc",
+                "table_name": "mc results",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 111,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "VAR_STRING",
+                            "uuid": "ccf76507-8cb0-4cf1-9faa-ebae01726472",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "stock",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 112,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "VAR_STRING",
+                            "uuid": "bff8d5e4-c774-476e-9efd-52c338d0716f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "exchange",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 113,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "VAR_STRING",
+                            "uuid": "511ede5f-bfbb-4af7-9a62-7d03cc5d654c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "MarketCapitalization",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 114,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "54bd0c66-a796-4f42-8dcb-80dc0b3140ee",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 115,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "55f13d42-b197-47f1-b328-4c3f3af095fa",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 116,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "c63793ea-02cf-4f1e-adfc-14602ee9c1b7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "report_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 117,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DATE",
+                            "uuid": "16ee7b22-90da-4e36-bcd9-e950335cb560",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 118,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DATE",
+                            "uuid": "c4e4205e-ba4e-4654-814c-b43ff51328f8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "ebitda",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 119,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "26dd89d2-a67c-4496-9c80-f3cad878c8e9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "peratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 120,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "34f01e2a-f1e3-4b05-bccc-e9784d0adf9d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "bookvalue",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 121,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "0e2b9c62-2f6b-46a5-8d9c-bf12beaecf59",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "QuarterlyEarningsGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 122,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "e8538795-4434-4097-bbb9-c47ecefcaf62",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "QuarterlyRevenueGrowthYOY",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 123,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "DOUBLE",
+                            "uuid": "72f6464e-cfb3-4edd-bcbb-dbc51d1a7896",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "column_name": "sector",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 124,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11,
+                            "type": "BLOB",
+                            "uuid": "94d06a1b-a3ae-4723-baa0-bc00ab3466ad",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:17:23"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T14:54:45"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 11,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 11,
+                            "uuid": "383426ba-550c-4c36-a578-400746abbcb4",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 11, \"database_name\": \"stocks\"}",
+                "schema": "stocks",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect stocks.name,ca.stock,ca.exchange, h.MarketCapitalization,ca.actual,ca.estimate,ca.report_date,ca.date, h.ebitda,peratio, bookvalue,h.QuarterlyEarningsGrowthYOY,h.QuarterlyRevenueGrowthYOY,sector from (select * from calendarioResultados where  exchange='xetra' and report_date>DATE_ADD(now(),interval -60 day ))  ca\n    inner join  stocks on stocks.code=ca.stock\n    inner join last_highlights as h on h.stock=ca.stock and h.exchange=ca.exchange\n    inner join sectors on sectors.stock=ca.stock and sectors.exchange=ca.exchange\nwhere ca.report_date<now() AND (STOCKS.exchange='xetra')\norder by report_date desc",
+                "table_name": "xetra results",
+                "template_params": null
+            }
+        }
+    ]
+}

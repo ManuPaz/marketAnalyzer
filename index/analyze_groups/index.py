@@ -12,9 +12,9 @@ from dateutil.relativedelta import relativedelta
 from plots.plot_specific_series import plot_specific_series
 import pandas as pd
 fecha_corte_plots = "2010-01-01"
-indice = "nasdaq"
-exchange = "US"
-update = False
+indice = "ibex 35"
+exchange = "MC"
+update = True
 fecha_ini = dt.datetime.today() - relativedelta(years=15)
 base_dir = config["analyze_groups_stocks"]["base_dir"]
 if not os.path.isdir(base_dir):
@@ -33,9 +33,7 @@ if __name__ == "__main__":
     stocks = database_functions.filter_by_indice(indice, exchange, bd)
     stocks = stocks.accion.values.reshape(-1)
     if update:
-        for stock in stocks:
-            stock = stock.split("_")[1]
-            update_stock.update_one_stock_in_all_tables(exchange, stock, bd)
+        update_stock.update_all_stocks_in_all_tables(stocks,bd)
 
     data = database_functions.obtener_multiples_series("precios",
                                                        "B", *stocks, bd=bd)
@@ -100,6 +98,6 @@ if __name__ == "__main__":
               "order by report_date desc; "
         df_stock = bd.execute_query_dataframe(sql, (stock, exchange, fecha_ini))
         try:
-            df_stock.to_csv(base_dir + "stocks/" + stock + "/historical.csv")
+            df_stock.to_csv(base_dir + "stocks/" + stock + "/historical.csv",index=False)
         except AttributeError as e:
             logger.error("index.py: {}".format(e))

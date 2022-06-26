@@ -2,6 +2,7 @@
 from config import load_config
 import pandas as pd
 import mysql.connector
+from pangres import upsert
 config=load_config.config()
 import sqlalchemy
 class bd_handler:
@@ -38,6 +39,13 @@ class bd_handler:
             return None
         return data
 
+
+    def execute_query__get_list(self, statement, params=None):
+        data= self.execute_query(statement, params)
+        if data is not None and len(data[0])==1:
+            data=[e[0] for e in data]
+        return data
+
     def execute_query_dataframe(self, statement, params=None):
         if params is not None:
             self.cursor.execute(statement, params)
@@ -58,5 +66,13 @@ class bd_handler:
         :param table_name: name of the table in the db
         """
         data.to_sql(table_name, self.engine, if_exists="append", chunksize=1000)
+
+    def upsert_(self,table_name,data):
+
+
+        upsert(engine=self.engine,
+               df=data,
+               table_name=table_name,
+               if_row_exists='update')
 
 

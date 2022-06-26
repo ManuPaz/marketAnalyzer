@@ -41,3 +41,18 @@ def separate_train_test(df, num_test_dates=10):
 
     # Separamos en training y testing
     return df.loc[df.index[:-num_test_dates]], df.loc[df.index[-num_test_dates:]]
+
+def diff_to_absolute(data,column,diff):
+    #set first diff periods to 1
+    data.loc[data.index[0:diff],column]=1
+    for i, indice in enumerate(data[column].index):
+
+        if i >= diff:
+            if data.loc[data.index[i - diff],column] is not None and data.loc[indice, column] is not None:
+                data.loc[indice, column] = data.loc[data.index[i - diff], column] * (1 + 0.01 * data.loc[indice, column])
+            else:
+                data.loc[indice, column] =None
+
+
+    data
+    return data

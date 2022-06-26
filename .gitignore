@@ -2,14 +2,9 @@
 **/.idea/**
 **/market_data.sql
 **/stocks.sql
-config/config_key.properties
-
-**/superset/**
-**/logs/*.txt
-exchanges_index.json
-getData/__pycache__
-**/__pycache__
-**/*.sqlite
+config/config_key.properties*/superset/**
+**/logs/*.txtexchanges_index.jsongetData/__pycache__
+**/__pycache__**/*.sqlite
 __pycache__
 **/__pycache__
 **/log_files/**

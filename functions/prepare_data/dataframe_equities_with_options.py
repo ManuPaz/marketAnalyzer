@@ -65,27 +65,29 @@ def get_dataframe_default():
     if config["series_temporales"]["usar_macro"]:
         array_merge = [data, data_macro.loc[:, variables_macro_externas]]
         data = work_dataframes.merge(array_merge, how="left")
-        print(variables_macro_externas)
+
 
     # si se preice una variable macro
     if config["series_temporales"]["predict_macro"]:
         data["y"] = data.loc[:, feature_macro]
-        data = data.drop(feature_macro, axis=1)
         variables_macro_externas.remove(feature_macro)
         feature = feature_macro
 
     columnas_dataframe = ["ds", "y"] + variables_externas
     if config["series_temporales"]["usar_macro"]:
         columnas_dataframe = columnas_dataframe + variables_macro_externas
-
+    if not config["series_temporales"]["predict_macro"]:
+        if feature in columnas_dataframe:
+            columnas_dataframe.remove(feature)
+    elif feature_macro in columnas_dataframe:
+        columnas_dataframe.remove(feature_macro)
     data = data.loc[:, columnas_dataframe]
 
     fecha_minima = dt.datetime.strptime(config["series_temporales"]["fecha_largo"], "%Y-%m-%d")
     fecha_sep = dt.datetime.strptime(config["series_temporales"]["fecha_sep"],
                                      "%Y-%m-%d")  # fecha de sepracion en train y test
     fecha_fin = dt.datetime.today()
-    if feature in data.columns:
-        data=data.drop(feature,axis=1)
+
     data = data.loc[data.ds >= fecha_minima]
     data = data.dropna()
     data = data.loc[data.ds <= fecha_fin]

@@ -1,0 +1,413 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "COMMODITIES",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"\", \"positions\": {\"CHART-3xPTBonFdE\": {\"children\": [], \"id\": \"CHART-3xPTBonFdE\", \"meta\": {\"chartId\": 136, \"height\": 57, \"sliceName\": \"Gold last year\", \"uuid\": \"043733d4-2c5d-4586-a516-30fdf3ce5dfc\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\", \"ROW-cQobJK01P\"], \"type\": \"CHART\"}, \"CHART-FCZRmE8fCF\": {\"children\": [], \"id\": \"CHART-FCZRmE8fCF\", \"meta\": {\"chartId\": 139, \"height\": 55, \"sliceName\": \"Commodities pct change last quarter\", \"uuid\": \"0b6f7684-2097-4f0a-95c1-2b506f83c8b3\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-W4HJScfAk\", \"ROW-oNXKfEUswu\"], \"type\": \"CHART\"}, \"CHART-HrVBFrIlpd\": {\"children\": [], \"id\": \"CHART-HrVBFrIlpd\", \"meta\": {\"chartId\": 135, \"height\": 52, \"sliceName\": \"Gold all history\", \"uuid\": \"13f33238-05df-465f-a1cd-8bd491fad16d\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\", \"ROW-OfwmAQ2BoA\"], \"type\": \"CHART\"}, \"CHART-O2Zk_jvQPc\": {\"children\": [], \"id\": \"CHART-O2Zk_jvQPc\", \"meta\": {\"chartId\": 140, \"height\": 55, \"sliceName\": \"Gold last month\", \"uuid\": \"dc293684-4895-4dfe-a499-3a7750aea4d3\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\", \"ROW-cMACSEmtod\"], \"type\": \"CHART\"}, \"CHART-asBsUNY897\": {\"children\": [], \"id\": \"CHART-asBsUNY897\", \"meta\": {\"chartId\": 137, \"height\": 53, \"sliceName\": \"Commodities pct change last year\", \"uuid\": \"2fd9d260-552b-4e82-9aae-58d385f34837\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-W4HJScfAk\", \"ROW-goZ-4DlTaU\"], \"type\": \"CHART\"}, \"CHART-hKRaFjRetI\": {\"children\": [], \"id\": \"CHART-hKRaFjRetI\", \"meta\": {\"chartId\": 141, \"height\": 55, \"sliceName\": \"Gold last quarter\", \"uuid\": \"424641ab-8330-4789-b601-d40d19d89f1b\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\", \"ROW-kH6eNsBSgp\"], \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"TABS-B40o2tIjQ7\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"type\": \"HEADER\", \"meta\": {\"text\": \"COMMODITIES\"}}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-OfwmAQ2BoA\": {\"children\": [\"CHART-HrVBFrIlpd\"], \"id\": \"ROW-OfwmAQ2BoA\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\"], \"type\": \"ROW\"}, \"ROW-cMACSEmtod\": {\"children\": [\"CHART-O2Zk_jvQPc\"], \"id\": \"ROW-cMACSEmtod\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\"], \"type\": \"ROW\"}, \"ROW-cQobJK01P\": {\"children\": [\"CHART-3xPTBonFdE\"], \"id\": \"ROW-cQobJK01P\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\"], \"type\": \"ROW\"}, \"ROW-goZ-4DlTaU\": {\"children\": [\"CHART-asBsUNY897\"], \"id\": \"ROW-goZ-4DlTaU\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-W4HJScfAk\"], \"type\": \"ROW\"}, \"ROW-kH6eNsBSgp\": {\"children\": [\"CHART-hKRaFjRetI\"], \"id\": \"ROW-kH6eNsBSgp\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-y8h3iqi3H1\"], \"type\": \"ROW\"}, \"ROW-oNXKfEUswu\": {\"children\": [\"CHART-FCZRmE8fCF\"], \"id\": \"ROW-oNXKfEUswu\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-W4HJScfAk\"], \"type\": \"ROW\"}, \"TAB-EFx8qHV2B\": {\"children\": [\"ROW-NGy4VfujuM\", \"ROW-rt8eH5Fqjf\", \"ROW-JZijMB9ybH\", \"ROW-3K4eNKFwrn\"], \"id\": \"TAB-EFx8qHV2B\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"CRUDE OIL\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\"], \"type\": \"TAB\"}, \"TAB-MGp6lWfFW\": {\"children\": [\"ROW-CUl6wxXZD2\", \"ROW-DK1q3s3ZhB\", \"ROW-JoH4R3QkoE\", \"ROW-VYIeyC1pg\"], \"id\": \"TAB-MGp6lWfFW\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"SILVER\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\"], \"type\": \"TAB\"}, \"TAB-W4HJScfAk\": {\"children\": [\"ROW-goZ-4DlTaU\", \"ROW-oNXKfEUswu\"], \"id\": \"TAB-W4HJScfAk\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"ALL\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\"], \"type\": \"TAB\"}, \"TAB-y8h3iqi3H1\": {\"children\": [\"ROW-OfwmAQ2BoA\", \"ROW-cQobJK01P\", \"ROW-kH6eNsBSgp\", \"ROW-cMACSEmtod\"], \"id\": \"TAB-y8h3iqi3H1\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"GOLD\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\"], \"type\": \"TAB\"}, \"TABS-B40o2tIjQ7\": {\"children\": [\"TAB-y8h3iqi3H1\", \"TAB-MGp6lWfFW\", \"TAB-EFx8qHV2B\", \"TAB-W4HJScfAk\"], \"id\": \"TABS-B40o2tIjQ7\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"TABS\"}, \"CHART-xD_Idu7hk0\": {\"type\": \"CHART\", \"id\": \"CHART-xD_Idu7hk0\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\", \"ROW-CUl6wxXZD2\"], \"meta\": {\"width\": 12, \"height\": 53, \"chartId\": 177, \"sliceName\": \"Silver all history\"}}, \"ROW-CUl6wxXZD2\": {\"type\": \"ROW\", \"id\": \"ROW-CUl6wxXZD2\", \"children\": [\"CHART-xD_Idu7hk0\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-yoUfyucr5Z\": {\"type\": \"CHART\", \"id\": \"CHART-yoUfyucr5Z\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\", \"ROW-DK1q3s3ZhB\"], \"meta\": {\"width\": 12, \"height\": 53, \"chartId\": 179, \"sliceName\": \"Silver last year\"}}, \"ROW-DK1q3s3ZhB\": {\"type\": \"ROW\", \"id\": \"ROW-DK1q3s3ZhB\", \"children\": [\"CHART-yoUfyucr5Z\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-d8PJJJ5GVC\": {\"type\": \"CHART\", \"id\": \"CHART-d8PJJJ5GVC\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\", \"ROW-JoH4R3QkoE\"], \"meta\": {\"width\": 12, \"height\": 59, \"chartId\": 175, \"sliceName\": \"Silver last quarter\"}}, \"ROW-JoH4R3QkoE\": {\"type\": \"ROW\", \"id\": \"ROW-JoH4R3QkoE\", \"children\": [\"CHART-d8PJJJ5GVC\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-0BMnp7TRiI\": {\"type\": \"CHART\", \"id\": \"CHART-0BMnp7TRiI\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\", \"ROW-VYIeyC1pg\"], \"meta\": {\"width\": 12, \"height\": 55, \"chartId\": 173, \"sliceName\": \"Silver last month\"}}, \"ROW-VYIeyC1pg\": {\"type\": \"ROW\", \"id\": \"ROW-VYIeyC1pg\", \"children\": [\"CHART-0BMnp7TRiI\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-MGp6lWfFW\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-5u81zX5Ct5\": {\"type\": \"CHART\", \"id\": \"CHART-5u81zX5Ct5\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\", \"ROW-NGy4VfujuM\"], \"meta\": {\"width\": 12, \"height\": 52, \"chartId\": 178, \"sliceName\": \"Crude Oil WTI all history\"}}, \"ROW-NGy4VfujuM\": {\"type\": \"ROW\", \"id\": \"ROW-NGy4VfujuM\", \"children\": [\"CHART-5u81zX5Ct5\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-gjy_mH5AlF\": {\"type\": \"CHART\", \"id\": \"CHART-gjy_mH5AlF\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\", \"ROW-rt8eH5Fqjf\"], \"meta\": {\"width\": 12, \"height\": 51, \"chartId\": 180, \"sliceName\": \"Crude Oil WTI last year\"}}, \"ROW-rt8eH5Fqjf\": {\"type\": \"ROW\", \"id\": \"ROW-rt8eH5Fqjf\", \"children\": [\"CHART-gjy_mH5AlF\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-SN2xN-4HhS\": {\"type\": \"CHART\", \"id\": \"CHART-SN2xN-4HhS\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\", \"ROW-JZijMB9ybH\"], \"meta\": {\"width\": 12, \"height\": 54, \"chartId\": 176, \"sliceName\": \"Crude Oil WTI last quarter\"}}, \"ROW-JZijMB9ybH\": {\"type\": \"ROW\", \"id\": \"ROW-JZijMB9ybH\", \"children\": [\"CHART-SN2xN-4HhS\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-RwajMyaN3h\": {\"type\": \"CHART\", \"id\": \"CHART-RwajMyaN3h\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\", \"ROW-3K4eNKFwrn\"], \"meta\": {\"width\": 12, \"height\": 54, \"chartId\": 174, \"sliceName\": \"Crude Oil WTI last month\"}}, \"ROW-3K4eNKFwrn\": {\"type\": \"ROW\", \"id\": \"ROW-3K4eNKFwrn\", \"children\": [\"CHART-RwajMyaN3h\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-B40o2tIjQ7\", \"TAB-EFx8qHV2B\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}}, \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"remote_id\": 5}",
+                "position_json": "{\"CHART-0BMnp7TRiI\":{\"children\":[],\"id\":\"CHART-0BMnp7TRiI\",\"meta\":{\"chartId\":173,\"height\":55,\"sliceName\":\"Silver last month\",\"uuid\":\"2a74162f-8ec2-4d8b-9f71-06115d0f3b8c\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\",\"ROW-VYIeyC1pg\"],\"type\":\"CHART\"},\"CHART-3xPTBonFdE\":{\"children\":[],\"id\":\"CHART-3xPTBonFdE\",\"meta\":{\"chartId\":136,\"height\":57,\"sliceName\":\"Gold last year\",\"uuid\":\"043733d4-2c5d-4586-a516-30fdf3ce5dfc\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\",\"ROW-cQobJK01P\"],\"type\":\"CHART\"},\"CHART-5u81zX5Ct5\":{\"children\":[],\"id\":\"CHART-5u81zX5Ct5\",\"meta\":{\"chartId\":178,\"height\":52,\"sliceName\":\"Crude Oil WTI all history\",\"uuid\":\"70af1213-bd6b-48f9-8dbf-68ad4e70f595\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\",\"ROW-NGy4VfujuM\"],\"type\":\"CHART\"},\"CHART-FCZRmE8fCF\":{\"children\":[],\"id\":\"CHART-FCZRmE8fCF\",\"meta\":{\"chartId\":139,\"height\":55,\"sliceName\":\"Commodities pct change last quarter\",\"uuid\":\"0b6f7684-2097-4f0a-95c1-2b506f83c8b3\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-W4HJScfAk\",\"ROW-oNXKfEUswu\"],\"type\":\"CHART\"},\"CHART-HrVBFrIlpd\":{\"children\":[],\"id\":\"CHART-HrVBFrIlpd\",\"meta\":{\"chartId\":135,\"height\":52,\"sliceName\":\"Gold all history\",\"uuid\":\"13f33238-05df-465f-a1cd-8bd491fad16d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\",\"ROW-OfwmAQ2BoA\"],\"type\":\"CHART\"},\"CHART-O2Zk_jvQPc\":{\"children\":[],\"id\":\"CHART-O2Zk_jvQPc\",\"meta\":{\"chartId\":140,\"height\":55,\"sliceName\":\"Gold last month\",\"uuid\":\"dc293684-4895-4dfe-a499-3a7750aea4d3\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\",\"ROW-cMACSEmtod\"],\"type\":\"CHART\"},\"CHART-RwajMyaN3h\":{\"children\":[],\"id\":\"CHART-RwajMyaN3h\",\"meta\":{\"chartId\":174,\"height\":54,\"sliceName\":\"Crude Oil WTI last month\",\"uuid\":\"9e882980-fa2b-4693-ac7f-c2156069e0cf\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\",\"ROW-3K4eNKFwrn\"],\"type\":\"CHART\"},\"CHART-SN2xN-4HhS\":{\"children\":[],\"id\":\"CHART-SN2xN-4HhS\",\"meta\":{\"chartId\":176,\"height\":54,\"sliceName\":\"Crude Oil WTI last quarter\",\"uuid\":\"e86bf09b-7d83-410f-ac50-34ccc9359b1c\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\",\"ROW-JZijMB9ybH\"],\"type\":\"CHART\"},\"CHART-asBsUNY897\":{\"children\":[],\"id\":\"CHART-asBsUNY897\",\"meta\":{\"chartId\":137,\"height\":53,\"sliceName\":\"Commodities pct change last year\",\"uuid\":\"2fd9d260-552b-4e82-9aae-58d385f34837\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-W4HJScfAk\",\"ROW-goZ-4DlTaU\"],\"type\":\"CHART\"},\"CHART-d8PJJJ5GVC\":{\"children\":[],\"id\":\"CHART-d8PJJJ5GVC\",\"meta\":{\"chartId\":175,\"height\":59,\"sliceName\":\"Silver last quarter\",\"uuid\":\"8f833352-594b-4ee8-9575-9d1c60ff797d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\",\"ROW-JoH4R3QkoE\"],\"type\":\"CHART\"},\"CHART-gjy_mH5AlF\":{\"children\":[],\"id\":\"CHART-gjy_mH5AlF\",\"meta\":{\"chartId\":180,\"height\":51,\"sliceName\":\"Crude Oil WTI last year\",\"uuid\":\"25e627ed-7120-4500-b0d5-5161ae5d6969\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\",\"ROW-rt8eH5Fqjf\"],\"type\":\"CHART\"},\"CHART-hKRaFjRetI\":{\"children\":[],\"id\":\"CHART-hKRaFjRetI\",\"meta\":{\"chartId\":141,\"height\":55,\"sliceName\":\"Gold last quarter\",\"uuid\":\"424641ab-8330-4789-b601-d40d19d89f1b\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\",\"ROW-kH6eNsBSgp\"],\"type\":\"CHART\"},\"CHART-xD_Idu7hk0\":{\"children\":[],\"id\":\"CHART-xD_Idu7hk0\",\"meta\":{\"chartId\":177,\"height\":53,\"sliceName\":\"Silver all history\",\"uuid\":\"59b84714-a080-4ee9-9e72-c9b514607a21\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\",\"ROW-CUl6wxXZD2\"],\"type\":\"CHART\"},\"CHART-yoUfyucr5Z\":{\"children\":[],\"id\":\"CHART-yoUfyucr5Z\",\"meta\":{\"chartId\":179,\"height\":53,\"sliceName\":\"Silver last year\",\"uuid\":\"da8cbfe0-8f0d-4b0f-a0e6-d1bbc7084cec\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\",\"ROW-DK1q3s3ZhB\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-B40o2tIjQ7\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"COMMODITIES\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-3K4eNKFwrn\":{\"children\":[\"CHART-RwajMyaN3h\"],\"id\":\"ROW-3K4eNKFwrn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\"],\"type\":\"ROW\"},\"ROW-CUl6wxXZD2\":{\"children\":[\"CHART-xD_Idu7hk0\"],\"id\":\"ROW-CUl6wxXZD2\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\"],\"type\":\"ROW\"},\"ROW-DK1q3s3ZhB\":{\"children\":[\"CHART-yoUfyucr5Z\"],\"id\":\"ROW-DK1q3s3ZhB\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\"],\"type\":\"ROW\"},\"ROW-JZijMB9ybH\":{\"children\":[\"CHART-SN2xN-4HhS\"],\"id\":\"ROW-JZijMB9ybH\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\"],\"type\":\"ROW\"},\"ROW-JoH4R3QkoE\":{\"children\":[\"CHART-d8PJJJ5GVC\"],\"id\":\"ROW-JoH4R3QkoE\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\"],\"type\":\"ROW\"},\"ROW-NGy4VfujuM\":{\"children\":[\"CHART-5u81zX5Ct5\"],\"id\":\"ROW-NGy4VfujuM\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\"],\"type\":\"ROW\"},\"ROW-OfwmAQ2BoA\":{\"children\":[\"CHART-HrVBFrIlpd\"],\"id\":\"ROW-OfwmAQ2BoA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\"],\"type\":\"ROW\"},\"ROW-VYIeyC1pg\":{\"children\":[\"CHART-0BMnp7TRiI\"],\"id\":\"ROW-VYIeyC1pg\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-MGp6lWfFW\"],\"type\":\"ROW\"},\"ROW-cMACSEmtod\":{\"children\":[\"CHART-O2Zk_jvQPc\"],\"id\":\"ROW-cMACSEmtod\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\"],\"type\":\"ROW\"},\"ROW-cQobJK01P\":{\"children\":[\"CHART-3xPTBonFdE\"],\"id\":\"ROW-cQobJK01P\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\"],\"type\":\"ROW\"},\"ROW-goZ-4DlTaU\":{\"children\":[\"CHART-asBsUNY897\"],\"id\":\"ROW-goZ-4DlTaU\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-W4HJScfAk\"],\"type\":\"ROW\"},\"ROW-kH6eNsBSgp\":{\"children\":[\"CHART-hKRaFjRetI\"],\"id\":\"ROW-kH6eNsBSgp\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-y8h3iqi3H1\"],\"type\":\"ROW\"},\"ROW-oNXKfEUswu\":{\"children\":[\"CHART-FCZRmE8fCF\"],\"id\":\"ROW-oNXKfEUswu\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-W4HJScfAk\"],\"type\":\"ROW\"},\"ROW-rt8eH5Fqjf\":{\"children\":[\"CHART-gjy_mH5AlF\"],\"id\":\"ROW-rt8eH5Fqjf\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\",\"TAB-EFx8qHV2B\"],\"type\":\"ROW\"},\"TAB-EFx8qHV2B\":{\"children\":[\"ROW-NGy4VfujuM\",\"ROW-rt8eH5Fqjf\",\"ROW-JZijMB9ybH\",\"ROW-3K4eNKFwrn\"],\"id\":\"TAB-EFx8qHV2B\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CRUDE OIL\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\"],\"type\":\"TAB\"},\"TAB-MGp6lWfFW\":{\"children\":[\"ROW-CUl6wxXZD2\",\"ROW-DK1q3s3ZhB\",\"ROW-JoH4R3QkoE\",\"ROW-VYIeyC1pg\"],\"id\":\"TAB-MGp6lWfFW\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"SILVER\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\"],\"type\":\"TAB\"},\"TAB-W4HJScfAk\":{\"children\":[\"ROW-goZ-4DlTaU\",\"ROW-oNXKfEUswu\"],\"id\":\"TAB-W4HJScfAk\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"ALL\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\"],\"type\":\"TAB\"},\"TAB-y8h3iqi3H1\":{\"children\":[\"ROW-OfwmAQ2BoA\",\"ROW-cQobJK01P\",\"ROW-kH6eNsBSgp\",\"ROW-cMACSEmtod\"],\"id\":\"TAB-y8h3iqi3H1\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"GOLD\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B40o2tIjQ7\"],\"type\":\"TAB\"},\"TABS-B40o2tIjQ7\":{\"children\":[\"TAB-y8h3iqi3H1\",\"TAB-MGp6lWfFW\",\"TAB-EFx8qHV2B\",\"TAB-W4HJScfAk\"],\"id\":\"TABS-B40o2tIjQ7\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 173,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Silver\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 140, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 173, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Silver last month",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 178,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Crude Oil WTI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 135, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 178, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Crude Oil WTI all history",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 174,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Crude Oil WTI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 140, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 174, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Crude Oil WTI last month",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 179,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Silver\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 136, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 179, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Silver last year",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 175,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Silver\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 141, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 175, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Silver last quarter",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 180,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Crude Oil WTI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 136, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 180, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Crude Oil WTI last year",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 176,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Crude Oil WTI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 141, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 176, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Crude Oil WTI last quarter",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 177,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Silver\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 135, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 177, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Silver all history",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 141,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Gold\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 141, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 141, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":16,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last quarter\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"Name\",\"op\":\"==\",\"val\":\"Gold\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"AVG(Close)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null,null]}],\"form_data\":{\"viz_type\":\"echarts_timeseries\",\"datasource\":\"16__table\",\"slice_id\":141,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"Date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"Last quarter\",\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"groupby\":[],\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"Name\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Gold\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_dv163k4fdqc_wpfi65efkd\"}],\"order_desc\":true,\"row_limit\":10000,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"seriesType\":\"line\",\"only_total\":true,\"opacity\":0.2,\"markerSize\":6,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"y_axis_format\":\"SMART_NUMBER\",\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gold last quarter",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 137,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [\"Name\"], \"left_margin\": \"auto\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"order_desc\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"time_grain_sqla\": \"P1W\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"compare\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 137, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":16,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last year\",\"granularity\":\"Date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1W\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"Name\"],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"form_data\":{\"viz_type\":\"compare\",\"datasource\":\"16__table\",\"slice_id\":136,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"Date\",\"time_grain_sqla\":\"P1W\",\"time_range\":\"Last year\",\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"adhoc_filters\":[],\"groupby\":[\"Name\"],\"order_desc\":true,\"row_limit\":10000,\"color_scheme\":\"supersetColors\",\"bottom_margin\":\"auto\",\"x_ticks_layout\":\"auto\",\"x_axis_format\":\"smart_date\",\"left_margin\":\"auto\",\"y_axis_format\":\"SMART_NUMBER\",\"y_axis_bounds\":[null,null],\"rolling_type\":\"None\",\"comparison_type\":\"values\",\"annotation_layers\":[],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Commodities pct change last year",
+                            "viz_type": "compare"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 136,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Gold\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 136, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 136, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":16,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last year\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"Name\",\"op\":\"==\",\"val\":\"Gold\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"AVG(Close)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null,null]}],\"form_data\":{\"viz_type\":\"echarts_timeseries\",\"datasource\":\"16__table\",\"slice_id\":136,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"Date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"Last year\",\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"groupby\":[],\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"Name\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Gold\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_dv163k4fdqc_wpfi65efkd\"}],\"order_desc\":true,\"row_limit\":10000,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"seriesType\":\"line\",\"only_total\":true,\"opacity\":0.2,\"markerSize\":6,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"y_axis_format\":\"SMART_NUMBER\",\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gold last year",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 139,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [\"Name\"], \"left_margin\": \"auto\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"order_desc\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"time_grain_sqla\": \"P1W\", \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"compare\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 139, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "Commodities pct change last quarter",
+                            "viz_type": "compare"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 140,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Gold\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 140, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 140, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":16,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last month\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"Name\",\"op\":\"==\",\"val\":\"Gold\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"AVG(Close)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null,null]}],\"form_data\":{\"viz_type\":\"echarts_timeseries\",\"datasource\":\"16__table\",\"slice_id\":140,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"Date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"Last month\",\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"groupby\":[],\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"Name\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Gold\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_dv163k4fdqc_wpfi65efkd\"}],\"order_desc\":true,\"row_limit\":10000,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"seriesType\":\"line\",\"only_total\":true,\"opacity\":0.2,\"markerSize\":6,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"y_axis_format\":\"SMART_NUMBER\",\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gold last month",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.commodities",
+                            "datasource_type": "table",
+                            "id": 135,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Gold\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dv163k4fdqc_wpfi65efkd\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"Name\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"16__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"Close\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(Close)\", \"optionName\": \"metric_6cv6p0kek67_sc54tplfrb\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"slice_id\": 135, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 135, \"datasource_name\": \"commodities\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":16,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"Name\",\"op\":\"==\",\"val\":\"Gold\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"AVG(Close)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null,null]}],\"form_data\":{\"viz_type\":\"echarts_timeseries\",\"datasource\":\"16__table\",\"slice_id\":135,\"url_params\":{},\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"Date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"Close\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":158,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(Close)\",\"optionName\":\"metric_6cv6p0kek67_sc54tplfrb\",\"sqlExpression\":null}],\"groupby\":[],\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"Name\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Gold\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_dv163k4fdqc_wpfi65efkd\"}],\"order_desc\":true,\"row_limit\":10000,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"seriesType\":\"line\",\"only_total\":true,\"opacity\":0.2,\"markerSize\":6,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"y_axis_format\":\"SMART_NUMBER\",\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gold all history",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 154,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "DATE",
+                            "uuid": "0bb3cc03-09b4-4420-ae4f-4d1aa5fd18c1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "Open",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 155,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "DOUBLE",
+                            "uuid": "c8375433-9806-47bf-83c3-d1ba3ab6e252",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "High",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 156,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "DOUBLE",
+                            "uuid": "dd1c5985-ea6b-4012-ac85-4cb8f2733361",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "Low",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 157,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "DOUBLE",
+                            "uuid": "0fc5d0d9-ed63-47f0-bbb4-9acdf5211720",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "Close",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 158,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "DOUBLE",
+                            "uuid": "3057ec39-2439-4e3f-bab4-a5978b0eff11",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "Volume",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 159,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "DOUBLE",
+                            "uuid": "c994801d-14bf-43ee-aa11-8cdccfc5b986",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "column_name": "Name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 160,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 16,
+                            "type": "VARCHAR(100)",
+                            "uuid": "c9038014-9472-423f-9099-0e8dde00c4ee",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:37"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 16,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 16,
+                            "uuid": "418f1c3a-f067-4b0b-89a0-0ef375f76803",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 16, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "commodities",
+                "template_params": null
+            }
+        }
+    ]
+}

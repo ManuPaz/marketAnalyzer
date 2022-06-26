@@ -14,7 +14,6 @@ import json
 def delete_other_countries(nombre_database,section,session,bd):
     if nombre_database == "market_data.calendar":
         name = section["slice_name"].split(" ")[0]
-        nombre_country=name
         query="select distinct zone from market_data.calendar where zone=%s"
         countries= bd.execute_query(query,(name,))
         if name.upper() not in config["superset"]["lista_paises"] and  section["slice_name"] not in config["superset"]["lista_paises"] :

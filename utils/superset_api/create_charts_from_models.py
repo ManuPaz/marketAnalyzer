@@ -1,10 +1,10 @@
 import os
-
 os.chdir("../../")
 from utils.database import bd_handler
 import logging.config
 from _mysql_connector import MySQLInterfaceError
 from config import load_config
+from utils.database import macro_queries_string
 from get_objects import get_charts
 config = load_config.config()
 logging.config.fileConfig('logs/logging.conf')
@@ -14,20 +14,17 @@ import utils.superset_api.authenticate_superset as authenticate_superset
 import numpy as np
 from mysql.connector.errors import ProgrammingError
 from config import load_config
-from functions_superset import delete_fields_modeL
+from functions_superset import delete_fields_model
 config = load_config.config()
-
 
 def create_chart(data):
     if "datasource_name_text" in data.keys():
         data["datasource_name"] = data["datasource_name_text"]
-    data=delete_fields_modeL(data)
-    data["owners"] = [1]
+    data = delete_fields_model(data)
+    if data['datasource_name']=="market_data.calendar":
+        data["owners"] = [1]
 
-    respuesta = session.post("http://localhost:8088/api/v1/chart/", headers=headers, json=data)
-
-
-
+        session.post("http://localhost:8088/api/v1/chart/", headers=headers, json=data)
 def comparator_filter(params, nombre_database, section, slices_names):
     """
     Creates a new chart using a schema and changing the name in comparator. The name in the comparator must appear exactly in the chart title (called slice_name) and in the comparator
@@ -59,7 +56,7 @@ def comparator_filter(params, nombre_database, section, slices_names):
                     otros_nombres = [e.split(" ")[i_def] for e in otros_nombres]
 
             for nombre in otros_nombres:
-                print(nombre)
+
 
                 data = section.copy()
                 if data['slice_name'].replace(nombre_tipo, nombre) not in slices_names:
@@ -70,16 +67,12 @@ def comparator_filter(params, nombre_database, section, slices_names):
                     create_chart(data)
                     slices_names.append(data['slice_name'])
 
-                else:
-                    print("Already saved")
-        else:
-            pass
+
+
     except ProgrammingError as e:
         logger.error(e)
     except MySQLInterfaceError as e:
         logger.error(e)
-
-
 def time_filter(params, section, slices_names):
     """
 
@@ -103,98 +96,33 @@ def time_filter(params, section, slices_names):
                 create_chart(data)
                 slices_names.append(data['slice_name'])
 
-
-def calendar_filter(params, section, slices_names):
-    """
-
-       Creates a new chart using a schema and changing the time which uses Last . The event name and the country name must appear all with upper or all with lower
-
-       :param params: chart params from  modelchart
-       :param section:  chart schema from model chart
-       :param slices_names: list of char names
-       """
-    name_country = None
-    name_event = None
-    add_like_symbol_start=False
-    add_like_symbol_end=False
-    for filter in params["adhoc_filters"]:
-        if filter["subject"] == "zone":
-            name_country = filter["comparator"][0]
-        if filter["subject"] == "event":
-            name_event = filter["comparator"]
-            if name_event[0]!="%":
-                add_like_symbol_start=True
-            if name_event[-1]!="%":
-                add_like_symbol_end=True
-            name_event = name_event.replace("%", "")
-    query = "select distinct zone from {} where ZONE!=%s".format(nombre_database)
-    otros_nombres = bd.execute_query(query, (name_country,))
-    otros_nombres = np.array(otros_nombres).reshape(-1)
-    events = config["superset"]["list_events"]
-    if name_country is not None and name_event is not None:
-        for nombre in otros_nombres:
-
-
-
-            if    (nombre.split(" ")[0].upper() in config["superset"]["lista_paises"] or nombre.upper()  in config["superset"]["lista_paises"]):
-
-                for event in events:
-                    if event=="interest rate decision":
-                        a=3
-                    data = section.copy()
-
-                    if data['slice_name'].replace(name_country.upper(), nombre.upper()).replace(name_event.upper(),
-                                                                                                event.upper()) not in slices_names:
-                        data = json.dumps(data)
-                        data = data.replace(name_country.upper(), nombre.upper()).replace(name_event.upper(), event.upper())
-                        if add_like_symbol_start:
-                            event="%"+event
-                        if add_like_symbol_end:
-                            event=event+"%"
-                        data = data.replace(name_country.lower(), nombre.lower()).replace(name_event.lower(), event.lower())
-                        data = data.replace("\n", "")
-                        data = json.loads(data)
-                        create_chart(data)
-                        slices_names.append(data['slice_name'])
-
-                    else:
-                        print("Already saved")
-
-
 if __name__ == "__main__":
     bd = bd_handler.bd_handler("stocks")
     headers, session = authenticate_superset.authenticate()
-    get_charts(session,headers)
+    get_charts(session, headers)
     slices_names = []
 
-    charts =     get_charts(session,headers)
+    charts = get_charts(session, headers)
+    print("Number of charts {}".format(len(charts)))
     for section in charts:
-            slices_names.append(section["slice_name"])
+        slices_names.append(section["slice_name"])
 
     for section in charts:
+        nombre_database = section["datasource_name_text"]
 
-            nombre_database = section["datasource_name_text"]
+        params = json.loads(section["params"])
 
-            params = json.loads(section["params"])
+        name = section["slice_name"].split(" ")
+        if name[0] == "UNITED":
+            name = name[0] + " " + name[1]
+        else:
+            name = name[0]
 
+        if (section["datasource_name_text"] in ["market_data.calendar","market_data.calendar_processed"]):
+            continue
+        if 'time_range' in params.keys():
+            time_filter(params, section, slices_names)
+        if "adhoc_filters" in params.keys() and len(params["adhoc_filters"]) > 0 and "comparator" in \
+                params["adhoc_filters"][0]:
+            comparator_filter(params, nombre_database, section, slices_names)
 
-            name=section["slice_name"].split(" ")
-            if name[0]=="UNITED":
-                name=name[0]+" "+name[1]
-            else:
-                name=name[0]
-            if section["datasource_name_text"] == "market_data.calendar" and name==config["superset"]["country_ref"]:
-
-                calendar_filter(params, section, slices_names)
-                continue
-            if 'time_range' in params.keys():
-                time_filter(params, section, slices_names)
-            if "adhoc_filters" in params.keys() and len(params["adhoc_filters"]) > 0 and "comparator" in \
-                    params["adhoc_filters"][0]:
-
-                comparator_filter(params, nombre_database, section, slices_names)
-
-            elif params['viz_type'] == "echarts_timeseries":
-                pass
-            else:
-                pass
