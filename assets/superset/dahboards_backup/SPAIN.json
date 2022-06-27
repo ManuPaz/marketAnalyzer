@@ -1,0 +1,772 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "SPAIN MACRO",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"\", \"positions\": {\"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"TABS-t_6F3hNjY8\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"type\": \"HEADER\", \"meta\": {\"text\": \"SPAIN MACRO\"}}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"TAB-AWP-cgNiN\": {\"children\": [\"ROW-RPZgouQ_9\", \"ROW-0LX4XBduq\"], \"id\": \"TAB-AWP-cgNiN\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"INDUSTRIAL PRODUCTION\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\"], \"type\": \"TAB\"}, \"TAB-EvXSguQCS\": {\"children\": [\"ROW-i14CrlGWC\", \"ROW-OQHY3xtR8\", \"ROW-EbAzVOce7\", \"ROW-IbYmH8lb3\"], \"id\": \"TAB-EvXSguQCS\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"PMI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\"], \"type\": \"TAB\"}, \"TAB-IWIelxn91w\": {\"children\": [\"ROW-H3VtW2rT8\", \"ROW-ClezqxVp7\", \"ROW-x1i9mbMDI\"], \"id\": \"TAB-IWIelxn91w\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"CPI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\"], \"type\": \"TAB\"}, \"TAB-RqSkp1iBB\": {\"children\": [\"ROW-5NZFq_Q9q\", \"ROW-4L8JbouCC\"], \"id\": \"TAB-RqSkp1iBB\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"UNEMPLOYMENT RATE\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\"], \"type\": \"TAB\"}, \"TAB-kKVtJPjRz\": {\"children\": [\"ROW-FPRhYncBY\", \"ROW-OnK2n7gew\"], \"id\": \"TAB-kKVtJPjRz\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"RETAIL SALES\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\"], \"type\": \"TAB\"}, \"TAB-szoxWrM_1\": {\"children\": [\"ROW-F-cUz1av8\", \"ROW-N3Ut1UfNj\", \"ROW-P5CQBRg-P\"], \"id\": \"TAB-szoxWrM_1\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"GDP\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\"], \"type\": \"TAB\"}, \"TABS-t_6F3hNjY8\": {\"children\": [\"TAB-IWIelxn91w\", \"TAB-AWP-cgNiN\", \"TAB-RqSkp1iBB\", \"TAB-kKVtJPjRz\", \"TAB-szoxWrM_1\", \"TAB-EvXSguQCS\"], \"id\": \"TABS-t_6F3hNjY8\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"TABS\"}, \"CHART-JUTkodbOQp\": {\"type\": \"CHART\", \"id\": \"CHART-JUTkodbOQp\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-RqSkp1iBB\", \"ROW-5NZFq_Q9q\"], \"meta\": {\"width\": 12, \"height\": 48, \"chartId\": 3468, \"sliceName\": \"SPAIN MACRO SPANISH UNEMPLOYMENT RATE ECHARTS_TIMESERIES\"}}, \"CHART-B_hXz7flbR\": {\"type\": \"CHART\", \"id\": \"CHART-B_hXz7flbR\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\", \"ROW-N3Ut1UfNj\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3464, \"sliceName\": \"SPAIN MACRO SPANISH GDP YOY TABLE\"}}, \"CHART-vW9b-Slbk8\": {\"type\": \"CHART\", \"id\": \"CHART-vW9b-Slbk8\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-AWP-cgNiN\", \"ROW-RPZgouQ_9\"], \"meta\": {\"width\": 12, \"height\": 50, \"chartId\": 3457, \"sliceName\": \"SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\"}}, \"CHART-tuja41feyA\": {\"type\": \"CHART\", \"id\": \"CHART-tuja41feyA\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\", \"ROW-ClezqxVp7\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3453, \"sliceName\": \"SPAIN MACRO SPANISH CPI YOY TABLE\"}}, \"CHART-XuqZybeLP7\": {\"type\": \"CHART\", \"id\": \"CHART-XuqZybeLP7\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\", \"ROW-P5CQBRg-P\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3467, \"sliceName\": \"SPAIN MACRO SPANISH GDP QOQ ECHARTS_TIMESERIES_BAR\"}}, \"CHART-0OZJhFeDVp\": {\"type\": \"CHART\", \"id\": \"CHART-0OZJhFeDVp\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-kKVtJPjRz\", \"ROW-FPRhYncBY\"], \"meta\": {\"width\": 12, \"height\": 47, \"chartId\": 3460, \"sliceName\": \"SPAIN MACRO SPANISH RETAIL SALES ECHARTS_TIMESERIES\"}}, \"CHART-YO9V9101iQ\": {\"type\": \"CHART\", \"id\": \"CHART-YO9V9101iQ\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\", \"ROW-x1i9mbMDI\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3456, \"sliceName\": \"SPAIN MACRO SPANISH CPI MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-pJQ1ESgUMM\": {\"type\": \"CHART\", \"id\": \"CHART-pJQ1ESgUMM\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\", \"ROW-EbAzVOce7\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3760, \"sliceName\": \"SPAIN MACRO SPANISH SERVICES PMI TABLE\"}}, \"CHART-Ndoovmiori\": {\"type\": \"CHART\", \"id\": \"CHART-Ndoovmiori\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-RqSkp1iBB\", \"ROW-4L8JbouCC\"], \"meta\": {\"width\": 8, \"height\": 53, \"chartId\": 3757, \"sliceName\": \"SPAIN MACRO SPANISH UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR\"}}, \"CHART-DLqFvkiC48\": {\"type\": \"CHART\", \"id\": \"CHART-DLqFvkiC48\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\", \"ROW-i14CrlGWC\"], \"meta\": {\"width\": 12, \"height\": 51, \"chartId\": 3470, \"sliceName\": \"SPAIN MACRO SPANISH SERVICES PMI ECHARTS_TIMESERIES\"}}, \"CHART-2Jbo8jnL3T\": {\"type\": \"CHART\", \"id\": \"CHART-2Jbo8jnL3T\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\", \"ROW-P5CQBRg-P\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3465, \"sliceName\": \"SPAIN MACRO SPANISH GDP QOQ TABLE\"}}, \"CHART-fdWBNrVPi0N\": {\"type\": \"CHART\", \"id\": \"CHART-fdWBNrVPi0N\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-kKVtJPjRz\", \"ROW-OnK2n7gew\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3462, \"sliceName\": \"SPAIN MACRO SPANISH RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-5g7NKAP4Vtr\": {\"type\": \"CHART\", \"id\": \"CHART-5g7NKAP4Vtr\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-AWP-cgNiN\", \"ROW-0LX4XBduq\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3458, \"sliceName\": \"SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION YOY TABLE\"}}, \"CHART-f3ipf2M0eF-\": {\"type\": \"CHART\", \"id\": \"CHART-f3ipf2M0eF-\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\", \"ROW-x1i9mbMDI\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3454, \"sliceName\": \"SPAIN MACRO SPANISH CPI MOM TABLE\"}}, \"CHART-KB6WcZGJccQ\": {\"type\": \"CHART\", \"id\": \"CHART-KB6WcZGJccQ\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\", \"ROW-IbYmH8lb3\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3758, \"sliceName\": \"SPAIN MACRO SPANISH MANUFACTURING PMI TABLE\"}}, \"CHART-HHAkszzxny3\": {\"type\": \"CHART\", \"id\": \"CHART-HHAkszzxny3\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\", \"ROW-OQHY3xtR8\"], \"meta\": {\"width\": 12, \"height\": 49, \"chartId\": 3469, \"sliceName\": \"SPAIN MACRO SPANISH MANUFACTURING PMI ECHARTS_TIMESERIES\"}}, \"CHART-JnEN0WKnO7E\": {\"type\": \"CHART\", \"id\": \"CHART-JnEN0WKnO7E\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-kKVtJPjRz\", \"ROW-OnK2n7gew\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3461, \"sliceName\": \"SPAIN MACRO SPANISH RETAIL SALES YOY TABLE\"}}, \"CHART-VFH6nMszWSR\": {\"type\": \"CHART\", \"id\": \"CHART-VFH6nMszWSR\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\", \"ROW-EbAzVOce7\"], \"meta\": {\"width\": 8, \"height\": 47, \"chartId\": 3761, \"sliceName\": \"SPAIN MACRO SPANISH SERVICES PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-PWHDZLhmVZl\": {\"type\": \"CHART\", \"id\": \"CHART-PWHDZLhmVZl\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\", \"ROW-N3Ut1UfNj\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3466, \"sliceName\": \"SPAIN MACRO SPANISH GDP YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-W6e0_k1A4wW\": {\"type\": \"CHART\", \"id\": \"CHART-W6e0_k1A4wW\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\", \"ROW-F-cUz1av8\"], \"meta\": {\"width\": 12, \"height\": 46, \"chartId\": 3463, \"sliceName\": \"SPAIN MACRO SPANISH GDP ECHARTS_TIMESERIES\"}}, \"CHART-5JE4DYju3mO\": {\"type\": \"CHART\", \"id\": \"CHART-5JE4DYju3mO\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-AWP-cgNiN\", \"ROW-0LX4XBduq\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3459, \"sliceName\": \"SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-tljHQTPWsEa\": {\"type\": \"CHART\", \"id\": \"CHART-tljHQTPWsEa\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\", \"ROW-ClezqxVp7\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3455, \"sliceName\": \"SPAIN MACRO SPANISH CPI YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-STIF2_flQt8\": {\"type\": \"CHART\", \"id\": \"CHART-STIF2_flQt8\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\", \"ROW-H3VtW2rT8\"], \"meta\": {\"width\": 12, \"height\": 52, \"chartId\": 3452, \"sliceName\": \"SPAIN MACRO SPANISH CPI ECHARTS_TIMESERIES\"}}, \"CHART-y1_Qw-s1DFl\": {\"type\": \"CHART\", \"id\": \"CHART-y1_Qw-s1DFl\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-RqSkp1iBB\", \"ROW-4L8JbouCC\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3756, \"sliceName\": \"SPAIN MACRO SPANISH UNEMPLOYMENT RATE TABLE\"}}, \"CHART-_9I8UdbgDus\": {\"type\": \"CHART\", \"id\": \"CHART-_9I8UdbgDus\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\", \"ROW-IbYmH8lb3\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3759, \"sliceName\": \"SPAIN MACRO SPANISH MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\"}}, \"ROW-5NZFq_Q9q\": {\"type\": \"ROW\", \"id\": \"ROW-5NZFq_Q9q\", \"children\": [\"CHART-JUTkodbOQp\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-RqSkp1iBB\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-N3Ut1UfNj\": {\"type\": \"ROW\", \"id\": \"ROW-N3Ut1UfNj\", \"children\": [\"CHART-B_hXz7flbR\", \"CHART-PWHDZLhmVZl\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-RPZgouQ_9\": {\"type\": \"ROW\", \"id\": \"ROW-RPZgouQ_9\", \"children\": [\"CHART-vW9b-Slbk8\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-AWP-cgNiN\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-ClezqxVp7\": {\"type\": \"ROW\", \"id\": \"ROW-ClezqxVp7\", \"children\": [\"CHART-tuja41feyA\", \"CHART-tljHQTPWsEa\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-FPRhYncBY\": {\"type\": \"ROW\", \"id\": \"ROW-FPRhYncBY\", \"children\": [\"CHART-0OZJhFeDVp\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-kKVtJPjRz\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-x1i9mbMDI\": {\"type\": \"ROW\", \"id\": \"ROW-x1i9mbMDI\", \"children\": [\"CHART-f3ipf2M0eF-\", \"CHART-YO9V9101iQ\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-i14CrlGWC\": {\"type\": \"ROW\", \"id\": \"ROW-i14CrlGWC\", \"children\": [\"CHART-DLqFvkiC48\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-EbAzVOce7\": {\"type\": \"ROW\", \"id\": \"ROW-EbAzVOce7\", \"children\": [\"CHART-pJQ1ESgUMM\", \"CHART-VFH6nMszWSR\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-4L8JbouCC\": {\"type\": \"ROW\", \"id\": \"ROW-4L8JbouCC\", \"children\": [\"CHART-y1_Qw-s1DFl\", \"CHART-Ndoovmiori\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-RqSkp1iBB\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-P5CQBRg-P\": {\"type\": \"ROW\", \"id\": \"ROW-P5CQBRg-P\", \"children\": [\"CHART-2Jbo8jnL3T\", \"CHART-XuqZybeLP7\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-OnK2n7gew\": {\"type\": \"ROW\", \"id\": \"ROW-OnK2n7gew\", \"children\": [\"CHART-JnEN0WKnO7E\", \"CHART-fdWBNrVPi0N\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-kKVtJPjRz\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-0LX4XBduq\": {\"type\": \"ROW\", \"id\": \"ROW-0LX4XBduq\", \"children\": [\"CHART-5g7NKAP4Vtr\", \"CHART-5JE4DYju3mO\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-AWP-cgNiN\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-IbYmH8lb3\": {\"type\": \"ROW\", \"id\": \"ROW-IbYmH8lb3\", \"children\": [\"CHART-KB6WcZGJccQ\", \"CHART-_9I8UdbgDus\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-OQHY3xtR8\": {\"type\": \"ROW\", \"id\": \"ROW-OQHY3xtR8\", \"children\": [\"CHART-HHAkszzxny3\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-EvXSguQCS\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-F-cUz1av8\": {\"type\": \"ROW\", \"id\": \"ROW-F-cUz1av8\", \"children\": [\"CHART-W6e0_k1A4wW\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-szoxWrM_1\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-H3VtW2rT8\": {\"type\": \"ROW\", \"id\": \"ROW-H3VtW2rT8\", \"children\": [\"CHART-STIF2_flQt8\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-t_6F3hNjY8\", \"TAB-IWIelxn91w\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}}, \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"remote_id\": 9}",
+                "position_json": "{\"CHART-0OZJhFeDVp\":{\"children\":[],\"id\":\"CHART-0OZJhFeDVp\",\"meta\":{\"chartId\":3460,\"height\":47,\"sliceName\":\"SPAIN MACRO SPANISH RETAIL SALES ECHARTS_TIMESERIES\",\"uuid\":\"eea62667-4fad-40ff-958c-a32b36ed64e1\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-kKVtJPjRz\",\"ROW-FPRhYncBY\"],\"type\":\"CHART\"},\"CHART-2Jbo8jnL3T\":{\"children\":[],\"id\":\"CHART-2Jbo8jnL3T\",\"meta\":{\"chartId\":3465,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH GDP QOQ TABLE\",\"uuid\":\"73d8670a-9cf5-41e5-be99-f7516c472b47\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\",\"ROW-P5CQBRg-P\"],\"type\":\"CHART\"},\"CHART-5JE4DYju3mO\":{\"children\":[],\"id\":\"CHART-5JE4DYju3mO\",\"meta\":{\"chartId\":3459,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"cf788bcb-3fc3-40a8-8a79-61b51aea741e\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-AWP-cgNiN\",\"ROW-0LX4XBduq\"],\"type\":\"CHART\"},\"CHART-5g7NKAP4Vtr\":{\"children\":[],\"id\":\"CHART-5g7NKAP4Vtr\",\"meta\":{\"chartId\":3458,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION YOY TABLE\",\"uuid\":\"7d5871e5-1699-4dee-8123-8798ecc354bf\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-AWP-cgNiN\",\"ROW-0LX4XBduq\"],\"type\":\"CHART\"},\"CHART-B_hXz7flbR\":{\"children\":[],\"id\":\"CHART-B_hXz7flbR\",\"meta\":{\"chartId\":3464,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH GDP YOY TABLE\",\"uuid\":\"d468b05d-1c74-4afd-babf-f0ef444f8257\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\",\"ROW-N3Ut1UfNj\"],\"type\":\"CHART\"},\"CHART-DLqFvkiC48\":{\"children\":[],\"id\":\"CHART-DLqFvkiC48\",\"meta\":{\"chartId\":3470,\"height\":51,\"sliceName\":\"SPAIN MACRO SPANISH SERVICES PMI ECHARTS_TIMESERIES\",\"uuid\":\"221dc110-8df1-479f-8ff1-ce12b4ec1c18\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\",\"ROW-i14CrlGWC\"],\"type\":\"CHART\"},\"CHART-HHAkszzxny3\":{\"children\":[],\"id\":\"CHART-HHAkszzxny3\",\"meta\":{\"chartId\":3469,\"height\":49,\"sliceName\":\"SPAIN MACRO SPANISH MANUFACTURING PMI ECHARTS_TIMESERIES\",\"uuid\":\"c5d263c5-1a7b-45d9-b479-2544442c6e12\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\",\"ROW-OQHY3xtR8\"],\"type\":\"CHART\"},\"CHART-JUTkodbOQp\":{\"children\":[],\"id\":\"CHART-JUTkodbOQp\",\"meta\":{\"chartId\":3468,\"height\":48,\"sliceName\":\"SPAIN MACRO SPANISH UNEMPLOYMENT RATE ECHARTS_TIMESERIES\",\"uuid\":\"ec950856-7c60-4902-8a39-31c67c1e7e03\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-RqSkp1iBB\",\"ROW-5NZFq_Q9q\"],\"type\":\"CHART\"},\"CHART-JnEN0WKnO7E\":{\"children\":[],\"id\":\"CHART-JnEN0WKnO7E\",\"meta\":{\"chartId\":3461,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH RETAIL SALES YOY TABLE\",\"uuid\":\"a9ea1db8-3374-4888-b121-211debd9c77c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-kKVtJPjRz\",\"ROW-OnK2n7gew\"],\"type\":\"CHART\"},\"CHART-KB6WcZGJccQ\":{\"children\":[],\"id\":\"CHART-KB6WcZGJccQ\",\"meta\":{\"chartId\":3758,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH MANUFACTURING PMI TABLE\",\"uuid\":\"9840d789-ad64-4fe5-a19e-5c9ede320ada\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\",\"ROW-IbYmH8lb3\"],\"type\":\"CHART\"},\"CHART-Ndoovmiori\":{\"children\":[],\"id\":\"CHART-Ndoovmiori\",\"meta\":{\"chartId\":3757,\"height\":53,\"sliceName\":\"SPAIN MACRO SPANISH UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR\",\"uuid\":\"b73d1e4b-ea51-4f66-9068-bea6d35cabfe\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-RqSkp1iBB\",\"ROW-4L8JbouCC\"],\"type\":\"CHART\"},\"CHART-PWHDZLhmVZl\":{\"children\":[],\"id\":\"CHART-PWHDZLhmVZl\",\"meta\":{\"chartId\":3466,\"height\":51,\"sliceName\":\"SPAIN MACRO SPANISH GDP YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"8b0a4a5a-46cb-4d48-b01c-1500ee6ff007\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\",\"ROW-N3Ut1UfNj\"],\"type\":\"CHART\"},\"CHART-STIF2_flQt8\":{\"children\":[],\"id\":\"CHART-STIF2_flQt8\",\"meta\":{\"chartId\":3452,\"height\":52,\"sliceName\":\"SPAIN MACRO SPANISH CPI ECHARTS_TIMESERIES\",\"uuid\":\"a3405307-5faa-4f44-956a-138ea84a82f3\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\",\"ROW-H3VtW2rT8\"],\"type\":\"CHART\"},\"CHART-VFH6nMszWSR\":{\"children\":[],\"id\":\"CHART-VFH6nMszWSR\",\"meta\":{\"chartId\":3761,\"height\":47,\"sliceName\":\"SPAIN MACRO SPANISH SERVICES PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"9e041100-ba08-4f30-8f42-6ba0d67b7fd8\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\",\"ROW-EbAzVOce7\"],\"type\":\"CHART\"},\"CHART-W6e0_k1A4wW\":{\"children\":[],\"id\":\"CHART-W6e0_k1A4wW\",\"meta\":{\"chartId\":3463,\"height\":46,\"sliceName\":\"SPAIN MACRO SPANISH GDP ECHARTS_TIMESERIES\",\"uuid\":\"52f3c719-3063-4627-868e-92806536b9ad\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\",\"ROW-F-cUz1av8\"],\"type\":\"CHART\"},\"CHART-XuqZybeLP7\":{\"children\":[],\"id\":\"CHART-XuqZybeLP7\",\"meta\":{\"chartId\":3467,\"height\":51,\"sliceName\":\"SPAIN MACRO SPANISH GDP QOQ ECHARTS_TIMESERIES_BAR\",\"uuid\":\"6f74a1de-b435-45e4-b966-62c7e89da261\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\",\"ROW-P5CQBRg-P\"],\"type\":\"CHART\"},\"CHART-YO9V9101iQ\":{\"children\":[],\"id\":\"CHART-YO9V9101iQ\",\"meta\":{\"chartId\":3456,\"height\":52,\"sliceName\":\"SPAIN MACRO SPANISH CPI MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"e949919d-5f77-460f-b3f8-d416bc6d1d90\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\",\"ROW-x1i9mbMDI\"],\"type\":\"CHART\"},\"CHART-_9I8UdbgDus\":{\"children\":[],\"id\":\"CHART-_9I8UdbgDus\",\"meta\":{\"chartId\":3759,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"aa86d024-e5e5-413c-9f35-d6b4deaaa5e1\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\",\"ROW-IbYmH8lb3\"],\"type\":\"CHART\"},\"CHART-f3ipf2M0eF-\":{\"children\":[],\"id\":\"CHART-f3ipf2M0eF-\",\"meta\":{\"chartId\":3454,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH CPI MOM TABLE\",\"uuid\":\"2a095ae0-805d-4f73-b7dc-663d23362164\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\",\"ROW-x1i9mbMDI\"],\"type\":\"CHART\"},\"CHART-fdWBNrVPi0N\":{\"children\":[],\"id\":\"CHART-fdWBNrVPi0N\",\"meta\":{\"chartId\":3462,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"49c2f88c-1739-4a4a-8472-d560045683ea\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-kKVtJPjRz\",\"ROW-OnK2n7gew\"],\"type\":\"CHART\"},\"CHART-pJQ1ESgUMM\":{\"children\":[],\"id\":\"CHART-pJQ1ESgUMM\",\"meta\":{\"chartId\":3760,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH SERVICES PMI TABLE\",\"uuid\":\"586c7d2b-4bcd-412e-a8aa-81c36c12b18c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\",\"ROW-EbAzVOce7\"],\"type\":\"CHART\"},\"CHART-tljHQTPWsEa\":{\"children\":[],\"id\":\"CHART-tljHQTPWsEa\",\"meta\":{\"chartId\":3455,\"height\":52,\"sliceName\":\"SPAIN MACRO SPANISH CPI YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"8007ba2d-135e-49a8-b899-192ccc6733c4\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\",\"ROW-ClezqxVp7\"],\"type\":\"CHART\"},\"CHART-tuja41feyA\":{\"children\":[],\"id\":\"CHART-tuja41feyA\",\"meta\":{\"chartId\":3453,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH CPI YOY TABLE\",\"uuid\":\"9ca87019-5b17-45c3-b6fd-c00ba168ffa5\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\",\"ROW-ClezqxVp7\"],\"type\":\"CHART\"},\"CHART-vW9b-Slbk8\":{\"children\":[],\"id\":\"CHART-vW9b-Slbk8\",\"meta\":{\"chartId\":3457,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\",\"uuid\":\"424ab256-50d2-4cd0-8407-294911f22bbb\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-AWP-cgNiN\",\"ROW-RPZgouQ_9\"],\"type\":\"CHART\"},\"CHART-y1_Qw-s1DFl\":{\"children\":[],\"id\":\"CHART-y1_Qw-s1DFl\",\"meta\":{\"chartId\":3756,\"height\":50,\"sliceName\":\"SPAIN MACRO SPANISH UNEMPLOYMENT RATE TABLE\",\"uuid\":\"e0e2767b-5c1a-4c63-a544-a7336ec54ea2\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-RqSkp1iBB\",\"ROW-4L8JbouCC\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-t_6F3hNjY8\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"SPAIN MACRO\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-0LX4XBduq\":{\"children\":[\"CHART-5g7NKAP4Vtr\",\"CHART-5JE4DYju3mO\"],\"id\":\"ROW-0LX4XBduq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-AWP-cgNiN\"],\"type\":\"ROW\"},\"ROW-4L8JbouCC\":{\"children\":[\"CHART-y1_Qw-s1DFl\",\"CHART-Ndoovmiori\"],\"id\":\"ROW-4L8JbouCC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-RqSkp1iBB\"],\"type\":\"ROW\"},\"ROW-5NZFq_Q9q\":{\"children\":[\"CHART-JUTkodbOQp\"],\"id\":\"ROW-5NZFq_Q9q\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-RqSkp1iBB\"],\"type\":\"ROW\"},\"ROW-ClezqxVp7\":{\"children\":[\"CHART-tuja41feyA\",\"CHART-tljHQTPWsEa\"],\"id\":\"ROW-ClezqxVp7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\"],\"type\":\"ROW\"},\"ROW-EbAzVOce7\":{\"children\":[\"CHART-pJQ1ESgUMM\",\"CHART-VFH6nMszWSR\"],\"id\":\"ROW-EbAzVOce7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\"],\"type\":\"ROW\"},\"ROW-F-cUz1av8\":{\"children\":[\"CHART-W6e0_k1A4wW\"],\"id\":\"ROW-F-cUz1av8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\"],\"type\":\"ROW\"},\"ROW-FPRhYncBY\":{\"children\":[\"CHART-0OZJhFeDVp\"],\"id\":\"ROW-FPRhYncBY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-kKVtJPjRz\"],\"type\":\"ROW\"},\"ROW-H3VtW2rT8\":{\"children\":[\"CHART-STIF2_flQt8\"],\"id\":\"ROW-H3VtW2rT8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\"],\"type\":\"ROW\"},\"ROW-IbYmH8lb3\":{\"children\":[\"CHART-KB6WcZGJccQ\",\"CHART-_9I8UdbgDus\"],\"id\":\"ROW-IbYmH8lb3\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\"],\"type\":\"ROW\"},\"ROW-N3Ut1UfNj\":{\"children\":[\"CHART-B_hXz7flbR\",\"CHART-PWHDZLhmVZl\"],\"id\":\"ROW-N3Ut1UfNj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\"],\"type\":\"ROW\"},\"ROW-OQHY3xtR8\":{\"children\":[\"CHART-HHAkszzxny3\"],\"id\":\"ROW-OQHY3xtR8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\"],\"type\":\"ROW\"},\"ROW-OnK2n7gew\":{\"children\":[\"CHART-JnEN0WKnO7E\",\"CHART-fdWBNrVPi0N\"],\"id\":\"ROW-OnK2n7gew\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-kKVtJPjRz\"],\"type\":\"ROW\"},\"ROW-P5CQBRg-P\":{\"children\":[\"CHART-2Jbo8jnL3T\",\"CHART-XuqZybeLP7\"],\"id\":\"ROW-P5CQBRg-P\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-szoxWrM_1\"],\"type\":\"ROW\"},\"ROW-RPZgouQ_9\":{\"children\":[\"CHART-vW9b-Slbk8\"],\"id\":\"ROW-RPZgouQ_9\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-AWP-cgNiN\"],\"type\":\"ROW\"},\"ROW-i14CrlGWC\":{\"children\":[\"CHART-DLqFvkiC48\"],\"id\":\"ROW-i14CrlGWC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-EvXSguQCS\"],\"type\":\"ROW\"},\"ROW-x1i9mbMDI\":{\"children\":[\"CHART-f3ipf2M0eF-\",\"CHART-YO9V9101iQ\"],\"id\":\"ROW-x1i9mbMDI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\",\"TAB-IWIelxn91w\"],\"type\":\"ROW\"},\"TAB-AWP-cgNiN\":{\"children\":[\"ROW-RPZgouQ_9\",\"ROW-0LX4XBduq\"],\"id\":\"TAB-AWP-cgNiN\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"INDUSTRIAL PRODUCTION\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\"],\"type\":\"TAB\"},\"TAB-EvXSguQCS\":{\"children\":[\"ROW-i14CrlGWC\",\"ROW-OQHY3xtR8\",\"ROW-EbAzVOce7\",\"ROW-IbYmH8lb3\"],\"id\":\"TAB-EvXSguQCS\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"PMI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\"],\"type\":\"TAB\"},\"TAB-IWIelxn91w\":{\"children\":[\"ROW-H3VtW2rT8\",\"ROW-ClezqxVp7\",\"ROW-x1i9mbMDI\"],\"id\":\"TAB-IWIelxn91w\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CPI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\"],\"type\":\"TAB\"},\"TAB-RqSkp1iBB\":{\"children\":[\"ROW-5NZFq_Q9q\",\"ROW-4L8JbouCC\"],\"id\":\"TAB-RqSkp1iBB\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"UNEMPLOYMENT RATE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\"],\"type\":\"TAB\"},\"TAB-kKVtJPjRz\":{\"children\":[\"ROW-FPRhYncBY\",\"ROW-OnK2n7gew\"],\"id\":\"TAB-kKVtJPjRz\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"RETAIL SALES\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\"],\"type\":\"TAB\"},\"TAB-szoxWrM_1\":{\"children\":[\"ROW-F-cUz1av8\",\"ROW-N3Ut1UfNj\",\"ROW-P5CQBRg-P\"],\"id\":\"TAB-szoxWrM_1\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"GDP\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-t_6F3hNjY8\"],\"type\":\"TAB\"},\"TABS-t_6F3hNjY8\":{\"children\":[\"TAB-IWIelxn91w\",\"TAB-AWP-cgNiN\",\"TAB-RqSkp1iBB\",\"TAB-kKVtJPjRz\",\"TAB-szoxWrM_1\",\"TAB-EvXSguQCS\"],\"id\":\"TABS-t_6F3hNjY8\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3468,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Unemployment Rate\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3468, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH UNEMPLOYMENT RATE ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3464,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3464, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH GDP YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3457,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Industrial Production\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3457, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3453,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3453, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH CPI YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3467,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3467, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH GDP QOQ ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3460,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Retail Sales\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3460, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH RETAIL SALES ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3456,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3456, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH CPI MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3760,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Spanish Services PMI' or event like 'Spanish Services PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3760, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH SERVICES PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3757,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Spanish Unemployment Rate' or event like 'Spanish Unemployment Rate  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3757, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3470,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Services PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3470, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH SERVICES PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3465,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3465, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH GDP QOQ TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3462,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3462, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH RETAIL SALES YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3458,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Industrial Production (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3458, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3454,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3454, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH CPI MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3758,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Spanish Manufacturing PMI' or event like 'Spanish Manufacturing PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3758, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH MANUFACTURING PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3469,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Manufacturing PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3469, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH MANUFACTURING PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3461,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3461, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH RETAIL SALES YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3761,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Spanish Services PMI' or event like 'Spanish Services PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3761, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH SERVICES PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3466,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3466, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH GDP YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3463,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish GDP\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3463, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH GDP ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3459,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish Industrial Production (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3459, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3455,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3455, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH CPI YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3452,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Spanish CPI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3452, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH CPI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3756,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Spanish Unemployment Rate' or event like 'Spanish Unemployment Rate  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3756, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH UNEMPLOYMENT RATE TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3759,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"spain\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Spanish Manufacturing PMI' or event like 'Spanish Manufacturing PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3759, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "SPAIN MACRO SPANISH MANUFACTURING PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 176,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DATE",
+                            "uuid": "91e94ca0-90ac-424b-a5e5-e63f104ebaed",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 177,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f24deb65-b639-46df-a422-fa6cbc15075e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 178,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f6719d13-6f50-49da-9043-9b8785fbb183",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 179,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DOUBLE",
+                            "uuid": "87ddd675-be18-4bff-9e79-c68b622df84e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 180,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "34fe73b8-0111-4b83-9062-8c85cc9d462a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 181,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "db84ccf7-b2fe-4b81-b8f5-35722db1a8e5",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 19,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 19,
+                            "uuid": "eb25a047-7038-47ea-be3e-40363ddb4790",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 19, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar_processed",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 139,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER(11)",
+                            "uuid": "06c80d3d-4648-406f-91eb-74744acadc37",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 140,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DATE",
+                            "uuid": "331879bb-c27a-4c01-9ba4-17460c76c3e6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 141,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "3db4be2f-3511-42ee-afd7-8c2ca0225ef3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 142,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "b1e9b66c-8fcb-4930-9175-4c75a16fba46",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 143,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "8429e005-222a-43f9-a3bb-39544d992c8f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 144,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "955da8e5-8655-4bab-b6f8-27be7f2d34f1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 145,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "630c3a65-cd6c-43d2-9390-a7cb5309c59a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "forecast",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 146,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "5ecba931-ca32-4daa-9b39-5d40f2d3e6ac",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 14,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 14,
+                            "uuid": "037556b5-747e-43ec-aab9-98eab1f575e8",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 14, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar",
+                "template_params": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,1048 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "EURO ZONE MACRO",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"\", \"positions\": {\"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"TABS-L1yabovJ6R\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"type\": \"HEADER\", \"meta\": {\"text\": \"EURO ZONE MACRO\"}}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"TAB-1oURpgO64\": {\"children\": [\"ROW-YPp8hKA-C\", \"ROW-0KGWojnwp\", \"ROW-Z1X49r-QZ\", \"ROW--ishEJmFj\"], \"id\": \"TAB-1oURpgO64\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"PMI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TAB-9P8M6fgrV\": {\"children\": [\"ROW-FDsRjgpx9\", \"ROW-Gf_eMMjUR\", \"ROW-kj3wOpLgx\"], \"id\": \"TAB-9P8M6fgrV\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"GDP\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TAB-ZBH84aN5I0\": {\"children\": [\"ROW-LcLHCKNQy\", \"ROW-GgM4iob--\", \"ROW-Jrp-pH-Fx\", \"ROW-81iyNpidi\", \"ROW-1605ha2Kh\", \"ROW-faECccso1\", \"ROW-36UusDtfe\", \"ROW-oy50wvatd\"], \"id\": \"TAB-ZBH84aN5I0\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"CPI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TAB-np4_vXHXh\": {\"children\": [\"ROW-OWIb6QaWI\", \"ROW-IEt8O2aeA\", \"ROW-98qWvYdcZ\"], \"id\": \"TAB-np4_vXHXh\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"INDUSTRIAL PRODUCTION\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TAB-s4h9oii2w\": {\"children\": [\"ROW-3NekUlqsC\", \"ROW-lK99Ah06W\"], \"id\": \"TAB-s4h9oii2w\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"UNTEMPLOYMENT RATE\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TAB-uTRHpyENa\": {\"children\": [\"ROW-06TXvIdiZ\", \"ROW-vc31B8Lc-\"], \"id\": \"TAB-uTRHpyENa\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"INTEREST RATE\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TAB-w5FoDExDr\": {\"children\": [\"ROW-nkcVsZ-nQ\", \"ROW-UojKLbDoJ\", \"ROW-X5U8r4bNf\"], \"id\": \"TAB-w5FoDExDr\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"RETAIL SALES\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"type\": \"TAB\"}, \"TABS-L1yabovJ6R\": {\"children\": [\"TAB-ZBH84aN5I0\", \"TAB-BakaOw5oa\", \"TAB-uTRHpyENa\", \"TAB-9P8M6fgrV\", \"TAB-1oURpgO64\", \"TAB-s4h9oii2w\", \"TAB-w5FoDExDr\", \"TAB-np4_vXHXh\", \"TAB-kGECtcK0K\"], \"id\": \"TABS-L1yabovJ6R\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"TABS\"}, \"CHART-G5B0lT72AE\": {\"type\": \"CHART\", \"id\": \"CHART-G5B0lT72AE\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\", \"ROW-98qWvYdcZ\"], \"meta\": {\"width\": 8, \"height\": 59, \"chartId\": 3335, \"sliceName\": \"EURO ZONE MACRO INDUSTRIAL PRODUCTION MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-58L7lS0IfT\": {\"type\": \"CHART\", \"id\": \"CHART-58L7lS0IfT\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-kGECtcK0K\", \"ROW-X8Dz_92pm\"], \"meta\": {\"width\": 12, \"height\": 53, \"chartId\": 3325, \"sliceName\": \"EURO ZONE MACRO CONSUMER CONFIDENCE ECHARTS_TIMESERIES\"}}, \"CHART-y7iDFcqTlC\": {\"type\": \"CHART\", \"id\": \"CHART-y7iDFcqTlC\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-GgM4iob--\"], \"meta\": {\"width\": 12, \"height\": 48, \"chartId\": 3336, \"sliceName\": \"EURO ZONE MACRO CPI EX TOBACCO ECHARTS_TIMESERIES\"}}, \"CHART-zOEHVS4tYy\": {\"type\": \"CHART\", \"id\": \"CHART-zOEHVS4tYy\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\", \"ROW-IEt8O2aeA\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3334, \"sliceName\": \"EURO ZONE MACRO INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-826KZ7bIk7\": {\"type\": \"CHART\", \"id\": \"CHART-826KZ7bIk7\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\", \"ROW-OWIb6QaWI\"], \"meta\": {\"width\": 12, \"height\": 54, \"chartId\": 3331, \"sliceName\": \"EURO ZONE MACRO INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\"}}, \"CHART-2xaTgcf5wT\": {\"type\": \"CHART\", \"id\": \"CHART-2xaTgcf5wT\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-faECccso1\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3329, \"sliceName\": \"EURO ZONE MACRO CPI YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-9lU4AD1RwA\": {\"type\": \"CHART\", \"id\": \"CHART-9lU4AD1RwA\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\", \"ROW-5oe7ulX-Z\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3345, \"sliceName\": \"EURO ZONE MACRO CORE CPI MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-_PijGyczI4\": {\"type\": \"CHART\", \"id\": \"CHART-_PijGyczI4\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\", \"ROW-Gf_eMMjUR\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3355, \"sliceName\": \"EURO ZONE MACRO GDP QOQ TABLE\"}}, \"CHART-bLwJLIwl2W\": {\"type\": \"CHART\", \"id\": \"CHART-bLwJLIwl2W\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\", \"ROW-UojKLbDoJ\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3350, \"sliceName\": \"EURO ZONE MACRO RETAIL SALES MOM TABLE\"}}, \"CHART-cn2wIaGzGw\": {\"type\": \"CHART\", \"id\": \"CHART-cn2wIaGzGw\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-Jrp-pH-Fx\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3340, \"sliceName\": \"EURO ZONE MACRO CPI EX TOBACCO MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-jCMJA8ICL9\": {\"type\": \"CHART\", \"id\": \"CHART-jCMJA8ICL9\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\", \"ROW-IEt8O2aeA\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3332, \"sliceName\": \"EURO ZONE MACRO INDUSTRIAL PRODUCTION YOY TABLE\"}}, \"CHART-wukSfda0aiS\": {\"type\": \"CHART\", \"id\": \"CHART-wukSfda0aiS\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-81iyNpidi\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3339, \"sliceName\": \"EURO ZONE MACRO CPI EX TOBACCO YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-R7Og6Wz7VZi\": {\"type\": \"CHART\", \"id\": \"CHART-R7Og6Wz7VZi\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\", \"ROW-nkcVsZ-nQ\"], \"meta\": {\"width\": 12, \"height\": 56, \"chartId\": 3348, \"sliceName\": \"EURO ZONE MACRO RETAIL SALES ECHARTS_TIMESERIES\"}}, \"CHART-ySVe-GBkAIs\": {\"type\": \"CHART\", \"id\": \"CHART-ySVe-GBkAIs\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\", \"ROW-FDsRjgpx9\"], \"meta\": {\"width\": 12, \"height\": 51, \"chartId\": 3353, \"sliceName\": \"EURO ZONE MACRO GDP ECHARTS_TIMESERIES\"}}, \"CHART-sHEJBAHZtie\": {\"type\": \"CHART\", \"id\": \"CHART-sHEJBAHZtie\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\", \"ROW-5oe7ulX-Z\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3343, \"sliceName\": \"EURO ZONE MACRO CORE CPI MOM TABLE\"}}, \"CHART-KXvyXNIoBLj\": {\"type\": \"CHART\", \"id\": \"CHART-KXvyXNIoBLj\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\", \"ROW-X5U8r4bNf\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3351, \"sliceName\": \"EURO ZONE MACRO RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-IsUsfafmxjl\": {\"type\": \"CHART\", \"id\": \"CHART-IsUsfafmxjl\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\", \"ROW-kj3wOpLgx\"], \"meta\": {\"width\": 8, \"height\": 53, \"chartId\": 3356, \"sliceName\": \"EURO ZONE MACRO GDP YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-FHXCoVyx1X6\": {\"type\": \"CHART\", \"id\": \"CHART-FHXCoVyx1X6\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-s4h9oii2w\", \"ROW-3NekUlqsC\"], \"meta\": {\"width\": 12, \"height\": 50, \"chartId\": 3346, \"sliceName\": \"EURO ZONE MACRO UNEMPLOYMENT RATE ECHARTS_TIMESERIES\"}}, \"CHART-6dghSvDoiB5\": {\"type\": \"CHART\", \"id\": \"CHART-6dghSvDoiB5\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-uTRHpyENa\", \"ROW-06TXvIdiZ\"], \"meta\": {\"width\": 12, \"height\": 54, \"chartId\": 3347, \"sliceName\": \"EURO ZONE MACRO ECB INTEREST RATE DECISION ECHARTS_TIMESERIES\"}}, \"CHART-iV5OFUtUEil\": {\"type\": \"CHART\", \"id\": \"CHART-iV5OFUtUEil\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\", \"ROW-Gf_eMMjUR\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3357, \"sliceName\": \"EURO ZONE MACRO GDP QOQ ECHARTS_TIMESERIES_BAR\"}}, \"CHART-LcvAD_-Djoe\": {\"type\": \"CHART\", \"id\": \"CHART-LcvAD_-Djoe\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\", \"ROW-UojKLbDoJ\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3352, \"sliceName\": \"EURO ZONE MACRO RETAIL SALES MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-RYABquJVRxH\": {\"type\": \"CHART\", \"id\": \"CHART-RYABquJVRxH\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\", \"ROW-X5U8r4bNf\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3349, \"sliceName\": \"EURO ZONE MACRO RETAIL SALES YOY TABLE\"}}, \"CHART-5TyLo5dbhZG\": {\"type\": \"CHART\", \"id\": \"CHART-5TyLo5dbhZG\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-uTRHpyENa\", \"ROW-vc31B8Lc-\"], \"meta\": {\"width\": 8, \"height\": 53, \"chartId\": 3729, \"sliceName\": \"EURO ZONE MACRO ECB INTEREST RATE DECISION ECHARTS_TIMESERIES_BAR\"}}, \"CHART-xx9gEUR4epK\": {\"type\": \"CHART\", \"id\": \"CHART-xx9gEUR4epK\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\", \"ROW-Z1X49r-QZ\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3730, \"sliceName\": \"EURO ZONE MACRO MANUFACTURING PMI TABLE\"}}, \"CHART-fwgxhC8NzP1\": {\"type\": \"CHART\", \"id\": \"CHART-fwgxhC8NzP1\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\", \"ROW-Z1X49r-QZ\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3731, \"sliceName\": \"EURO ZONE MACRO MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-o0MtkdJ4W4J\": {\"type\": \"CHART\", \"id\": \"CHART-o0MtkdJ4W4J\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\", \"ROW--ishEJmFj\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3732, \"sliceName\": \"EURO ZONE MACRO SERVICES PMI TABLE\"}}, \"CHART-qDilh8a6EoL\": {\"type\": \"CHART\", \"id\": \"CHART-qDilh8a6EoL\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\", \"ROW--ishEJmFj\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3733, \"sliceName\": \"EURO ZONE MACRO SERVICES PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-jZAuQ7ph114\": {\"type\": \"CHART\", \"id\": \"CHART-jZAuQ7ph114\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-1605ha2Kh\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3734, \"sliceName\": \"EURO ZONE MACRO CPI, N.S.A TABLE\"}}, \"CHART-24ZAwTQbZuo\": {\"type\": \"CHART\", \"id\": \"CHART-24ZAwTQbZuo\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-Jrp-pH-Fx\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3338, \"sliceName\": \"EURO ZONE MACRO CPI EX TOBACCO MOM TABLE\"}}, \"CHART-gngYNuYMzFc\": {\"type\": \"CHART\", \"id\": \"CHART-gngYNuYMzFc\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\", \"ROW-YPp8hKA-C\"], \"meta\": {\"width\": 12, \"height\": 53, \"chartId\": 3359, \"sliceName\": \"EURO ZONE MACRO SERVICES PMI ECHARTS_TIMESERIES\"}}, \"CHART-cHk5otCEL8T\": {\"type\": \"CHART\", \"id\": \"CHART-cHk5otCEL8T\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-LcLHCKNQy\"], \"meta\": {\"width\": 12, \"height\": 56, \"chartId\": 3326, \"sliceName\": \"EURO ZONE MACRO CPI ECHARTS_TIMESERIES\"}}, \"CHART-EDIzd_urElf\": {\"type\": \"CHART\", \"id\": \"CHART-EDIzd_urElf\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\", \"ROW-7SMXuPtUx\"], \"meta\": {\"width\": 8, \"height\": 54, \"chartId\": 3344, \"sliceName\": \"EURO ZONE MACRO CORE CPI YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-kGNmaXXh8PZ\": {\"type\": \"CHART\", \"id\": \"CHART-kGNmaXXh8PZ\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-s4h9oii2w\", \"ROW-lK99Ah06W\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3727, \"sliceName\": \"EURO ZONE MACRO UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR\"}}, \"CHART-eskwhmZyFO_\": {\"type\": \"CHART\", \"id\": \"CHART-eskwhmZyFO_\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-s4h9oii2w\", \"ROW-lK99Ah06W\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3726, \"sliceName\": \"EURO ZONE MACRO UNEMPLOYMENT RATE TABLE\"}}, \"CHART-c9qaf8ThrAU\": {\"type\": \"CHART\", \"id\": \"CHART-c9qaf8ThrAU\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\", \"ROW-7SMXuPtUx\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3342, \"sliceName\": \"EURO ZONE MACRO CORE CPI YOY TABLE\"}}, \"CHART-7YSYC19-8_i\": {\"type\": \"CHART\", \"id\": \"CHART-7YSYC19-8_i\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-1605ha2Kh\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3735, \"sliceName\": \"EURO ZONE MACRO CPI, N.S.A ECHARTS_TIMESERIES_BAR\"}}, \"CHART-M2Asi9Dne_b\": {\"type\": \"CHART\", \"id\": \"CHART-M2Asi9Dne_b\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\", \"ROW-98qWvYdcZ\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3333, \"sliceName\": \"EURO ZONE MACRO INDUSTRIAL PRODUCTION MOM TABLE\"}}, \"CHART-gUvbwwRWJYB\": {\"type\": \"CHART\", \"id\": \"CHART-gUvbwwRWJYB\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-uTRHpyENa\", \"ROW-vc31B8Lc-\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3728, \"sliceName\": \"EURO ZONE MACRO ECB INTEREST RATE DECISION TABLE\"}}, \"CHART-ItH3dm4YCtL\": {\"type\": \"CHART\", \"id\": \"CHART-ItH3dm4YCtL\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\", \"ROW-kj3wOpLgx\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3354, \"sliceName\": \"EURO ZONE MACRO GDP YOY TABLE\"}}, \"CHART-gRvBf8_OPJs\": {\"type\": \"CHART\", \"id\": \"CHART-gRvBf8_OPJs\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\", \"ROW-8Y8qlBEKH\"], \"meta\": {\"width\": 12, \"height\": 50, \"chartId\": 3341, \"sliceName\": \"EURO ZONE MACRO CORE CPI ECHARTS_TIMESERIES\"}}, \"CHART-rxiyAcbfkYk\": {\"type\": \"CHART\", \"id\": \"CHART-rxiyAcbfkYk\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-kGECtcK0K\", \"ROW-vv_-7nYiV\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3725, \"sliceName\": \"EURO ZONE MACRO CONSUMER CONFIDENCE ECHARTS_TIMESERIES_BAR\"}}, \"CHART-MOWVEVuFE1b\": {\"type\": \"CHART\", \"id\": \"CHART-MOWVEVuFE1b\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-36UusDtfe\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3360, \"sliceName\": \"EURO ZONE MACRO CPI, N.S.A ECHARTS_TIMESERIES\"}}, \"CHART-wyf6ieK5szf\": {\"type\": \"CHART\", \"id\": \"CHART-wyf6ieK5szf\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-kGECtcK0K\", \"ROW-vv_-7nYiV\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3724, \"sliceName\": \"EURO ZONE MACRO CONSUMER CONFIDENCE TABLE\"}}, \"CHART-CW_s6I2ers3\": {\"type\": \"CHART\", \"id\": \"CHART-CW_s6I2ers3\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-oy50wvatd\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3330, \"sliceName\": \"EURO ZONE MACRO CPI MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-WYNjdsqQ42s\": {\"type\": \"CHART\", \"id\": \"CHART-WYNjdsqQ42s\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-faECccso1\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3327, \"sliceName\": \"EURO ZONE MACRO CPI YOY TABLE\"}}, \"CHART-6kDAr2ebBPb\": {\"type\": \"CHART\", \"id\": \"CHART-6kDAr2ebBPb\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-81iyNpidi\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3337, \"sliceName\": \"EURO ZONE MACRO CPI EX TOBACCO YOY TABLE\"}}, \"CHART-EnD5_oWlWnF\": {\"type\": \"CHART\", \"id\": \"CHART-EnD5_oWlWnF\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\", \"ROW-oy50wvatd\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3328, \"sliceName\": \"EURO ZONE MACRO CPI MOM TABLE\"}}, \"CHART-xcPTlrq-6Rk\": {\"type\": \"CHART\", \"id\": \"CHART-xcPTlrq-6Rk\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\", \"ROW-0KGWojnwp\"], \"meta\": {\"width\": 12, \"height\": 51, \"chartId\": 3358, \"sliceName\": \"EURO ZONE MACRO MANUFACTURING PMI ECHARTS_TIMESERIES\"}}, \"ROW-GgM4iob--\": {\"type\": \"ROW\", \"id\": \"ROW-GgM4iob--\", \"children\": [\"CHART-y7iDFcqTlC\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"TAB-kGECtcK0K\": {\"type\": \"TAB\", \"id\": \"TAB-kGECtcK0K\", \"children\": [\"ROW-X8Dz_92pm\", \"ROW-vv_-7nYiV\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"meta\": {\"text\": \"CONSUMER CONFIDENCE\", \"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\"}}, \"ROW-X8Dz_92pm\": {\"type\": \"ROW\", \"id\": \"ROW-X8Dz_92pm\", \"children\": [\"CHART-58L7lS0IfT\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-kGECtcK0K\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"TAB-BakaOw5oa\": {\"type\": \"TAB\", \"id\": \"TAB-BakaOw5oa\", \"children\": [\"ROW-8Y8qlBEKH\", \"ROW-5oe7ulX-Z\", \"ROW-7SMXuPtUx\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\"], \"meta\": {\"text\": \"CORE CPI\", \"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\"}}, \"ROW-5oe7ulX-Z\": {\"type\": \"ROW\", \"id\": \"ROW-5oe7ulX-Z\", \"children\": [\"CHART-sHEJBAHZtie\", \"CHART-9lU4AD1RwA\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-Gf_eMMjUR\": {\"type\": \"ROW\", \"id\": \"ROW-Gf_eMMjUR\", \"children\": [\"CHART-_PijGyczI4\", \"CHART-iV5OFUtUEil\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-UojKLbDoJ\": {\"type\": \"ROW\", \"id\": \"ROW-UojKLbDoJ\", \"children\": [\"CHART-bLwJLIwl2W\", \"CHART-LcvAD_-Djoe\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-Jrp-pH-Fx\": {\"type\": \"ROW\", \"id\": \"ROW-Jrp-pH-Fx\", \"children\": [\"CHART-24ZAwTQbZuo\", \"CHART-cn2wIaGzGw\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-IEt8O2aeA\": {\"type\": \"ROW\", \"id\": \"ROW-IEt8O2aeA\", \"children\": [\"CHART-jCMJA8ICL9\", \"CHART-zOEHVS4tYy\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-81iyNpidi\": {\"type\": \"ROW\", \"id\": \"ROW-81iyNpidi\", \"children\": [\"CHART-6kDAr2ebBPb\", \"CHART-wukSfda0aiS\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-X5U8r4bNf\": {\"type\": \"ROW\", \"id\": \"ROW-X5U8r4bNf\", \"children\": [\"CHART-RYABquJVRxH\", \"CHART-KXvyXNIoBLj\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-kj3wOpLgx\": {\"type\": \"ROW\", \"id\": \"ROW-kj3wOpLgx\", \"children\": [\"CHART-ItH3dm4YCtL\", \"CHART-IsUsfafmxjl\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-3NekUlqsC\": {\"type\": \"ROW\", \"id\": \"ROW-3NekUlqsC\", \"children\": [\"CHART-FHXCoVyx1X6\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-s4h9oii2w\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-Z1X49r-QZ\": {\"type\": \"ROW\", \"id\": \"ROW-Z1X49r-QZ\", \"children\": [\"CHART-xx9gEUR4epK\", \"CHART-fwgxhC8NzP1\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW--ishEJmFj\": {\"type\": \"ROW\", \"id\": \"ROW--ishEJmFj\", \"children\": [\"CHART-o0MtkdJ4W4J\", \"CHART-qDilh8a6EoL\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-1605ha2Kh\": {\"type\": \"ROW\", \"id\": \"ROW-1605ha2Kh\", \"children\": [\"CHART-jZAuQ7ph114\", \"CHART-7YSYC19-8_i\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-faECccso1\": {\"type\": \"ROW\", \"id\": \"ROW-faECccso1\", \"children\": [\"CHART-WYNjdsqQ42s\", \"CHART-2xaTgcf5wT\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-7SMXuPtUx\": {\"type\": \"ROW\", \"id\": \"ROW-7SMXuPtUx\", \"children\": [\"CHART-c9qaf8ThrAU\", \"CHART-EDIzd_urElf\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-lK99Ah06W\": {\"type\": \"ROW\", \"id\": \"ROW-lK99Ah06W\", \"children\": [\"CHART-eskwhmZyFO_\", \"CHART-kGNmaXXh8PZ\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-s4h9oii2w\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-98qWvYdcZ\": {\"type\": \"ROW\", \"id\": \"ROW-98qWvYdcZ\", \"children\": [\"CHART-M2Asi9Dne_b\", \"CHART-G5B0lT72AE\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-vc31B8Lc-\": {\"type\": \"ROW\", \"id\": \"ROW-vc31B8Lc-\", \"children\": [\"CHART-gUvbwwRWJYB\", \"CHART-5TyLo5dbhZG\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-uTRHpyENa\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-vv_-7nYiV\": {\"type\": \"ROW\", \"id\": \"ROW-vv_-7nYiV\", \"children\": [\"CHART-rxiyAcbfkYk\", \"CHART-wyf6ieK5szf\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-kGECtcK0K\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-36UusDtfe\": {\"type\": \"ROW\", \"id\": \"ROW-36UusDtfe\", \"children\": [\"CHART-MOWVEVuFE1b\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-oy50wvatd\": {\"type\": \"ROW\", \"id\": \"ROW-oy50wvatd\", \"children\": [\"CHART-EnD5_oWlWnF\", \"CHART-CW_s6I2ers3\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-LcLHCKNQy\": {\"type\": \"ROW\", \"id\": \"ROW-LcLHCKNQy\", \"children\": [\"CHART-cHk5otCEL8T\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-ZBH84aN5I0\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-8Y8qlBEKH\": {\"type\": \"ROW\", \"id\": \"ROW-8Y8qlBEKH\", \"children\": [\"CHART-gRvBf8_OPJs\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-BakaOw5oa\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-06TXvIdiZ\": {\"type\": \"ROW\", \"id\": \"ROW-06TXvIdiZ\", \"children\": [\"CHART-6dghSvDoiB5\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-uTRHpyENa\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-FDsRjgpx9\": {\"type\": \"ROW\", \"id\": \"ROW-FDsRjgpx9\", \"children\": [\"CHART-ySVe-GBkAIs\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-9P8M6fgrV\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-YPp8hKA-C\": {\"type\": \"ROW\", \"id\": \"ROW-YPp8hKA-C\", \"children\": [\"CHART-gngYNuYMzFc\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-0KGWojnwp\": {\"type\": \"ROW\", \"id\": \"ROW-0KGWojnwp\", \"children\": [\"CHART-xcPTlrq-6Rk\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-1oURpgO64\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-nkcVsZ-nQ\": {\"type\": \"ROW\", \"id\": \"ROW-nkcVsZ-nQ\", \"children\": [\"CHART-R7Og6Wz7VZi\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-w5FoDExDr\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-OWIb6QaWI\": {\"type\": \"ROW\", \"id\": \"ROW-OWIb6QaWI\", \"children\": [\"CHART-826KZ7bIk7\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-L1yabovJ6R\", \"TAB-np4_vXHXh\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}}, \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"remote_id\": 8}",
+                "position_json": "{\"CHART-24ZAwTQbZuo\":{\"children\":[],\"id\":\"CHART-24ZAwTQbZuo\",\"meta\":{\"chartId\":3338,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CPI EX TOBACCO MOM TABLE\",\"uuid\":\"2cd91e9f-864d-4b6f-ade6-ae6bb6e59002\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-Jrp-pH-Fx\"],\"type\":\"CHART\"},\"CHART-2xaTgcf5wT\":{\"children\":[],\"id\":\"CHART-2xaTgcf5wT\",\"meta\":{\"chartId\":3329,\"height\":52,\"sliceName\":\"EURO ZONE MACRO CPI YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"ac9624d7-ca58-49d4-bbef-9dd2e4454ab0\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-faECccso1\"],\"type\":\"CHART\"},\"CHART-58L7lS0IfT\":{\"children\":[],\"id\":\"CHART-58L7lS0IfT\",\"meta\":{\"chartId\":3325,\"height\":53,\"sliceName\":\"EURO ZONE MACRO CONSUMER CONFIDENCE ECHARTS_TIMESERIES\",\"uuid\":\"a521fd37-4496-46b3-9f4a-62f130a7b824\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-kGECtcK0K\",\"ROW-X8Dz_92pm\"],\"type\":\"CHART\"},\"CHART-5TyLo5dbhZG\":{\"children\":[],\"id\":\"CHART-5TyLo5dbhZG\",\"meta\":{\"chartId\":3729,\"height\":53,\"sliceName\":\"EURO ZONE MACRO ECB INTEREST RATE DECISION ECHARTS_TIMESERIES_BAR\",\"uuid\":\"a8f9ff2a-fcf1-40fe-80cb-1e9843778a4d\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-uTRHpyENa\",\"ROW-vc31B8Lc-\"],\"type\":\"CHART\"},\"CHART-6dghSvDoiB5\":{\"children\":[],\"id\":\"CHART-6dghSvDoiB5\",\"meta\":{\"chartId\":3347,\"height\":54,\"sliceName\":\"EURO ZONE MACRO ECB INTEREST RATE DECISION ECHARTS_TIMESERIES\",\"uuid\":\"3ac43865-d02b-4f65-8465-7a0014a0ce6d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-uTRHpyENa\",\"ROW-06TXvIdiZ\"],\"type\":\"CHART\"},\"CHART-6kDAr2ebBPb\":{\"children\":[],\"id\":\"CHART-6kDAr2ebBPb\",\"meta\":{\"chartId\":3337,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CPI EX TOBACCO YOY TABLE\",\"uuid\":\"809f87b3-b1a7-4b8d-9988-1f0472ca0722\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-81iyNpidi\"],\"type\":\"CHART\"},\"CHART-7YSYC19-8_i\":{\"children\":[],\"id\":\"CHART-7YSYC19-8_i\",\"meta\":{\"chartId\":3735,\"height\":52,\"sliceName\":\"EURO ZONE MACRO CPI, N.S.A ECHARTS_TIMESERIES_BAR\",\"uuid\":\"b670b5f0-4e48-4d77-a8ea-66925b4d863f\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-1605ha2Kh\"],\"type\":\"CHART\"},\"CHART-826KZ7bIk7\":{\"children\":[],\"id\":\"CHART-826KZ7bIk7\",\"meta\":{\"chartId\":3331,\"height\":54,\"sliceName\":\"EURO ZONE MACRO INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\",\"uuid\":\"df1a82cd-7403-4595-a074-6e56f5951a08\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\",\"ROW-OWIb6QaWI\"],\"type\":\"CHART\"},\"CHART-9lU4AD1RwA\":{\"children\":[],\"id\":\"CHART-9lU4AD1RwA\",\"meta\":{\"chartId\":3345,\"height\":51,\"sliceName\":\"EURO ZONE MACRO CORE CPI MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"be8e09b5-5bf9-415c-9e3d-056d01c175b9\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\",\"ROW-5oe7ulX-Z\"],\"type\":\"CHART\"},\"CHART-CW_s6I2ers3\":{\"children\":[],\"id\":\"CHART-CW_s6I2ers3\",\"meta\":{\"chartId\":3330,\"height\":52,\"sliceName\":\"EURO ZONE MACRO CPI MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"e3c5c282-19dc-4972-a417-101461ae9f66\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-oy50wvatd\"],\"type\":\"CHART\"},\"CHART-EDIzd_urElf\":{\"children\":[],\"id\":\"CHART-EDIzd_urElf\",\"meta\":{\"chartId\":3344,\"height\":54,\"sliceName\":\"EURO ZONE MACRO CORE CPI YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"9f6ea290-17cb-472e-9b96-95468537396f\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\",\"ROW-7SMXuPtUx\"],\"type\":\"CHART\"},\"CHART-EnD5_oWlWnF\":{\"children\":[],\"id\":\"CHART-EnD5_oWlWnF\",\"meta\":{\"chartId\":3328,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CPI MOM TABLE\",\"uuid\":\"3463ff53-de96-4f73-83e4-b118c0d04d56\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-oy50wvatd\"],\"type\":\"CHART\"},\"CHART-FHXCoVyx1X6\":{\"children\":[],\"id\":\"CHART-FHXCoVyx1X6\",\"meta\":{\"chartId\":3346,\"height\":50,\"sliceName\":\"EURO ZONE MACRO UNEMPLOYMENT RATE ECHARTS_TIMESERIES\",\"uuid\":\"e4882526-4cf8-4457-b3d7-1f6f46cfc468\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-s4h9oii2w\",\"ROW-3NekUlqsC\"],\"type\":\"CHART\"},\"CHART-G5B0lT72AE\":{\"children\":[],\"id\":\"CHART-G5B0lT72AE\",\"meta\":{\"chartId\":3335,\"height\":59,\"sliceName\":\"EURO ZONE MACRO INDUSTRIAL PRODUCTION MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"db88501a-b6e6-490e-9939-93787b189878\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\",\"ROW-98qWvYdcZ\"],\"type\":\"CHART\"},\"CHART-IsUsfafmxjl\":{\"children\":[],\"id\":\"CHART-IsUsfafmxjl\",\"meta\":{\"chartId\":3356,\"height\":53,\"sliceName\":\"EURO ZONE MACRO GDP YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"068c0cf9-a80c-4418-b63e-efb5f61c0e56\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\",\"ROW-kj3wOpLgx\"],\"type\":\"CHART\"},\"CHART-ItH3dm4YCtL\":{\"children\":[],\"id\":\"CHART-ItH3dm4YCtL\",\"meta\":{\"chartId\":3354,\"height\":50,\"sliceName\":\"EURO ZONE MACRO GDP YOY TABLE\",\"uuid\":\"ad0eb41d-378a-487b-9d1a-b1b9b994cd11\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\",\"ROW-kj3wOpLgx\"],\"type\":\"CHART\"},\"CHART-KXvyXNIoBLj\":{\"children\":[],\"id\":\"CHART-KXvyXNIoBLj\",\"meta\":{\"chartId\":3351,\"height\":50,\"sliceName\":\"EURO ZONE MACRO RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"64c11817-d532-4b04-8b94-56812e6a4697\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\",\"ROW-X5U8r4bNf\"],\"type\":\"CHART\"},\"CHART-LcvAD_-Djoe\":{\"children\":[],\"id\":\"CHART-LcvAD_-Djoe\",\"meta\":{\"chartId\":3352,\"height\":51,\"sliceName\":\"EURO ZONE MACRO RETAIL SALES MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"5e974fc1-2fd1-466d-bcf1-0c80687792a6\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\",\"ROW-UojKLbDoJ\"],\"type\":\"CHART\"},\"CHART-M2Asi9Dne_b\":{\"children\":[],\"id\":\"CHART-M2Asi9Dne_b\",\"meta\":{\"chartId\":3333,\"height\":50,\"sliceName\":\"EURO ZONE MACRO INDUSTRIAL PRODUCTION MOM TABLE\",\"uuid\":\"87f2bc98-4277-433e-b956-aea6453f03e7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\",\"ROW-98qWvYdcZ\"],\"type\":\"CHART\"},\"CHART-MOWVEVuFE1b\":{\"children\":[],\"id\":\"CHART-MOWVEVuFE1b\",\"meta\":{\"chartId\":3360,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CPI, N.S.A ECHARTS_TIMESERIES\",\"uuid\":\"316a769e-f7fd-400a-9f52-9a2e3018aac3\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-36UusDtfe\"],\"type\":\"CHART\"},\"CHART-R7Og6Wz7VZi\":{\"children\":[],\"id\":\"CHART-R7Og6Wz7VZi\",\"meta\":{\"chartId\":3348,\"height\":56,\"sliceName\":\"EURO ZONE MACRO RETAIL SALES ECHARTS_TIMESERIES\",\"uuid\":\"dcc930a9-4d48-4cb8-97d8-453fd93a1f76\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\",\"ROW-nkcVsZ-nQ\"],\"type\":\"CHART\"},\"CHART-RYABquJVRxH\":{\"children\":[],\"id\":\"CHART-RYABquJVRxH\",\"meta\":{\"chartId\":3349,\"height\":50,\"sliceName\":\"EURO ZONE MACRO RETAIL SALES YOY TABLE\",\"uuid\":\"6f3b43f2-a70a-49c8-9d46-989eea45a60b\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\",\"ROW-X5U8r4bNf\"],\"type\":\"CHART\"},\"CHART-WYNjdsqQ42s\":{\"children\":[],\"id\":\"CHART-WYNjdsqQ42s\",\"meta\":{\"chartId\":3327,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CPI YOY TABLE\",\"uuid\":\"246dae55-0170-4501-be7d-7496686b0e34\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-faECccso1\"],\"type\":\"CHART\"},\"CHART-_PijGyczI4\":{\"children\":[],\"id\":\"CHART-_PijGyczI4\",\"meta\":{\"chartId\":3355,\"height\":50,\"sliceName\":\"EURO ZONE MACRO GDP QOQ TABLE\",\"uuid\":\"2d1b9266-a7ab-4750-9803-f129824d439e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\",\"ROW-Gf_eMMjUR\"],\"type\":\"CHART\"},\"CHART-bLwJLIwl2W\":{\"children\":[],\"id\":\"CHART-bLwJLIwl2W\",\"meta\":{\"chartId\":3350,\"height\":50,\"sliceName\":\"EURO ZONE MACRO RETAIL SALES MOM TABLE\",\"uuid\":\"a1cd4f25-0d4e-4aca-8bd1-6de3f7958982\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\",\"ROW-UojKLbDoJ\"],\"type\":\"CHART\"},\"CHART-c9qaf8ThrAU\":{\"children\":[],\"id\":\"CHART-c9qaf8ThrAU\",\"meta\":{\"chartId\":3342,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CORE CPI YOY TABLE\",\"uuid\":\"9571cc69-98de-4480-bd72-3f80d5914311\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\",\"ROW-7SMXuPtUx\"],\"type\":\"CHART\"},\"CHART-cHk5otCEL8T\":{\"children\":[],\"id\":\"CHART-cHk5otCEL8T\",\"meta\":{\"chartId\":3326,\"height\":56,\"sliceName\":\"EURO ZONE MACRO CPI ECHARTS_TIMESERIES\",\"uuid\":\"99fd07cb-08d4-4a8f-ac85-c37bd9cf6ff3\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-LcLHCKNQy\"],\"type\":\"CHART\"},\"CHART-cn2wIaGzGw\":{\"children\":[],\"id\":\"CHART-cn2wIaGzGw\",\"meta\":{\"chartId\":3340,\"height\":52,\"sliceName\":\"EURO ZONE MACRO CPI EX TOBACCO MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"f289be7a-d93f-4043-9af3-c90585968833\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-Jrp-pH-Fx\"],\"type\":\"CHART\"},\"CHART-eskwhmZyFO_\":{\"children\":[],\"id\":\"CHART-eskwhmZyFO_\",\"meta\":{\"chartId\":3726,\"height\":50,\"sliceName\":\"EURO ZONE MACRO UNEMPLOYMENT RATE TABLE\",\"uuid\":\"588d9410-eb4d-4f7c-a37e-ee18e56e4d98\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-s4h9oii2w\",\"ROW-lK99Ah06W\"],\"type\":\"CHART\"},\"CHART-fwgxhC8NzP1\":{\"children\":[],\"id\":\"CHART-fwgxhC8NzP1\",\"meta\":{\"chartId\":3731,\"height\":51,\"sliceName\":\"EURO ZONE MACRO MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"1d8f64ad-14c9-4d4e-a224-176d6fe0708e\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\",\"ROW-Z1X49r-QZ\"],\"type\":\"CHART\"},\"CHART-gRvBf8_OPJs\":{\"children\":[],\"id\":\"CHART-gRvBf8_OPJs\",\"meta\":{\"chartId\":3341,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CORE CPI ECHARTS_TIMESERIES\",\"uuid\":\"d39e0142-69ef-458c-b96c-fe08e2d4696b\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\",\"ROW-8Y8qlBEKH\"],\"type\":\"CHART\"},\"CHART-gUvbwwRWJYB\":{\"children\":[],\"id\":\"CHART-gUvbwwRWJYB\",\"meta\":{\"chartId\":3728,\"height\":50,\"sliceName\":\"EURO ZONE MACRO ECB INTEREST RATE DECISION TABLE\",\"uuid\":\"1cff992e-148e-4636-8820-c2d4d5a5fc1a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-uTRHpyENa\",\"ROW-vc31B8Lc-\"],\"type\":\"CHART\"},\"CHART-gngYNuYMzFc\":{\"children\":[],\"id\":\"CHART-gngYNuYMzFc\",\"meta\":{\"chartId\":3359,\"height\":53,\"sliceName\":\"EURO ZONE MACRO SERVICES PMI ECHARTS_TIMESERIES\",\"uuid\":\"42aa4441-254b-4b0a-bec7-d393149963c8\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\",\"ROW-YPp8hKA-C\"],\"type\":\"CHART\"},\"CHART-iV5OFUtUEil\":{\"children\":[],\"id\":\"CHART-iV5OFUtUEil\",\"meta\":{\"chartId\":3357,\"height\":51,\"sliceName\":\"EURO ZONE MACRO GDP QOQ ECHARTS_TIMESERIES_BAR\",\"uuid\":\"d59767d9-3304-4482-8ecc-00619b7f99d2\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\",\"ROW-Gf_eMMjUR\"],\"type\":\"CHART\"},\"CHART-jCMJA8ICL9\":{\"children\":[],\"id\":\"CHART-jCMJA8ICL9\",\"meta\":{\"chartId\":3332,\"height\":50,\"sliceName\":\"EURO ZONE MACRO INDUSTRIAL PRODUCTION YOY TABLE\",\"uuid\":\"ce375465-a773-459d-8d03-0caf261c13e0\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\",\"ROW-IEt8O2aeA\"],\"type\":\"CHART\"},\"CHART-jZAuQ7ph114\":{\"children\":[],\"id\":\"CHART-jZAuQ7ph114\",\"meta\":{\"chartId\":3734,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CPI, N.S.A TABLE\",\"uuid\":\"9b578cdc-881b-4c5a-aaaa-47026e83f4d9\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-1605ha2Kh\"],\"type\":\"CHART\"},\"CHART-kGNmaXXh8PZ\":{\"children\":[],\"id\":\"CHART-kGNmaXXh8PZ\",\"meta\":{\"chartId\":3727,\"height\":51,\"sliceName\":\"EURO ZONE MACRO UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR\",\"uuid\":\"b3e4d503-d32a-4358-85cc-dd47954bc03d\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-s4h9oii2w\",\"ROW-lK99Ah06W\"],\"type\":\"CHART\"},\"CHART-o0MtkdJ4W4J\":{\"children\":[],\"id\":\"CHART-o0MtkdJ4W4J\",\"meta\":{\"chartId\":3732,\"height\":50,\"sliceName\":\"EURO ZONE MACRO SERVICES PMI TABLE\",\"uuid\":\"6809aa3d-c6d2-452c-9214-2a9435957179\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\",\"ROW--ishEJmFj\"],\"type\":\"CHART\"},\"CHART-qDilh8a6EoL\":{\"children\":[],\"id\":\"CHART-qDilh8a6EoL\",\"meta\":{\"chartId\":3733,\"height\":51,\"sliceName\":\"EURO ZONE MACRO SERVICES PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"c34a9c4d-b028-4c50-bf07-5318980fd439\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\",\"ROW--ishEJmFj\"],\"type\":\"CHART\"},\"CHART-rxiyAcbfkYk\":{\"children\":[],\"id\":\"CHART-rxiyAcbfkYk\",\"meta\":{\"chartId\":3725,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CONSUMER CONFIDENCE ECHARTS_TIMESERIES_BAR\",\"uuid\":\"d4f131f1-2020-4a5f-8127-c24e4a19fd55\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-kGECtcK0K\",\"ROW-vv_-7nYiV\"],\"type\":\"CHART\"},\"CHART-sHEJBAHZtie\":{\"children\":[],\"id\":\"CHART-sHEJBAHZtie\",\"meta\":{\"chartId\":3343,\"height\":50,\"sliceName\":\"EURO ZONE MACRO CORE CPI MOM TABLE\",\"uuid\":\"ce177559-13fe-42f7-8a6b-334a6b969145\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\",\"ROW-5oe7ulX-Z\"],\"type\":\"CHART\"},\"CHART-wukSfda0aiS\":{\"children\":[],\"id\":\"CHART-wukSfda0aiS\",\"meta\":{\"chartId\":3339,\"height\":51,\"sliceName\":\"EURO ZONE MACRO CPI EX TOBACCO YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"77f4deba-5d9d-410b-b042-3902679d1f98\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-81iyNpidi\"],\"type\":\"CHART\"},\"CHART-wyf6ieK5szf\":{\"children\":[],\"id\":\"CHART-wyf6ieK5szf\",\"meta\":{\"chartId\":3724,\"height\":51,\"sliceName\":\"EURO ZONE MACRO CONSUMER CONFIDENCE TABLE\",\"uuid\":\"a0807a9a-ff70-4fb4-b61c-17b44cb8ace3\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-kGECtcK0K\",\"ROW-vv_-7nYiV\"],\"type\":\"CHART\"},\"CHART-xcPTlrq-6Rk\":{\"children\":[],\"id\":\"CHART-xcPTlrq-6Rk\",\"meta\":{\"chartId\":3358,\"height\":51,\"sliceName\":\"EURO ZONE MACRO MANUFACTURING PMI ECHARTS_TIMESERIES\",\"uuid\":\"83461e56-3210-46d8-8cd4-e05e7436413f\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\",\"ROW-0KGWojnwp\"],\"type\":\"CHART\"},\"CHART-xx9gEUR4epK\":{\"children\":[],\"id\":\"CHART-xx9gEUR4epK\",\"meta\":{\"chartId\":3730,\"height\":50,\"sliceName\":\"EURO ZONE MACRO MANUFACTURING PMI TABLE\",\"uuid\":\"a0f54eed-260b-4f72-8837-9a7d6d7da49e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\",\"ROW-Z1X49r-QZ\"],\"type\":\"CHART\"},\"CHART-y7iDFcqTlC\":{\"children\":[],\"id\":\"CHART-y7iDFcqTlC\",\"meta\":{\"chartId\":3336,\"height\":48,\"sliceName\":\"EURO ZONE MACRO CPI EX TOBACCO ECHARTS_TIMESERIES\",\"uuid\":\"a08869e7-261a-48cb-bac8-9aedcbe4b37a\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\",\"ROW-GgM4iob--\"],\"type\":\"CHART\"},\"CHART-ySVe-GBkAIs\":{\"children\":[],\"id\":\"CHART-ySVe-GBkAIs\",\"meta\":{\"chartId\":3353,\"height\":51,\"sliceName\":\"EURO ZONE MACRO GDP ECHARTS_TIMESERIES\",\"uuid\":\"85ca5380-6ec0-4475-bf50-bfb5753fb8e7\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\",\"ROW-FDsRjgpx9\"],\"type\":\"CHART\"},\"CHART-zOEHVS4tYy\":{\"children\":[],\"id\":\"CHART-zOEHVS4tYy\",\"meta\":{\"chartId\":3334,\"height\":52,\"sliceName\":\"EURO ZONE MACRO INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"4afbe366-47c6-4c64-93d9-1b4d5eb58af2\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\",\"ROW-IEt8O2aeA\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-L1yabovJ6R\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"EURO ZONE MACRO\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW--ishEJmFj\":{\"children\":[\"CHART-o0MtkdJ4W4J\",\"CHART-qDilh8a6EoL\"],\"id\":\"ROW--ishEJmFj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\"],\"type\":\"ROW\"},\"ROW-06TXvIdiZ\":{\"children\":[\"CHART-6dghSvDoiB5\"],\"id\":\"ROW-06TXvIdiZ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-uTRHpyENa\"],\"type\":\"ROW\"},\"ROW-0KGWojnwp\":{\"children\":[\"CHART-xcPTlrq-6Rk\"],\"id\":\"ROW-0KGWojnwp\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\"],\"type\":\"ROW\"},\"ROW-1605ha2Kh\":{\"children\":[\"CHART-jZAuQ7ph114\",\"CHART-7YSYC19-8_i\"],\"id\":\"ROW-1605ha2Kh\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-36UusDtfe\":{\"children\":[\"CHART-MOWVEVuFE1b\"],\"id\":\"ROW-36UusDtfe\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-3NekUlqsC\":{\"children\":[\"CHART-FHXCoVyx1X6\"],\"id\":\"ROW-3NekUlqsC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-s4h9oii2w\"],\"type\":\"ROW\"},\"ROW-5oe7ulX-Z\":{\"children\":[\"CHART-sHEJBAHZtie\",\"CHART-9lU4AD1RwA\"],\"id\":\"ROW-5oe7ulX-Z\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\"],\"type\":\"ROW\"},\"ROW-7SMXuPtUx\":{\"children\":[\"CHART-c9qaf8ThrAU\",\"CHART-EDIzd_urElf\"],\"id\":\"ROW-7SMXuPtUx\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\"],\"type\":\"ROW\"},\"ROW-81iyNpidi\":{\"children\":[\"CHART-6kDAr2ebBPb\",\"CHART-wukSfda0aiS\"],\"id\":\"ROW-81iyNpidi\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-8Y8qlBEKH\":{\"children\":[\"CHART-gRvBf8_OPJs\"],\"id\":\"ROW-8Y8qlBEKH\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-BakaOw5oa\"],\"type\":\"ROW\"},\"ROW-98qWvYdcZ\":{\"children\":[\"CHART-M2Asi9Dne_b\",\"CHART-G5B0lT72AE\"],\"id\":\"ROW-98qWvYdcZ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\"],\"type\":\"ROW\"},\"ROW-FDsRjgpx9\":{\"children\":[\"CHART-ySVe-GBkAIs\"],\"id\":\"ROW-FDsRjgpx9\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\"],\"type\":\"ROW\"},\"ROW-Gf_eMMjUR\":{\"children\":[\"CHART-_PijGyczI4\",\"CHART-iV5OFUtUEil\"],\"id\":\"ROW-Gf_eMMjUR\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\"],\"type\":\"ROW\"},\"ROW-GgM4iob--\":{\"children\":[\"CHART-y7iDFcqTlC\"],\"id\":\"ROW-GgM4iob--\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-IEt8O2aeA\":{\"children\":[\"CHART-jCMJA8ICL9\",\"CHART-zOEHVS4tYy\"],\"id\":\"ROW-IEt8O2aeA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\"],\"type\":\"ROW\"},\"ROW-Jrp-pH-Fx\":{\"children\":[\"CHART-24ZAwTQbZuo\",\"CHART-cn2wIaGzGw\"],\"id\":\"ROW-Jrp-pH-Fx\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-LcLHCKNQy\":{\"children\":[\"CHART-cHk5otCEL8T\"],\"id\":\"ROW-LcLHCKNQy\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-OWIb6QaWI\":{\"children\":[\"CHART-826KZ7bIk7\"],\"id\":\"ROW-OWIb6QaWI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-np4_vXHXh\"],\"type\":\"ROW\"},\"ROW-UojKLbDoJ\":{\"children\":[\"CHART-bLwJLIwl2W\",\"CHART-LcvAD_-Djoe\"],\"id\":\"ROW-UojKLbDoJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\"],\"type\":\"ROW\"},\"ROW-X5U8r4bNf\":{\"children\":[\"CHART-RYABquJVRxH\",\"CHART-KXvyXNIoBLj\"],\"id\":\"ROW-X5U8r4bNf\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\"],\"type\":\"ROW\"},\"ROW-X8Dz_92pm\":{\"children\":[\"CHART-58L7lS0IfT\"],\"id\":\"ROW-X8Dz_92pm\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-kGECtcK0K\"],\"type\":\"ROW\"},\"ROW-YPp8hKA-C\":{\"children\":[\"CHART-gngYNuYMzFc\"],\"id\":\"ROW-YPp8hKA-C\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\"],\"type\":\"ROW\"},\"ROW-Z1X49r-QZ\":{\"children\":[\"CHART-xx9gEUR4epK\",\"CHART-fwgxhC8NzP1\"],\"id\":\"ROW-Z1X49r-QZ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-1oURpgO64\"],\"type\":\"ROW\"},\"ROW-faECccso1\":{\"children\":[\"CHART-WYNjdsqQ42s\",\"CHART-2xaTgcf5wT\"],\"id\":\"ROW-faECccso1\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-kj3wOpLgx\":{\"children\":[\"CHART-ItH3dm4YCtL\",\"CHART-IsUsfafmxjl\"],\"id\":\"ROW-kj3wOpLgx\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-9P8M6fgrV\"],\"type\":\"ROW\"},\"ROW-lK99Ah06W\":{\"children\":[\"CHART-eskwhmZyFO_\",\"CHART-kGNmaXXh8PZ\"],\"id\":\"ROW-lK99Ah06W\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-s4h9oii2w\"],\"type\":\"ROW\"},\"ROW-nkcVsZ-nQ\":{\"children\":[\"CHART-R7Og6Wz7VZi\"],\"id\":\"ROW-nkcVsZ-nQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-w5FoDExDr\"],\"type\":\"ROW\"},\"ROW-oy50wvatd\":{\"children\":[\"CHART-EnD5_oWlWnF\",\"CHART-CW_s6I2ers3\"],\"id\":\"ROW-oy50wvatd\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-ZBH84aN5I0\"],\"type\":\"ROW\"},\"ROW-vc31B8Lc-\":{\"children\":[\"CHART-gUvbwwRWJYB\",\"CHART-5TyLo5dbhZG\"],\"id\":\"ROW-vc31B8Lc-\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-uTRHpyENa\"],\"type\":\"ROW\"},\"ROW-vv_-7nYiV\":{\"children\":[\"CHART-rxiyAcbfkYk\",\"CHART-wyf6ieK5szf\"],\"id\":\"ROW-vv_-7nYiV\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\",\"TAB-kGECtcK0K\"],\"type\":\"ROW\"},\"TAB-1oURpgO64\":{\"children\":[\"ROW-YPp8hKA-C\",\"ROW-0KGWojnwp\",\"ROW-Z1X49r-QZ\",\"ROW--ishEJmFj\"],\"id\":\"TAB-1oURpgO64\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"PMI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-9P8M6fgrV\":{\"children\":[\"ROW-FDsRjgpx9\",\"ROW-Gf_eMMjUR\",\"ROW-kj3wOpLgx\"],\"id\":\"TAB-9P8M6fgrV\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"GDP\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-BakaOw5oa\":{\"children\":[\"ROW-8Y8qlBEKH\",\"ROW-5oe7ulX-Z\",\"ROW-7SMXuPtUx\"],\"id\":\"TAB-BakaOw5oa\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CORE CPI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-ZBH84aN5I0\":{\"children\":[\"ROW-LcLHCKNQy\",\"ROW-GgM4iob--\",\"ROW-Jrp-pH-Fx\",\"ROW-81iyNpidi\",\"ROW-1605ha2Kh\",\"ROW-faECccso1\",\"ROW-36UusDtfe\",\"ROW-oy50wvatd\"],\"id\":\"TAB-ZBH84aN5I0\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CPI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-kGECtcK0K\":{\"children\":[\"ROW-X8Dz_92pm\",\"ROW-vv_-7nYiV\"],\"id\":\"TAB-kGECtcK0K\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CONSUMER CONFIDENCE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-np4_vXHXh\":{\"children\":[\"ROW-OWIb6QaWI\",\"ROW-IEt8O2aeA\",\"ROW-98qWvYdcZ\"],\"id\":\"TAB-np4_vXHXh\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"INDUSTRIAL PRODUCTION\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-s4h9oii2w\":{\"children\":[\"ROW-3NekUlqsC\",\"ROW-lK99Ah06W\"],\"id\":\"TAB-s4h9oii2w\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"UNTEMPLOYMENT RATE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-uTRHpyENa\":{\"children\":[\"ROW-06TXvIdiZ\",\"ROW-vc31B8Lc-\"],\"id\":\"TAB-uTRHpyENa\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"INTEREST RATE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TAB-w5FoDExDr\":{\"children\":[\"ROW-nkcVsZ-nQ\",\"ROW-UojKLbDoJ\",\"ROW-X5U8r4bNf\"],\"id\":\"TAB-w5FoDExDr\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"RETAIL SALES\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L1yabovJ6R\"],\"type\":\"TAB\"},\"TABS-L1yabovJ6R\":{\"children\":[\"TAB-ZBH84aN5I0\",\"TAB-BakaOw5oa\",\"TAB-uTRHpyENa\",\"TAB-9P8M6fgrV\",\"TAB-1oURpgO64\",\"TAB-s4h9oii2w\",\"TAB-w5FoDExDr\",\"TAB-np4_vXHXh\",\"TAB-kGECtcK0K\"],\"id\":\"TABS-L1yabovJ6R\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3358,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Manufacturing PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3358, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO MANUFACTURING PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3354,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3354, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO GDP YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3350,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3350, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO RETAIL SALES MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3347,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"ECB Interest Rate Decision\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3347, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO ECB INTEREST RATE DECISION ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3339,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI ex Tobacco (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3339, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI EX TOBACCO YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3336,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI ex Tobacco\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3336, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI EX TOBACCO ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3329,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3329, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3326,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3326, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3357,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3357, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO GDP QOQ ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3346,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Unemployment Rate\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3346, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO UNEMPLOYMENT RATE ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3342,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Core CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3342, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CORE CPI YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3338,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI ex Tobacco (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3338, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI EX TOBACCO MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3335,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3335, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO INDUSTRIAL PRODUCTION MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3332,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3332, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO INDUSTRIAL PRODUCTION YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3328,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3328, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3325,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Consumer Confidence\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3325, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CONSUMER CONFIDENCE ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3730,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Manufacturing PMI' or event like 'Manufacturing PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3730, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO MANUFACTURING PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3727,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Unemployment Rate' or event like 'Unemployment Rate  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3727, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3360,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI, n.s.a\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3360, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI, N.S.A ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3355,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3355, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO GDP QOQ TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3352,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3352, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO RETAIL SALES MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3344,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Core CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3344, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CORE CPI YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3341,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Core CPI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3341, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CORE CPI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3337,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI ex Tobacco (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3337, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI EX TOBACCO YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3331,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3331, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3327,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3327, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3735,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'CPI, n.s.a' or event like 'CPI, n.s.a  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3735, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI, N.S.A ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3728,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'ECB Interest Rate Decision' or event like 'ECB Interest Rate Decision  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3728, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO ECB INTEREST RATE DECISION TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3725,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Consumer Confidence' or event like 'Consumer Confidence  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3725, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CONSUMER CONFIDENCE ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3359,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Services PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3359, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO SERVICES PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3351,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3351, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO RETAIL SALES YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3348,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3348, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO RETAIL SALES ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3343,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Core CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3343, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CORE CPI MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3340,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI ex Tobacco (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3340, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI EX TOBACCO MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3333,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3333, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO INDUSTRIAL PRODUCTION MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3330,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3330, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3734,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'CPI, n.s.a' or event like 'CPI, n.s.a  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3734, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CPI, N.S.A TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3731,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Manufacturing PMI' or event like 'Manufacturing PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3731, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO MANUFACTURING PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3724,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Consumer Confidence' or event like 'Consumer Confidence  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3724, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CONSUMER CONFIDENCE TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3356,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3356, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO GDP YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3353,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3353, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO GDP ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3349,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3349, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO RETAIL SALES YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3345,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Core CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3345, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO CORE CPI MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3334,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3334, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3733,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Services PMI' or event like 'Services PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3733, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO SERVICES PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3726,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Unemployment Rate' or event like 'Unemployment Rate  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3726, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO UNEMPLOYMENT RATE TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3732,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Services PMI' or event like 'Services PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3732, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO SERVICES PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3729,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"euro zone\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'ECB Interest Rate Decision' or event like 'ECB Interest Rate Decision  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3729, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "EURO ZONE MACRO ECB INTEREST RATE DECISION ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 176,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DATE",
+                            "uuid": "91e94ca0-90ac-424b-a5e5-e63f104ebaed",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 177,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f24deb65-b639-46df-a422-fa6cbc15075e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 178,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f6719d13-6f50-49da-9043-9b8785fbb183",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 179,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DOUBLE",
+                            "uuid": "87ddd675-be18-4bff-9e79-c68b622df84e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 180,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "34fe73b8-0111-4b83-9062-8c85cc9d462a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 181,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "db84ccf7-b2fe-4b81-b8f5-35722db1a8e5",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 19,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 19,
+                            "uuid": "eb25a047-7038-47ea-be3e-40363ddb4790",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 19, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar_processed",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 139,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER(11)",
+                            "uuid": "06c80d3d-4648-406f-91eb-74744acadc37",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 140,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DATE",
+                            "uuid": "331879bb-c27a-4c01-9ba4-17460c76c3e6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 141,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "3db4be2f-3511-42ee-afd7-8c2ca0225ef3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 142,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "b1e9b66c-8fcb-4930-9175-4c75a16fba46",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 143,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "8429e005-222a-43f9-a3bb-39544d992c8f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 144,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "955da8e5-8655-4bab-b6f8-27be7f2d34f1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 145,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "630c3a65-cd6c-43d2-9390-a7cb5309c59a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "forecast",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 146,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "5ecba931-ca32-4daa-9b39-5d40f2d3e6ac",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 14,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 14,
+                            "uuid": "037556b5-747e-43ec-aab9-98eab1f575e8",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 14, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar",
+                "template_params": null
+            }
+        }
+    ]
+}

@@ -6,6 +6,7 @@ config/config_key.properties*/superset/**
 **/logs/*.txtexchanges_index.jsongetData/__pycache__
 **/__pycache__**/*.sqlite
 __pycache__
+**/cache.sqlite
 **/__pycache__
 **/log_files/**
 getData/cache.sqlite

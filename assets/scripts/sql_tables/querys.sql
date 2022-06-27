@@ -75,7 +75,10 @@ select stocks.name,indices.indice,ca.stock,ca.exchange, h.MarketCapitalization,c
 where indices.indice='SP500' and ca.report_date<now() AND (STOCKS.exchange='NYSE' or stocks.exchange='nasdaq')
 order by report_date desc;
 
-
+--EDIT TABLES
+--create table calendar_copy as select distinct id,Date,zone,currency,importance,event,actual,forecast  from calendar;
+--DROP TABLE calendar;
+--ALTER TABLE calendar_copy RENAME TO calendar;
 
 
 

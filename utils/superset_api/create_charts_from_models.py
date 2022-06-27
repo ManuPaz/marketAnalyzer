@@ -1,10 +1,15 @@
+"""
+Configuration and logic dependencies:
+    uses config.yaml : to events and countries
+    uses utils/database/macro_queries_string
+    must create the model charts to use using SUPERSET GUI
+"""
 import os
 os.chdir("../../")
 from utils.database import bd_handler
 import logging.config
 from _mysql_connector import MySQLInterfaceError
 from config import load_config
-from utils.database import macro_queries_string
 from get_objects import get_charts
 config = load_config.config()
 logging.config.fileConfig('logs/logging.conf')
@@ -14,17 +19,8 @@ import utils.superset_api.authenticate_superset as authenticate_superset
 import numpy as np
 from mysql.connector.errors import ProgrammingError
 from config import load_config
-from functions_superset import delete_fields_model
+from functions_superset import create_chart
 config = load_config.config()
-
-def create_chart(data):
-    if "datasource_name_text" in data.keys():
-        data["datasource_name"] = data["datasource_name_text"]
-    data = delete_fields_model(data)
-    if data['datasource_name']=="market_data.calendar":
-        data["owners"] = [1]
-
-        session.post("http://localhost:8088/api/v1/chart/", headers=headers, json=data)
 def comparator_filter(params, nombre_database, section, slices_names):
     """
     Creates a new chart using a schema and changing the name in comparator. The name in the comparator must appear exactly in the chart title (called slice_name) and in the comparator
@@ -56,15 +52,13 @@ def comparator_filter(params, nombre_database, section, slices_names):
                     otros_nombres = [e.split(" ")[i_def] for e in otros_nombres]
 
             for nombre in otros_nombres:
-
-
                 data = section.copy()
                 if data['slice_name'].replace(nombre_tipo, nombre) not in slices_names:
                     data = json.dumps(data)
                     data = data.replace(nombre_tipo, nombre)
                     data = data.replace("\n", "")
                     data = json.loads(data)
-                    create_chart(data)
+                    create_chart(data, headers, session)
                     slices_names.append(data['slice_name'])
 
 
@@ -93,9 +87,8 @@ def time_filter(params, section, slices_names):
                 data["params"] = json.loads(data["params"])
                 data["params"]["time_range"] = n
                 data["params"] = json.dumps(data["params"])
-                create_chart(data)
+                create_chart(data, headers, session)
                 slices_names.append(data['slice_name'])
-
 if __name__ == "__main__":
     bd = bd_handler.bd_handler("stocks")
     headers, session = authenticate_superset.authenticate()
@@ -118,11 +111,10 @@ if __name__ == "__main__":
         else:
             name = name[0]
 
-        if (section["datasource_name_text"] in ["market_data.calendar","market_data.calendar_processed"]):
+        if (section["datasource_name_text"] in ["market_data.calendar", "market_data.calendar_processed"]):
             continue
         if 'time_range' in params.keys():
             time_filter(params, section, slices_names)
         if "adhoc_filters" in params.keys() and len(params["adhoc_filters"]) > 0 and "comparator" in \
                 params["adhoc_filters"][0]:
             comparator_filter(params, nombre_database, section, slices_names)
-

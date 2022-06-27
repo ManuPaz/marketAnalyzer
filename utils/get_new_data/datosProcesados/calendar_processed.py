@@ -1,5 +1,8 @@
+#uses config.yaml : to events and countries
+#uses utils/database/macro_queries_string
 import os
 os.chdir("../../../")
+import numpy as np
 from utils.database import macro_queries_string as bd_macro_string, bd_handler
 from config import load_config
 from utils.dataframes.work_dataframes import diff_to_absolute
@@ -30,23 +33,23 @@ if __name__ == "__main__":
                     if event.find(qoq) != -1:
                         events.append(event.replace("  (" + qoq + ")", ""))
                         break
-
-
+            events=list(np.unique(events))
+            events.sort()
             while len(events) > 0:
-                event = events.pop()
+                event = events.pop(0)
                 save_event = False
 
                 for cadena in [bd_macro_string.MOM_STRING, bd_macro_string.YOY_STRING,
                                bd_macro_string.QOQ_STRING]:
-                    event = event.replace("(" + cadena + ")", "").replace(cadena, "").strip()
+                    event = event.replace(" (" + cadena + ")", "").replace(cadena, "").strip()
                 for e in events_to_save:
                     if event.upper().find(e.upper()) != -1:
                         save_event = True
                         break
 
                 if save_event:
-                    data = bd.execute_query_dataframe(bd_macro_string.GET_DATA_BY_EVENT_AND_ZONE.format(bd_macro_string.TABLE_CALENDAR_PROCESSED),
-                                                      (country, event + "%"))
+                    data = bd.execute_query_dataframe(bd_macro_string.GET_DATA_BY_EVENT_AND_ZONE_EQUALS.format(bd_macro_string.TABLE_CALENDAR_PROCESSED),
+                                                      (country, event))
                     add=data is None
                     if data is not None:
                         data["Date"] = pd.to_datetime(data["Date"])
@@ -58,10 +61,10 @@ if __name__ == "__main__":
                         dic_dataframes = {}
                         for cadena in [bd_macro_string.MOM_STRING, bd_macro_string.YOY_STRING,
                                        bd_macro_string.QOQ_STRING]:
-                            event = event.replace("(" + cadena + ")", "").strip()
+
                             data = bd.execute_query_dataframe(
-                                bd_macro_string.GET_DATA_BY_EVENT_AND_ZONE.format(bd_macro_string.TABLE_CALENDAR),
-                                (country, event + "%" + cadena + "%"))
+                                bd_macro_string.GET_DATA_BY_EVENT_AND_ZONE_LIKE.format(bd_macro_string.TABLE_CALENDAR),
+                                (country, event  +" ("+ cadena+")" + "%"))
 
                             if data is None:
                                 lenght = 0
@@ -71,15 +74,17 @@ if __name__ == "__main__":
                                 data["Date"] = pd.to_datetime(data.Date)
                             if lenght > 0:
                                 dic_dataframes[cadena] = [data, lenght]
-
+                        if      len(dic_dataframes)>0:
+                            lenght = max([e[1] for e in dic_dataframes.values()])
                         if lenght == 0:
                             data = bd.execute_query_dataframe(
-                                bd_macro_string.GET_DATA_BY_EVENT_AND_ZONE.format(bd_macro_string.TABLE_CALENDAR),
-                                (country, event + "%"))
-                            lenght = len(data)
-                            if lenght > 0:
-                                dic_dataframes[""] = [data, lenght]
-                                data["Date"] = pd.to_datetime(data.Date)
+                                bd_macro_string.GET_DATA_BY_EVENT_AND_ZONE_DOUBLE_LIKE.format(bd_macro_string.TABLE_CALENDAR),
+                                (country, event + "  (%",event))
+                            if data is not None:
+                                lenght = len(data)
+                                if lenght > 0:
+                                    dic_dataframes[""] = [data, lenght]
+                                    data["Date"] = pd.to_datetime(data.Date)
 
                         if      len(dic_dataframes)>0:
                             lenght = max([e[1] for e in dic_dataframes.values()])
@@ -95,13 +100,13 @@ if __name__ == "__main__":
                                     if cadena != "":
                                         data = diff_to_absolute(data, "actual", periods[cadena])
                                         data["event"] = data["event"].transform(
-                                            lambda x: str(x).replace("(" + cadena + ")", "").strip())
+                                            lambda x: str(x).replace(" (" + cadena + ")", "").strip())
                                     for month in bd_macro_string.MONTHS_NAMES_CALENDAR:
                                         data["event"] = data["event"].transform(
-                                            lambda x: str(x).replace("(" + month+ ")", "").strip())
+                                            lambda x: str(x).replace("  (" + month+ ")", "").strip())
                                     for qoq in bd_macro_string.QUARTERS_NAMES_CALENDAR:
                                         data["event"] = data["event"].transform(
-                                            lambda x: str(x).replace("(" + qoq + ")", "").strip())
+                                            lambda x: str(x).replace("  (" + qoq + ")", "").strip())
                                     data=data.set_index("Date")
                                     data=data.drop(["forecast","id"],axis=1)
                                     data=data[~data.index.duplicated(keep='last')]

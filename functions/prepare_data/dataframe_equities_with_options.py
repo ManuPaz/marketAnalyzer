@@ -1,3 +1,7 @@
+"""
+Configuration and logic dependencies:
+    uses config.yaml : to time series config
+"""
 import datetime as dt
 import random
 

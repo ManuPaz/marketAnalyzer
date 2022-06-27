@@ -1,0 +1,880 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "CHINA MACRO",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"\", \"positions\": {\"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"TABS-Ju1tIYcKjm\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"type\": \"HEADER\", \"meta\": {\"text\": \"CHINA MACRO\"}}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"TAB-7L08csKD7\": {\"children\": [\"ROW-gfpIeZ7qP\", \"ROW-4Z-8LrzLs\", \"ROW-20q81s76H\"], \"id\": \"TAB-7L08csKD7\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"GDP\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\"], \"type\": \"TAB\"}, \"TAB-FzINO4fjO\": {\"children\": [\"ROW-NhdvQ1mCR\", \"ROW-4GYg64waX\", \"ROW-zC0OUCxUW\", \"ROW-cgMOP68BX\"], \"id\": \"TAB-FzINO4fjO\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"INDUSTRIAL PRODUCTION\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\"], \"type\": \"TAB\"}, \"TAB-RC6KCOO7E\": {\"children\": [], \"id\": \"TAB-RC6KCOO7E\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"UNEMPLOYENT RATE\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\"], \"type\": \"TAB\"}, \"TAB-SVUFbXFvX\": {\"children\": [\"ROW-XdpaiE6PT\", \"ROW-pP5z5ehXA\", \"ROW-YgveisqxF\", \"ROW-bwQFGGdTd\"], \"id\": \"TAB-SVUFbXFvX\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"RETAIL SALES\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\"], \"type\": \"TAB\"}, \"TAB-VeuZbaDMtt\": {\"children\": [\"ROW-Dic5F_CGn\", \"ROW-zAdTBDkIn\", \"ROW-ule6Mxrbn\"], \"id\": \"TAB-VeuZbaDMtt\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"CPI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\"], \"type\": \"TAB\"}, \"TAB-vIuhDq6sv\": {\"children\": [\"ROW-XKQ5x-09O\", \"ROW-gCGof_6Ru\", \"ROW-xoh4wj22s\", \"ROW-y47sc3xSi\", \"ROW-myWaM_5fQ\", \"ROW-CobTBTMnr\", \"ROW-w5Jp1kLDO\", \"ROW-3FuprKx0C\"], \"id\": \"TAB-vIuhDq6sv\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"PMI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\"], \"type\": \"TAB\"}, \"TABS-Ju1tIYcKjm\": {\"children\": [\"TAB-VeuZbaDMtt\", \"TAB-SVUFbXFvX\", \"TAB-FzINO4fjO\", \"TAB-vIuhDq6sv\", \"TAB-RC6KCOO7E\", \"TAB-7L08csKD7\"], \"id\": \"TABS-Ju1tIYcKjm\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"TABS\"}, \"CHART-oEMd4rVbgT\": {\"type\": \"CHART\", \"id\": \"CHART-oEMd4rVbgT\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\", \"ROW-4Z-8LrzLs\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3318, \"sliceName\": \"CHINA MACRO GDP QOQ TABLE\"}}, \"CHART-u_RMN5UKtu\": {\"type\": \"CHART\", \"id\": \"CHART-u_RMN5UKtu\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\", \"ROW-zAdTBDkIn\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3305, \"sliceName\": \"CHINA MACRO CPI MOM TABLE\"}}, \"CHART-b6DspUA35_\": {\"type\": \"CHART\", \"id\": \"CHART-b6DspUA35_\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\", \"ROW-YgveisqxF\"], \"meta\": {\"width\": 8, \"height\": 53, \"chartId\": 3313, \"sliceName\": \"CHINA MACRO RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-Mku6Ue0Wpv\": {\"type\": \"CHART\", \"id\": \"CHART-Mku6Ue0Wpv\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\", \"ROW-zC0OUCxUW\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3309, \"sliceName\": \"CHINA MACRO INDUSTRIAL PRODUCTION YOY TABLE\"}}, \"CHART-Mz8nNagBAc\": {\"type\": \"CHART\", \"id\": \"CHART-Mz8nNagBAc\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-XKQ5x-09O\"], \"meta\": {\"width\": 12, \"height\": 54, \"chartId\": 3322, \"sliceName\": \"CHINA MACRO CAIXIN SERVICES PMI ECHARTS_TIMESERIES\"}}, \"CHART-t8u9EaxPkc\": {\"type\": \"CHART\", \"id\": \"CHART-t8u9EaxPkc\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\", \"ROW-YgveisqxF\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3312, \"sliceName\": \"CHINA MACRO RETAIL SALES YOY TABLE\"}}, \"CHART-f2ahaWgvlL\": {\"type\": \"CHART\", \"id\": \"CHART-f2ahaWgvlL\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\", \"ROW-cgMOP68BX\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3720, \"sliceName\": \"CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY TABLE\"}}, \"CHART--kt8xwz7yD\": {\"type\": \"CHART\", \"id\": \"CHART--kt8xwz7yD\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-CobTBTMnr\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3717, \"sliceName\": \"CHINA MACRO CAIXIN MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-1tt-gbOTNt\": {\"type\": \"CHART\", \"id\": \"CHART-1tt-gbOTNt\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\", \"ROW-NhdvQ1mCR\"], \"meta\": {\"width\": 12, \"height\": 57, \"chartId\": 3323, \"sliceName\": \"CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY ECHARTS_TIMESERIES\"}}, \"CHART-iZgXVdX8Wn\": {\"type\": \"CHART\", \"id\": \"CHART-iZgXVdX8Wn\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\", \"ROW-4Z-8LrzLs\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3320, \"sliceName\": \"CHINA MACRO GDP QOQ ECHARTS_TIMESERIES_BAR\"}}, \"CHART-S-LMIIO0-p\": {\"type\": \"CHART\", \"id\": \"CHART-S-LMIIO0-p\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-gCGof_6Ru\"], \"meta\": {\"width\": 12, \"height\": 50, \"chartId\": 3314, \"sliceName\": \"CHINA MACRO MANUFACTURING PMI ECHARTS_TIMESERIES\"}}, \"CHART-9mXTpyXEJkc\": {\"type\": \"CHART\", \"id\": \"CHART-9mXTpyXEJkc\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\", \"ROW-XdpaiE6PT\"], \"meta\": {\"width\": 12, \"height\": 48, \"chartId\": 3311, \"sliceName\": \"CHINA MACRO RETAIL SALES ECHARTS_TIMESERIES\"}}, \"CHART-5BW6ExSO1Kh\": {\"type\": \"CHART\", \"id\": \"CHART-5BW6ExSO1Kh\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\", \"ROW-zAdTBDkIn\"], \"meta\": {\"width\": 8, \"height\": 53, \"chartId\": 3307, \"sliceName\": \"CHINA MACRO CPI MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-qsFbMdjOrW4\": {\"type\": \"CHART\", \"id\": \"CHART-qsFbMdjOrW4\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-myWaM_5fQ\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3718, \"sliceName\": \"CHINA MACRO CAIXIN SERVICES PMI TABLE\"}}, \"CHART-hXDxvdnsCzo\": {\"type\": \"CHART\", \"id\": \"CHART-hXDxvdnsCzo\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-w5Jp1kLDO\"], \"meta\": {\"width\": 8, \"height\": 53, \"chartId\": 3715, \"sliceName\": \"CHINA MACRO NON-MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-Xo8mZTxOXMX\": {\"type\": \"CHART\", \"id\": \"CHART-Xo8mZTxOXMX\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\", \"ROW-ule6Mxrbn\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3304, \"sliceName\": \"CHINA MACRO CPI YOY TABLE\"}}, \"CHART-U7KjfYbTqvq\": {\"type\": \"CHART\", \"id\": \"CHART-U7KjfYbTqvq\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\", \"ROW-20q81s76H\"], \"meta\": {\"width\": 8, \"height\": 52, \"chartId\": 3319, \"sliceName\": \"CHINA MACRO GDP YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-Iohma7IA92f\": {\"type\": \"CHART\", \"id\": \"CHART-Iohma7IA92f\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\", \"ROW-gfpIeZ7qP\"], \"meta\": {\"width\": 12, \"height\": 47, \"chartId\": 3316, \"sliceName\": \"CHINA MACRO GDP ECHARTS_TIMESERIES\"}}, \"CHART-kVmQBKISxo4\": {\"type\": \"CHART\", \"id\": \"CHART-kVmQBKISxo4\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\", \"ROW-ule6Mxrbn\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3306, \"sliceName\": \"CHINA MACRO CPI YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-kLa7-Ih9C7O\": {\"type\": \"CHART\", \"id\": \"CHART-kLa7-Ih9C7O\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\", \"ROW-zC0OUCxUW\"], \"meta\": {\"width\": 8, \"height\": 49, \"chartId\": 3310, \"sliceName\": \"CHINA MACRO INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-iF8m3z6I_qm\": {\"type\": \"CHART\", \"id\": \"CHART-iF8m3z6I_qm\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\", \"ROW-Dic5F_CGn\"], \"meta\": {\"width\": 12, \"height\": 51, \"chartId\": 3303, \"sliceName\": \"CHINA MACRO CPI ECHARTS_TIMESERIES\"}}, \"CHART-adsNliNrwCm\": {\"type\": \"CHART\", \"id\": \"CHART-adsNliNrwCm\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\", \"ROW-cgMOP68BX\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3721, \"sliceName\": \"CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-bbZWkhVr7Jg\": {\"type\": \"CHART\", \"id\": \"CHART-bbZWkhVr7Jg\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-w5Jp1kLDO\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3714, \"sliceName\": \"CHINA MACRO NON-MANUFACTURING PMI TABLE\"}}, \"CHART-tJm42r73MW2\": {\"type\": \"CHART\", \"id\": \"CHART-tJm42r73MW2\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\", \"ROW-pP5z5ehXA\"], \"meta\": {\"width\": 12, \"height\": 48, \"chartId\": 3324, \"sliceName\": \"CHINA MACRO CHINESE RETAIL SALES YTD  YOY ECHARTS_TIMESERIES\"}}, \"CHART-iGRCNQFXobK\": {\"type\": \"CHART\", \"id\": \"CHART-iGRCNQFXobK\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-xoh4wj22s\"], \"meta\": {\"width\": 12, \"height\": 50, \"chartId\": 3321, \"sliceName\": \"CHINA MACRO CAIXIN MANUFACTURING PMI ECHARTS_TIMESERIES\"}}, \"CHART-UnqGqHCqABc\": {\"type\": \"CHART\", \"id\": \"CHART-UnqGqHCqABc\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\", \"ROW-20q81s76H\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3317, \"sliceName\": \"CHINA MACRO GDP YOY TABLE\"}}, \"CHART-ZfnK6u5cXod\": {\"type\": \"CHART\", \"id\": \"CHART-ZfnK6u5cXod\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-y47sc3xSi\"], \"meta\": {\"width\": 12, \"height\": 49, \"chartId\": 3315, \"sliceName\": \"CHINA MACRO NON-MANUFACTURING PMI ECHARTS_TIMESERIES\"}}, \"CHART-qo-kT6eojFb\": {\"type\": \"CHART\", \"id\": \"CHART-qo-kT6eojFb\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\", \"ROW-4GYg64waX\"], \"meta\": {\"width\": 12, \"height\": 57, \"chartId\": 3308, \"sliceName\": \"CHINA MACRO INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\"}}, \"CHART--uZc8BRapos\": {\"type\": \"CHART\", \"id\": \"CHART--uZc8BRapos\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\", \"ROW-bwQFGGdTd\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3723, \"sliceName\": \"CHINA MACRO CHINESE RETAIL SALES YTD  YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-wdorGTwXfA5\": {\"type\": \"CHART\", \"id\": \"CHART-wdorGTwXfA5\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-CobTBTMnr\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3716, \"sliceName\": \"CHINA MACRO CAIXIN MANUFACTURING PMI TABLE\"}}, \"CHART-fnoqz3QpTAc\": {\"type\": \"CHART\", \"id\": \"CHART-fnoqz3QpTAc\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-3FuprKx0C\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3713, \"sliceName\": \"CHINA MACRO MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-p4jEj20BkNB\": {\"type\": \"CHART\", \"id\": \"CHART-p4jEj20BkNB\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\", \"ROW-bwQFGGdTd\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3722, \"sliceName\": \"CHINA MACRO CHINESE RETAIL SALES YTD  YOY TABLE\"}}, \"CHART-UOKUIJNk5EX\": {\"type\": \"CHART\", \"id\": \"CHART-UOKUIJNk5EX\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-myWaM_5fQ\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3719, \"sliceName\": \"CHINA MACRO CAIXIN SERVICES PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-VvOe4tnhOdb\": {\"type\": \"CHART\", \"id\": \"CHART-VvOe4tnhOdb\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\", \"ROW-3FuprKx0C\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3712, \"sliceName\": \"CHINA MACRO MANUFACTURING PMI TABLE\"}}, \"ROW-XKQ5x-09O\": {\"type\": \"ROW\", \"id\": \"ROW-XKQ5x-09O\", \"children\": [\"CHART-Mz8nNagBAc\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-NhdvQ1mCR\": {\"type\": \"ROW\", \"id\": \"ROW-NhdvQ1mCR\", \"children\": [\"CHART-1tt-gbOTNt\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-gCGof_6Ru\": {\"type\": \"ROW\", \"id\": \"ROW-gCGof_6Ru\", \"children\": [\"CHART-S-LMIIO0-p\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-XdpaiE6PT\": {\"type\": \"ROW\", \"id\": \"ROW-XdpaiE6PT\", \"children\": [\"CHART-9mXTpyXEJkc\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-gfpIeZ7qP\": {\"type\": \"ROW\", \"id\": \"ROW-gfpIeZ7qP\", \"children\": [\"CHART-Iohma7IA92f\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-Dic5F_CGn\": {\"type\": \"ROW\", \"id\": \"ROW-Dic5F_CGn\", \"children\": [\"CHART-iF8m3z6I_qm\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-pP5z5ehXA\": {\"type\": \"ROW\", \"id\": \"ROW-pP5z5ehXA\", \"children\": [\"CHART-tJm42r73MW2\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-xoh4wj22s\": {\"type\": \"ROW\", \"id\": \"ROW-xoh4wj22s\", \"children\": [\"CHART-iGRCNQFXobK\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-y47sc3xSi\": {\"type\": \"ROW\", \"id\": \"ROW-y47sc3xSi\", \"children\": [\"CHART-ZfnK6u5cXod\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-4GYg64waX\": {\"type\": \"ROW\", \"id\": \"ROW-4GYg64waX\", \"children\": [\"CHART-qo-kT6eojFb\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-4Z-8LrzLs\": {\"type\": \"ROW\", \"id\": \"ROW-4Z-8LrzLs\", \"children\": [\"CHART-oEMd4rVbgT\", \"CHART-iZgXVdX8Wn\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-zAdTBDkIn\": {\"type\": \"ROW\", \"id\": \"ROW-zAdTBDkIn\", \"children\": [\"CHART-u_RMN5UKtu\", \"CHART-5BW6ExSO1Kh\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-zC0OUCxUW\": {\"type\": \"ROW\", \"id\": \"ROW-zC0OUCxUW\", \"children\": [\"CHART-Mku6Ue0Wpv\", \"CHART-kLa7-Ih9C7O\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-YgveisqxF\": {\"type\": \"ROW\", \"id\": \"ROW-YgveisqxF\", \"children\": [\"CHART-t8u9EaxPkc\", \"CHART-b6DspUA35_\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-cgMOP68BX\": {\"type\": \"ROW\", \"id\": \"ROW-cgMOP68BX\", \"children\": [\"CHART-f2ahaWgvlL\", \"CHART-adsNliNrwCm\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-FzINO4fjO\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-myWaM_5fQ\": {\"type\": \"ROW\", \"id\": \"ROW-myWaM_5fQ\", \"children\": [\"CHART-qsFbMdjOrW4\", \"CHART-UOKUIJNk5EX\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-ule6Mxrbn\": {\"type\": \"ROW\", \"id\": \"ROW-ule6Mxrbn\", \"children\": [\"CHART-Xo8mZTxOXMX\", \"CHART-kVmQBKISxo4\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-VeuZbaDMtt\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-CobTBTMnr\": {\"type\": \"ROW\", \"id\": \"ROW-CobTBTMnr\", \"children\": [\"CHART-wdorGTwXfA5\", \"CHART--kt8xwz7yD\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-20q81s76H\": {\"type\": \"ROW\", \"id\": \"ROW-20q81s76H\", \"children\": [\"CHART-UnqGqHCqABc\", \"CHART-U7KjfYbTqvq\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-7L08csKD7\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-w5Jp1kLDO\": {\"type\": \"ROW\", \"id\": \"ROW-w5Jp1kLDO\", \"children\": [\"CHART-bbZWkhVr7Jg\", \"CHART-hXDxvdnsCzo\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-3FuprKx0C\": {\"type\": \"ROW\", \"id\": \"ROW-3FuprKx0C\", \"children\": [\"CHART-VvOe4tnhOdb\", \"CHART-fnoqz3QpTAc\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-vIuhDq6sv\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-bwQFGGdTd\": {\"type\": \"ROW\", \"id\": \"ROW-bwQFGGdTd\", \"children\": [\"CHART-p4jEj20BkNB\", \"CHART--uZc8BRapos\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-Ju1tIYcKjm\", \"TAB-SVUFbXFvX\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}}, \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"remote_id\": 14}",
+                "position_json": "{\"CHART--kt8xwz7yD\":{\"children\":[],\"id\":\"CHART--kt8xwz7yD\",\"meta\":{\"chartId\":3717,\"height\":50,\"sliceName\":\"CHINA MACRO CAIXIN MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"580bf521-b150-4edc-98e4-059fb4bdbfdd\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-CobTBTMnr\"],\"type\":\"CHART\"},\"CHART--uZc8BRapos\":{\"children\":[],\"id\":\"CHART--uZc8BRapos\",\"meta\":{\"chartId\":3723,\"height\":50,\"sliceName\":\"CHINA MACRO CHINESE RETAIL SALES YTD  YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"451f430f-6c54-474d-b0a5-abbdc4701ebd\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\",\"ROW-bwQFGGdTd\"],\"type\":\"CHART\"},\"CHART-1tt-gbOTNt\":{\"children\":[],\"id\":\"CHART-1tt-gbOTNt\",\"meta\":{\"chartId\":3323,\"height\":57,\"sliceName\":\"CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY ECHARTS_TIMESERIES\",\"uuid\":\"1bda140f-082f-462e-a9bc-1eed2abd90c4\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\",\"ROW-NhdvQ1mCR\"],\"type\":\"CHART\"},\"CHART-5BW6ExSO1Kh\":{\"children\":[],\"id\":\"CHART-5BW6ExSO1Kh\",\"meta\":{\"chartId\":3307,\"height\":53,\"sliceName\":\"CHINA MACRO CPI MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"746d8f3c-6c90-41c7-8356-03dfd0ff54d7\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\",\"ROW-zAdTBDkIn\"],\"type\":\"CHART\"},\"CHART-9mXTpyXEJkc\":{\"children\":[],\"id\":\"CHART-9mXTpyXEJkc\",\"meta\":{\"chartId\":3311,\"height\":48,\"sliceName\":\"CHINA MACRO RETAIL SALES ECHARTS_TIMESERIES\",\"uuid\":\"67c2cd65-6e03-439e-9cef-c78028e528e4\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\",\"ROW-XdpaiE6PT\"],\"type\":\"CHART\"},\"CHART-Iohma7IA92f\":{\"children\":[],\"id\":\"CHART-Iohma7IA92f\",\"meta\":{\"chartId\":3316,\"height\":47,\"sliceName\":\"CHINA MACRO GDP ECHARTS_TIMESERIES\",\"uuid\":\"4133552c-1088-4376-9fd5-8aa381d5e658\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\",\"ROW-gfpIeZ7qP\"],\"type\":\"CHART\"},\"CHART-Mku6Ue0Wpv\":{\"children\":[],\"id\":\"CHART-Mku6Ue0Wpv\",\"meta\":{\"chartId\":3309,\"height\":50,\"sliceName\":\"CHINA MACRO INDUSTRIAL PRODUCTION YOY TABLE\",\"uuid\":\"f66e20ec-2c44-4b6a-bdfe-7d280519579a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\",\"ROW-zC0OUCxUW\"],\"type\":\"CHART\"},\"CHART-Mz8nNagBAc\":{\"children\":[],\"id\":\"CHART-Mz8nNagBAc\",\"meta\":{\"chartId\":3322,\"height\":54,\"sliceName\":\"CHINA MACRO CAIXIN SERVICES PMI ECHARTS_TIMESERIES\",\"uuid\":\"c21ddf7f-9da4-4f62-b372-e71b95cc17ab\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-XKQ5x-09O\"],\"type\":\"CHART\"},\"CHART-S-LMIIO0-p\":{\"children\":[],\"id\":\"CHART-S-LMIIO0-p\",\"meta\":{\"chartId\":3314,\"height\":50,\"sliceName\":\"CHINA MACRO MANUFACTURING PMI ECHARTS_TIMESERIES\",\"uuid\":\"afd52b97-a630-4939-a8bc-9532031d9dc2\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-gCGof_6Ru\"],\"type\":\"CHART\"},\"CHART-U7KjfYbTqvq\":{\"children\":[],\"id\":\"CHART-U7KjfYbTqvq\",\"meta\":{\"chartId\":3319,\"height\":52,\"sliceName\":\"CHINA MACRO GDP YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"acae4f04-abc5-451e-b0e8-bc972d5dfd67\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\",\"ROW-20q81s76H\"],\"type\":\"CHART\"},\"CHART-UOKUIJNk5EX\":{\"children\":[],\"id\":\"CHART-UOKUIJNk5EX\",\"meta\":{\"chartId\":3719,\"height\":50,\"sliceName\":\"CHINA MACRO CAIXIN SERVICES PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"06881446-4e84-442a-9be2-0a537a42f5ea\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-myWaM_5fQ\"],\"type\":\"CHART\"},\"CHART-UnqGqHCqABc\":{\"children\":[],\"id\":\"CHART-UnqGqHCqABc\",\"meta\":{\"chartId\":3317,\"height\":50,\"sliceName\":\"CHINA MACRO GDP YOY TABLE\",\"uuid\":\"57776a30-2543-4433-9de0-634512cc0767\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\",\"ROW-20q81s76H\"],\"type\":\"CHART\"},\"CHART-VvOe4tnhOdb\":{\"children\":[],\"id\":\"CHART-VvOe4tnhOdb\",\"meta\":{\"chartId\":3712,\"height\":50,\"sliceName\":\"CHINA MACRO MANUFACTURING PMI TABLE\",\"uuid\":\"17fd1f2d-e777-4100-ab13-f5790a849d15\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-3FuprKx0C\"],\"type\":\"CHART\"},\"CHART-Xo8mZTxOXMX\":{\"children\":[],\"id\":\"CHART-Xo8mZTxOXMX\",\"meta\":{\"chartId\":3304,\"height\":50,\"sliceName\":\"CHINA MACRO CPI YOY TABLE\",\"uuid\":\"efbd2469-8fa6-4ec9-94a3-1a73b32be6c6\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\",\"ROW-ule6Mxrbn\"],\"type\":\"CHART\"},\"CHART-ZfnK6u5cXod\":{\"children\":[],\"id\":\"CHART-ZfnK6u5cXod\",\"meta\":{\"chartId\":3315,\"height\":49,\"sliceName\":\"CHINA MACRO NON-MANUFACTURING PMI ECHARTS_TIMESERIES\",\"uuid\":\"7debe8c6-b9eb-41af-a4c3-64ea4fad9744\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-y47sc3xSi\"],\"type\":\"CHART\"},\"CHART-adsNliNrwCm\":{\"children\":[],\"id\":\"CHART-adsNliNrwCm\",\"meta\":{\"chartId\":3721,\"height\":50,\"sliceName\":\"CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"47a74d8c-445e-4c90-9e62-17e9a7aaa010\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\",\"ROW-cgMOP68BX\"],\"type\":\"CHART\"},\"CHART-b6DspUA35_\":{\"children\":[],\"id\":\"CHART-b6DspUA35_\",\"meta\":{\"chartId\":3313,\"height\":53,\"sliceName\":\"CHINA MACRO RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"0dc40307-723d-4307-b029-3e8fc63f8931\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\",\"ROW-YgveisqxF\"],\"type\":\"CHART\"},\"CHART-bbZWkhVr7Jg\":{\"children\":[],\"id\":\"CHART-bbZWkhVr7Jg\",\"meta\":{\"chartId\":3714,\"height\":50,\"sliceName\":\"CHINA MACRO NON-MANUFACTURING PMI TABLE\",\"uuid\":\"cc573e41-be14-4235-925f-20c20c3f4c8a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-w5Jp1kLDO\"],\"type\":\"CHART\"},\"CHART-f2ahaWgvlL\":{\"children\":[],\"id\":\"CHART-f2ahaWgvlL\",\"meta\":{\"chartId\":3720,\"height\":50,\"sliceName\":\"CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY TABLE\",\"uuid\":\"74b54058-259a-466b-a78c-accc5deb6a9e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\",\"ROW-cgMOP68BX\"],\"type\":\"CHART\"},\"CHART-fnoqz3QpTAc\":{\"children\":[],\"id\":\"CHART-fnoqz3QpTAc\",\"meta\":{\"chartId\":3713,\"height\":50,\"sliceName\":\"CHINA MACRO MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"785b6025-16eb-496e-adb9-58e52b99552f\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-3FuprKx0C\"],\"type\":\"CHART\"},\"CHART-hXDxvdnsCzo\":{\"children\":[],\"id\":\"CHART-hXDxvdnsCzo\",\"meta\":{\"chartId\":3715,\"height\":53,\"sliceName\":\"CHINA MACRO NON-MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"f1032229-c2ad-4ead-ac8e-8fd0ca11c0b9\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-w5Jp1kLDO\"],\"type\":\"CHART\"},\"CHART-iF8m3z6I_qm\":{\"children\":[],\"id\":\"CHART-iF8m3z6I_qm\",\"meta\":{\"chartId\":3303,\"height\":51,\"sliceName\":\"CHINA MACRO CPI ECHARTS_TIMESERIES\",\"uuid\":\"f01f5f63-fbd4-4739-b667-bf60740441c6\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\",\"ROW-Dic5F_CGn\"],\"type\":\"CHART\"},\"CHART-iGRCNQFXobK\":{\"children\":[],\"id\":\"CHART-iGRCNQFXobK\",\"meta\":{\"chartId\":3321,\"height\":50,\"sliceName\":\"CHINA MACRO CAIXIN MANUFACTURING PMI ECHARTS_TIMESERIES\",\"uuid\":\"ffdc165d-3eb4-4b3a-8f2c-4ea30fb38528\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-xoh4wj22s\"],\"type\":\"CHART\"},\"CHART-iZgXVdX8Wn\":{\"children\":[],\"id\":\"CHART-iZgXVdX8Wn\",\"meta\":{\"chartId\":3320,\"height\":52,\"sliceName\":\"CHINA MACRO GDP QOQ ECHARTS_TIMESERIES_BAR\",\"uuid\":\"d21189d4-d5fa-443b-9cd5-8e663fce65d8\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\",\"ROW-4Z-8LrzLs\"],\"type\":\"CHART\"},\"CHART-kLa7-Ih9C7O\":{\"children\":[],\"id\":\"CHART-kLa7-Ih9C7O\",\"meta\":{\"chartId\":3310,\"height\":49,\"sliceName\":\"CHINA MACRO INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"d83a846d-6e0f-4aec-90a3-b04d45549892\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\",\"ROW-zC0OUCxUW\"],\"type\":\"CHART\"},\"CHART-kVmQBKISxo4\":{\"children\":[],\"id\":\"CHART-kVmQBKISxo4\",\"meta\":{\"chartId\":3306,\"height\":50,\"sliceName\":\"CHINA MACRO CPI YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"742854bf-2a77-465b-ae57-86758ac0e7c0\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\",\"ROW-ule6Mxrbn\"],\"type\":\"CHART\"},\"CHART-oEMd4rVbgT\":{\"children\":[],\"id\":\"CHART-oEMd4rVbgT\",\"meta\":{\"chartId\":3318,\"height\":50,\"sliceName\":\"CHINA MACRO GDP QOQ TABLE\",\"uuid\":\"c2d61f50-2465-4257-bc59-a98c8b642a90\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\",\"ROW-4Z-8LrzLs\"],\"type\":\"CHART\"},\"CHART-p4jEj20BkNB\":{\"children\":[],\"id\":\"CHART-p4jEj20BkNB\",\"meta\":{\"chartId\":3722,\"height\":50,\"sliceName\":\"CHINA MACRO CHINESE RETAIL SALES YTD  YOY TABLE\",\"uuid\":\"565d85c7-2a26-4548-89d1-c4d70b488c48\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\",\"ROW-bwQFGGdTd\"],\"type\":\"CHART\"},\"CHART-qo-kT6eojFb\":{\"children\":[],\"id\":\"CHART-qo-kT6eojFb\",\"meta\":{\"chartId\":3308,\"height\":57,\"sliceName\":\"CHINA MACRO INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\",\"uuid\":\"47a4e6e8-5322-49ca-9277-6f8401f054cf\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\",\"ROW-4GYg64waX\"],\"type\":\"CHART\"},\"CHART-qsFbMdjOrW4\":{\"children\":[],\"id\":\"CHART-qsFbMdjOrW4\",\"meta\":{\"chartId\":3718,\"height\":50,\"sliceName\":\"CHINA MACRO CAIXIN SERVICES PMI TABLE\",\"uuid\":\"172945d8-c2a8-46f0-a979-d2e2f807db54\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-myWaM_5fQ\"],\"type\":\"CHART\"},\"CHART-t8u9EaxPkc\":{\"children\":[],\"id\":\"CHART-t8u9EaxPkc\",\"meta\":{\"chartId\":3312,\"height\":50,\"sliceName\":\"CHINA MACRO RETAIL SALES YOY TABLE\",\"uuid\":\"61b8487d-cd1e-4a32-a9f7-259b52a49b3d\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\",\"ROW-YgveisqxF\"],\"type\":\"CHART\"},\"CHART-tJm42r73MW2\":{\"children\":[],\"id\":\"CHART-tJm42r73MW2\",\"meta\":{\"chartId\":3324,\"height\":48,\"sliceName\":\"CHINA MACRO CHINESE RETAIL SALES YTD  YOY ECHARTS_TIMESERIES\",\"uuid\":\"be1d82ea-d192-402f-b699-ad7c6568283e\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\",\"ROW-pP5z5ehXA\"],\"type\":\"CHART\"},\"CHART-u_RMN5UKtu\":{\"children\":[],\"id\":\"CHART-u_RMN5UKtu\",\"meta\":{\"chartId\":3305,\"height\":50,\"sliceName\":\"CHINA MACRO CPI MOM TABLE\",\"uuid\":\"361283fd-05de-4810-8bc6-4bf1c1e8e3a0\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\",\"ROW-zAdTBDkIn\"],\"type\":\"CHART\"},\"CHART-wdorGTwXfA5\":{\"children\":[],\"id\":\"CHART-wdorGTwXfA5\",\"meta\":{\"chartId\":3716,\"height\":50,\"sliceName\":\"CHINA MACRO CAIXIN MANUFACTURING PMI TABLE\",\"uuid\":\"f29a3621-7217-4dc0-809c-bb452866e020\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\",\"ROW-CobTBTMnr\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-Ju1tIYcKjm\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"CHINA MACRO\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-20q81s76H\":{\"children\":[\"CHART-UnqGqHCqABc\",\"CHART-U7KjfYbTqvq\"],\"id\":\"ROW-20q81s76H\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\"],\"type\":\"ROW\"},\"ROW-3FuprKx0C\":{\"children\":[\"CHART-VvOe4tnhOdb\",\"CHART-fnoqz3QpTAc\"],\"id\":\"ROW-3FuprKx0C\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-4GYg64waX\":{\"children\":[\"CHART-qo-kT6eojFb\"],\"id\":\"ROW-4GYg64waX\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\"],\"type\":\"ROW\"},\"ROW-4Z-8LrzLs\":{\"children\":[\"CHART-oEMd4rVbgT\",\"CHART-iZgXVdX8Wn\"],\"id\":\"ROW-4Z-8LrzLs\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\"],\"type\":\"ROW\"},\"ROW-CobTBTMnr\":{\"children\":[\"CHART-wdorGTwXfA5\",\"CHART--kt8xwz7yD\"],\"id\":\"ROW-CobTBTMnr\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-Dic5F_CGn\":{\"children\":[\"CHART-iF8m3z6I_qm\"],\"id\":\"ROW-Dic5F_CGn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\"],\"type\":\"ROW\"},\"ROW-NhdvQ1mCR\":{\"children\":[\"CHART-1tt-gbOTNt\"],\"id\":\"ROW-NhdvQ1mCR\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\"],\"type\":\"ROW\"},\"ROW-XKQ5x-09O\":{\"children\":[\"CHART-Mz8nNagBAc\"],\"id\":\"ROW-XKQ5x-09O\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-XdpaiE6PT\":{\"children\":[\"CHART-9mXTpyXEJkc\"],\"id\":\"ROW-XdpaiE6PT\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\"],\"type\":\"ROW\"},\"ROW-YgveisqxF\":{\"children\":[\"CHART-t8u9EaxPkc\",\"CHART-b6DspUA35_\"],\"id\":\"ROW-YgveisqxF\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\"],\"type\":\"ROW\"},\"ROW-bwQFGGdTd\":{\"children\":[\"CHART-p4jEj20BkNB\",\"CHART--uZc8BRapos\"],\"id\":\"ROW-bwQFGGdTd\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\"],\"type\":\"ROW\"},\"ROW-cgMOP68BX\":{\"children\":[\"CHART-f2ahaWgvlL\",\"CHART-adsNliNrwCm\"],\"id\":\"ROW-cgMOP68BX\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\"],\"type\":\"ROW\"},\"ROW-gCGof_6Ru\":{\"children\":[\"CHART-S-LMIIO0-p\"],\"id\":\"ROW-gCGof_6Ru\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-gfpIeZ7qP\":{\"children\":[\"CHART-Iohma7IA92f\"],\"id\":\"ROW-gfpIeZ7qP\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-7L08csKD7\"],\"type\":\"ROW\"},\"ROW-myWaM_5fQ\":{\"children\":[\"CHART-qsFbMdjOrW4\",\"CHART-UOKUIJNk5EX\"],\"id\":\"ROW-myWaM_5fQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-pP5z5ehXA\":{\"children\":[\"CHART-tJm42r73MW2\"],\"id\":\"ROW-pP5z5ehXA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-SVUFbXFvX\"],\"type\":\"ROW\"},\"ROW-ule6Mxrbn\":{\"children\":[\"CHART-Xo8mZTxOXMX\",\"CHART-kVmQBKISxo4\"],\"id\":\"ROW-ule6Mxrbn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\"],\"type\":\"ROW\"},\"ROW-w5Jp1kLDO\":{\"children\":[\"CHART-bbZWkhVr7Jg\",\"CHART-hXDxvdnsCzo\"],\"id\":\"ROW-w5Jp1kLDO\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-xoh4wj22s\":{\"children\":[\"CHART-iGRCNQFXobK\"],\"id\":\"ROW-xoh4wj22s\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-y47sc3xSi\":{\"children\":[\"CHART-ZfnK6u5cXod\"],\"id\":\"ROW-y47sc3xSi\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-vIuhDq6sv\"],\"type\":\"ROW\"},\"ROW-zAdTBDkIn\":{\"children\":[\"CHART-u_RMN5UKtu\",\"CHART-5BW6ExSO1Kh\"],\"id\":\"ROW-zAdTBDkIn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-VeuZbaDMtt\"],\"type\":\"ROW\"},\"ROW-zC0OUCxUW\":{\"children\":[\"CHART-Mku6Ue0Wpv\",\"CHART-kLa7-Ih9C7O\"],\"id\":\"ROW-zC0OUCxUW\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\",\"TAB-FzINO4fjO\"],\"type\":\"ROW\"},\"TAB-7L08csKD7\":{\"children\":[\"ROW-gfpIeZ7qP\",\"ROW-4Z-8LrzLs\",\"ROW-20q81s76H\"],\"id\":\"TAB-7L08csKD7\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"GDP\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\"],\"type\":\"TAB\"},\"TAB-FzINO4fjO\":{\"children\":[\"ROW-NhdvQ1mCR\",\"ROW-4GYg64waX\",\"ROW-zC0OUCxUW\",\"ROW-cgMOP68BX\"],\"id\":\"TAB-FzINO4fjO\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"INDUSTRIAL PRODUCTION\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\"],\"type\":\"TAB\"},\"TAB-RC6KCOO7E\":{\"children\":[],\"id\":\"TAB-RC6KCOO7E\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"UNEMPLOYENT RATE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\"],\"type\":\"TAB\"},\"TAB-SVUFbXFvX\":{\"children\":[\"ROW-XdpaiE6PT\",\"ROW-pP5z5ehXA\",\"ROW-YgveisqxF\",\"ROW-bwQFGGdTd\"],\"id\":\"TAB-SVUFbXFvX\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"RETAIL SALES\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\"],\"type\":\"TAB\"},\"TAB-VeuZbaDMtt\":{\"children\":[\"ROW-Dic5F_CGn\",\"ROW-zAdTBDkIn\",\"ROW-ule6Mxrbn\"],\"id\":\"TAB-VeuZbaDMtt\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CPI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\"],\"type\":\"TAB\"},\"TAB-vIuhDq6sv\":{\"children\":[\"ROW-XKQ5x-09O\",\"ROW-gCGof_6Ru\",\"ROW-xoh4wj22s\",\"ROW-y47sc3xSi\",\"ROW-myWaM_5fQ\",\"ROW-CobTBTMnr\",\"ROW-w5Jp1kLDO\",\"ROW-3FuprKx0C\"],\"id\":\"TAB-vIuhDq6sv\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"PMI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-Ju1tIYcKjm\"],\"type\":\"TAB\"},\"TABS-Ju1tIYcKjm\":{\"children\":[\"TAB-VeuZbaDMtt\",\"TAB-SVUFbXFvX\",\"TAB-FzINO4fjO\",\"TAB-vIuhDq6sv\",\"TAB-RC6KCOO7E\",\"TAB-7L08csKD7\"],\"id\":\"TABS-Ju1tIYcKjm\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3318,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3318, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO GDP QOQ TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3305,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3305, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":14,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"zone\",\"op\":\"==\",\"val\":\"china\"},{\"col\":\"event\",\"op\":\"LIKE\",\"val\":\"CPI (MoM)%\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"Date\",\"event\",\"actual\"],\"orderby\":[[\"Date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"adhoc_filters\":[{\"clause\":\"WHERE\",\"comparator\":\"china\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_6x2l66ryxjq_7elg3m2fcfs\",\"isExtra\":false,\"isNew\":false,\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"sqlExpression\":null,\"subject\":\"zone\"},{\"clause\":\"WHERE\",\"comparator\":\"CPI (MoM)%\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_9dcimmv4f8s_dwmacq3ilnu\",\"isExtra\":false,\"isNew\":false,\"operator\":\"LIKE\",\"operatorId\":\"LIKE\",\"sqlExpression\":null,\"subject\":\"event\"}],\"all_columns\":[\"Date\",\"event\",\"actual\"],\"color_pn\":true,\"datasource\":\"14__table\",\"extra_form_data\":{},\"granularity_sqla\":\"Date\",\"groupby\":[],\"order_by_cols\":[\"[\\\"Date\\\", false]\"],\"order_desc\":true,\"percent_metrics\":[],\"query_mode\":\"raw\",\"row_limit\":10000,\"server_page_length\":10,\"show_cell_bars\":true,\"table_timestamp_format\":\"smart_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"url_params\":{},\"viz_type\":\"table\",\"slice_id\":3305,\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\",\"include_time\":false},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "CHINA MACRO CPI MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3313,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3313, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO RETAIL SALES YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3309,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3309, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO INDUSTRIAL PRODUCTION YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3322,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Caixin Services PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3322, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CAIXIN SERVICES PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3312,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3312, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO RETAIL SALES YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3720,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Chinese Industrial Production YTD  (YoY)' or event like 'Chinese Industrial Production YTD  (YoY)  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3720, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3717,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Caixin Manufacturing PMI' or event like 'Caixin Manufacturing PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3717, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CAIXIN MANUFACTURING PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3323,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Chinese Industrial Production YTD  (YoY)\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3323, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3320,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3320, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO GDP QOQ ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3314,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Manufacturing PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3314, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO MANUFACTURING PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3311,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Retail Sales\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3311, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO RETAIL SALES ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3307,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3307, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CPI MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3718,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Caixin Services PMI' or event like 'Caixin Services PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3718, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CAIXIN SERVICES PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3715,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Non-Manufacturing PMI' or event like 'Non-Manufacturing PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3715, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO NON-MANUFACTURING PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3304,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3304, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":14,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"zone\",\"op\":\"==\",\"val\":\"china\"},{\"col\":\"event\",\"op\":\"LIKE\",\"val\":\"CPI (YoY)%\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"Date\",\"event\",\"actual\"],\"orderby\":[[\"Date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"adhoc_filters\":[{\"clause\":\"WHERE\",\"comparator\":\"china\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_6x2l66ryxjq_7elg3m2fcfs\",\"isExtra\":false,\"isNew\":false,\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"sqlExpression\":null,\"subject\":\"zone\"},{\"clause\":\"WHERE\",\"comparator\":\"CPI (YoY)%\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_9dcimmv4f8s_dwmacq3ilnu\",\"isExtra\":false,\"isNew\":false,\"operator\":\"LIKE\",\"operatorId\":\"LIKE\",\"sqlExpression\":null,\"subject\":\"event\"}],\"all_columns\":[\"Date\",\"event\",\"actual\"],\"color_pn\":true,\"datasource\":\"14__table\",\"extra_form_data\":{},\"granularity_sqla\":\"Date\",\"groupby\":[],\"order_by_cols\":[\"[\\\"Date\\\", false]\"],\"order_desc\":true,\"percent_metrics\":[],\"query_mode\":\"raw\",\"row_limit\":10000,\"server_page_length\":10,\"show_cell_bars\":true,\"table_timestamp_format\":\"smart_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"url_params\":{},\"viz_type\":\"table\",\"slice_id\":3304,\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\",\"include_time\":false},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "CHINA MACRO CPI YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3319,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3319, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO GDP YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3316,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3316, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO GDP ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3306,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3306, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":14,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"zone\",\"op\":\"==\",\"val\":\"china\"},{\"col\":\"event\",\"op\":\"LIKE\",\"val\":\"CPI (YoY)%\"}],\"extras\":{\"time_grain_sqla\":null,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"actual\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":145,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(actual)\",\"optionName\":\"metric_ntt6hh2zo0g_bqnlnm9cpuo\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"actual\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":145,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(actual)\",\"optionName\":\"metric_ntt6hh2zo0g_bqnlnm9cpuo\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"AVG(actual)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null,null]}],\"form_data\":{\"adhoc_filters\":[{\"clause\":\"WHERE\",\"comparator\":\"china\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_l9e9pvg2rh_ejex0jhpcy\",\"isExtra\":false,\"isNew\":false,\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"sqlExpression\":null,\"subject\":\"zone\"},{\"clause\":\"WHERE\",\"comparator\":\"CPI (YoY)%\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_60rj4ivibzv_wqiw5fhrzwm\",\"isExtra\":false,\"isNew\":false,\"operator\":\"LIKE\",\"operatorId\":\"LIKE\",\"sqlExpression\":null,\"subject\":\"event\"}],\"annotation_layers\":[],\"color_scheme\":\"supersetColors\",\"comparison_type\":\"values\",\"datasource\":\"14__table\",\"extra_form_data\":{},\"forecastInterval\":0.8,\"forecastPeriods\":10,\"granularity_sqla\":\"Date\",\"groupby\":[],\"legendOrientation\":\"top\",\"legendType\":\"scroll\",\"markerSize\":6,\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"actual\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":145,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"AVG(actual)\",\"optionName\":\"metric_ntt6hh2zo0g_bqnlnm9cpuo\",\"sqlExpression\":null}],\"only_total\":true,\"order_desc\":true,\"rich_tooltip\":true,\"row_limit\":10000,\"slice_id\":3306,\"time_grain_sqla\":null,\"time_range\":\"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"tooltipTimeFormat\":\"smart_date\",\"truncateYAxis\":true,\"url_params\":{},\"viz_type\":\"echarts_timeseries_bar\",\"x_axis_time_format\":\"smart_date\",\"x_axis_title_margin\":15,\"y_axis_bounds\":[null,null],\"y_axis_format\":\"SMART_NUMBER\",\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"zoomable\":true,\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "CHINA MACRO CPI YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3310,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3310, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO INDUSTRIAL PRODUCTION YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3303,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"CPI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3303, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CPI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3721,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Chinese Industrial Production YTD  (YoY)' or event like 'Chinese Industrial Production YTD  (YoY)  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3721, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CHINESE INDUSTRIAL PRODUCTION YTD  YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3714,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Non-Manufacturing PMI' or event like 'Non-Manufacturing PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3714, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO NON-MANUFACTURING PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3324,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Chinese Retail Sales YTD  (YoY)\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3324, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CHINESE RETAIL SALES YTD  YOY ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3321,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Caixin Manufacturing PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3321, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CAIXIN MANUFACTURING PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3317,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3317, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO GDP YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3315,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Non-Manufacturing PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3315, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO NON-MANUFACTURING PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3308,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"Industrial Production\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3308, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3723,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Chinese Retail Sales YTD  (YoY)' or event like 'Chinese Retail Sales YTD  (YoY)  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3723, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CHINESE RETAIL SALES YTD  YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3716,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Caixin Manufacturing PMI' or event like 'Caixin Manufacturing PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3716, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CAIXIN MANUFACTURING PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3713,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Manufacturing PMI' or event like 'Manufacturing PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3713, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO MANUFACTURING PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3722,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Chinese Retail Sales YTD  (YoY)' or event like 'Chinese Retail Sales YTD  (YoY)  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3722, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CHINESE RETAIL SALES YTD  YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3719,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Caixin Services PMI' or event like 'Caixin Services PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3719, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO CAIXIN SERVICES PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3712,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"china\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'Manufacturing PMI' or event like 'Manufacturing PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3712, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "CHINA MACRO MANUFACTURING PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 176,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DATE",
+                            "uuid": "91e94ca0-90ac-424b-a5e5-e63f104ebaed",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 177,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f24deb65-b639-46df-a422-fa6cbc15075e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 178,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f6719d13-6f50-49da-9043-9b8785fbb183",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 179,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DOUBLE",
+                            "uuid": "87ddd675-be18-4bff-9e79-c68b622df84e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 180,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "34fe73b8-0111-4b83-9062-8c85cc9d462a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 181,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "db84ccf7-b2fe-4b81-b8f5-35722db1a8e5",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 19,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 19,
+                            "uuid": "eb25a047-7038-47ea-be3e-40363ddb4790",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 19, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar_processed",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 139,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER(11)",
+                            "uuid": "06c80d3d-4648-406f-91eb-74744acadc37",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 140,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DATE",
+                            "uuid": "331879bb-c27a-4c01-9ba4-17460c76c3e6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 141,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "3db4be2f-3511-42ee-afd7-8c2ca0225ef3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 142,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "b1e9b66c-8fcb-4930-9175-4c75a16fba46",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 143,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "8429e005-222a-43f9-a3bb-39544d992c8f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 144,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "955da8e5-8655-4bab-b6f8-27be7f2d34f1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 145,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "630c3a65-cd6c-43d2-9390-a7cb5309c59a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "forecast",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 146,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "5ecba931-ca32-4daa-9b39-5d40f2d3e6ac",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 14,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 14,
+                            "uuid": "037556b5-747e-43ec-aab9-98eab1f575e8",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 14, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar",
+                "template_params": null
+            }
+        }
+    ]
+}

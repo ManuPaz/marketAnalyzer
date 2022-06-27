@@ -1,3 +1,5 @@
+#other configuration/properties files:
+  #utils/database/macro_queries_string
 bd:
   host: localhost
   user: usuario1
@@ -54,8 +56,8 @@ macro:
                       "france": [ "PA" ]
                       }
 
-  events_to_save: ["core cpi", "cpi", "house prizes index", "interest rate decision", "retail sales",
-                  "unemployment rate", "bluiding permits", "industrial production", "factory orders", "manufacturing pmi", "services pmi",
+  events_to_save: ["core cpi", "cpi", "house prizes", "interest rate decision", "retail sales",
+                  "unemployment rate", "building permits", "industrial production", "factory orders", "manufacturing pmi", "services pmi",
                   "gdp","consumer confidence"]
   countries_working: [ "germany",  "spain", "france",
                       "euro zone", "united kingdom", "australia", "russia", "china", "japan", "united states"]

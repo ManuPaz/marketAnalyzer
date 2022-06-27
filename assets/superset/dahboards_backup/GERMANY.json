@@ -1,0 +1,832 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "GERMANY MACRO",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"\", \"positions\": {\"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"TABS-pmfs_hg03l\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"type\": \"HEADER\", \"meta\": {\"text\": \"GERMANY MACRO\"}}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"TAB-1ZbU641en3\": {\"children\": [\"ROW-u-w02v5_I\", \"ROW-wD4xiRCj-\", \"ROW-1CnHb2nNj\"], \"id\": \"TAB-1ZbU641en3\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"CPI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TAB-LXwYBVU1L\": {\"children\": [\"ROW-r8ViiDDd4\", \"ROW-b2ScX0zW2\"], \"id\": \"TAB-LXwYBVU1L\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"INDUSTRIAL PRODUCTION\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TAB-UHY-WUOLu\": {\"children\": [\"ROW-6nXHHlUB1\", \"ROW-yqPRvdg7F\", \"ROW-9A0KbXqGE\", \"ROW-rmoJfquxs\"], \"id\": \"TAB-UHY-WUOLu\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"PMI\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TAB-VXwgaJNpC\": {\"children\": [\"ROW-ICEKqsRlz\", \"ROW-t3w5AGcg0\"], \"id\": \"TAB-VXwgaJNpC\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"UNEMPLOYMENT RATE\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TAB-dtyByoJoQ\": {\"children\": [\"ROW-W-xrTOsYL\", \"ROW-pKyGcGgPQ\"], \"id\": \"TAB-dtyByoJoQ\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"FACTORY ORDERS\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TAB-jOq_PzJnu\": {\"children\": [\"ROW-k-vu4l49t\", \"ROW-x8m0iyXwY\", \"ROW-TzMt0FHju\"], \"id\": \"TAB-jOq_PzJnu\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"GDP\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TAB-nkwz3OWrH\": {\"children\": [\"ROW-74unodQ1g\", \"ROW-Fn1t2l6Tn\", \"ROW-9WcMRqs8G\"], \"id\": \"TAB-nkwz3OWrH\", \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"RETAIL SALES\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\"], \"type\": \"TAB\"}, \"TABS-pmfs_hg03l\": {\"children\": [\"TAB-1ZbU641en3\", \"TAB-VXwgaJNpC\", \"TAB-UHY-WUOLu\", \"TAB-nkwz3OWrH\", \"TAB-dtyByoJoQ\", \"TAB-LXwYBVU1L\", \"TAB-jOq_PzJnu\"], \"id\": \"TABS-pmfs_hg03l\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"TABS\"}, \"CHART-hTZ7E8iohR\": {\"type\": \"CHART\", \"id\": \"CHART-hTZ7E8iohR\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\", \"ROW-6nXHHlUB1\"], \"meta\": {\"width\": 12, \"height\": 53, \"chartId\": 3400, \"sliceName\": \"GERMANY MACRO GERMAN MANUFACTURING PMI ECHARTS_TIMESERIES\"}}, \"CHART-cKOFoSlrut\": {\"type\": \"CHART\", \"id\": \"CHART-cKOFoSlrut\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\", \"ROW-x8m0iyXwY\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3396, \"sliceName\": \"GERMANY MACRO GERMAN GDP YOY TABLE\"}}, \"CHART-1GMMD2si2w\": {\"type\": \"CHART\", \"id\": \"CHART-1GMMD2si2w\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-LXwYBVU1L\", \"ROW-b2ScX0zW2\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3387, \"sliceName\": \"GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION MOM TABLE\"}}, \"CHART-Qr893tMibS\": {\"type\": \"CHART\", \"id\": \"CHART-Qr893tMibS\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-dtyByoJoQ\", \"ROW-pKyGcGgPQ\"], \"meta\": {\"width\": 8, \"height\": 48, \"chartId\": 3385, \"sliceName\": \"GERMANY MACRO GERMAN FACTORY ORDERS MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-ySCx1pySMT\": {\"type\": \"CHART\", \"id\": \"CHART-ySCx1pySMT\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\", \"ROW-1CnHb2nNj\"], \"meta\": {\"width\": 8, \"height\": 54, \"chartId\": 3381, \"sliceName\": \"GERMANY MACRO GERMAN CPI YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-FqGEWIypPt\": {\"type\": \"CHART\", \"id\": \"CHART-FqGEWIypPt\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\", \"ROW-u-w02v5_I\"], \"meta\": {\"width\": 12, \"height\": 53, \"chartId\": 3378, \"sliceName\": \"GERMANY MACRO GERMAN CPI ECHARTS_TIMESERIES\"}}, \"CHART-HcK1TOq8Ck\": {\"type\": \"CHART\", \"id\": \"CHART-HcK1TOq8Ck\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\", \"ROW-TzMt0FHju\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3399, \"sliceName\": \"GERMANY MACRO GERMAN GDP QOQ ECHARTS_TIMESERIES_BAR\"}}, \"CHART-F4PM58WxoL\": {\"type\": \"CHART\", \"id\": \"CHART-F4PM58WxoL\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\", \"ROW-74unodQ1g\"], \"meta\": {\"width\": 12, \"height\": 52, \"chartId\": 3390, \"sliceName\": \"GERMANY MACRO GERMAN RETAIL SALES ECHARTS_TIMESERIES\"}}, \"CHART-K8uX7WSC7L\": {\"type\": \"CHART\", \"id\": \"CHART-K8uX7WSC7L\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-dtyByoJoQ\", \"ROW-pKyGcGgPQ\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3384, \"sliceName\": \"GERMANY MACRO GERMAN FACTORY ORDERS MOM TABLE\"}}, \"CHART-70yQ1D8bzO\": {\"type\": \"CHART\", \"id\": \"CHART-70yQ1D8bzO\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\", \"ROW-wD4xiRCj-\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3380, \"sliceName\": \"GERMANY MACRO GERMAN CPI MOM TABLE\"}}, \"CHART-nGoaMSC_x1\": {\"type\": \"CHART\", \"id\": \"CHART-nGoaMSC_x1\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\", \"ROW-rmoJfquxs\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3747, \"sliceName\": \"GERMANY MACRO GERMAN MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\"}}, \"CHART-5QursGkZI2t\": {\"type\": \"CHART\", \"id\": \"CHART-5QursGkZI2t\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\", \"ROW-TzMt0FHju\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3397, \"sliceName\": \"GERMANY MACRO GERMAN GDP QOQ TABLE\"}}, \"CHART-WoHyN6NMDRn\": {\"type\": \"CHART\", \"id\": \"CHART-WoHyN6NMDRn\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\", \"ROW-9WcMRqs8G\"], \"meta\": {\"width\": 8, \"height\": 55, \"chartId\": 3394, \"sliceName\": \"GERMANY MACRO GERMAN RETAIL SALES MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-2ww5E_bzy3B\": {\"type\": \"CHART\", \"id\": \"CHART-2ww5E_bzy3B\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-LXwYBVU1L\", \"ROW-b2ScX0zW2\"], \"meta\": {\"width\": 8, \"height\": 56, \"chartId\": 3388, \"sliceName\": \"GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-U-KVYiaqqZo\": {\"type\": \"CHART\", \"id\": \"CHART-U-KVYiaqqZo\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-dtyByoJoQ\", \"ROW-W-xrTOsYL\"], \"meta\": {\"width\": 12, \"height\": 56, \"chartId\": 3383, \"sliceName\": \"GERMANY MACRO GERMAN FACTORY ORDERS ECHARTS_TIMESERIES\"}}, \"CHART-z0V3QmRgik0\": {\"type\": \"CHART\", \"id\": \"CHART-z0V3QmRgik0\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\", \"ROW-1CnHb2nNj\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3379, \"sliceName\": \"GERMANY MACRO GERMAN CPI YOY TABLE\"}}, \"CHART-bo7EGpGuoGo\": {\"type\": \"CHART\", \"id\": \"CHART-bo7EGpGuoGo\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\", \"ROW-9A0KbXqGE\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3748, \"sliceName\": \"GERMANY MACRO GERMAN SERVICES PMI TABLE\"}}, \"CHART-wC1k0J3rcXr\": {\"type\": \"CHART\", \"id\": \"CHART-wC1k0J3rcXr\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-VXwgaJNpC\", \"ROW-t3w5AGcg0\"], \"meta\": {\"width\": 8, \"height\": 58, \"chartId\": 3745, \"sliceName\": \"GERMANY MACRO GERMAN UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR\"}}, \"CHART-PyYTCJQ6i0V\": {\"type\": \"CHART\", \"id\": \"CHART-PyYTCJQ6i0V\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\", \"ROW-yqPRvdg7F\"], \"meta\": {\"width\": 12, \"height\": 48, \"chartId\": 3401, \"sliceName\": \"GERMANY MACRO GERMAN SERVICES PMI ECHARTS_TIMESERIES\"}}, \"CHART-t6dua_C2U64\": {\"type\": \"CHART\", \"id\": \"CHART-t6dua_C2U64\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\", \"ROW-Fn1t2l6Tn\"], \"meta\": {\"width\": 8, \"height\": 50, \"chartId\": 3393, \"sliceName\": \"GERMANY MACRO GERMAN RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-S7gSAIrjqJ-\": {\"type\": \"CHART\", \"id\": \"CHART-S7gSAIrjqJ-\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\", \"ROW-Fn1t2l6Tn\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3391, \"sliceName\": \"GERMANY MACRO GERMAN RETAIL SALES YOY TABLE\"}}, \"CHART-79hBsb7jfv1\": {\"type\": \"CHART\", \"id\": \"CHART-79hBsb7jfv1\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-LXwYBVU1L\", \"ROW-r8ViiDDd4\"], \"meta\": {\"width\": 12, \"height\": 55, \"chartId\": 3386, \"sliceName\": \"GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\"}}, \"CHART-TQD-Lh9siS0\": {\"type\": \"CHART\", \"id\": \"CHART-TQD-Lh9siS0\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\", \"ROW-wD4xiRCj-\"], \"meta\": {\"width\": 8, \"height\": 49, \"chartId\": 3382, \"sliceName\": \"GERMANY MACRO GERMAN CPI MOM ECHARTS_TIMESERIES_BAR\"}}, \"CHART-sAPfP5uTn8q\": {\"type\": \"CHART\", \"id\": \"CHART-sAPfP5uTn8q\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-VXwgaJNpC\", \"ROW-t3w5AGcg0\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3744, \"sliceName\": \"GERMANY MACRO GERMAN UNEMPLOYMENT RATE TABLE\"}}, \"CHART-IN6hV3zIGKC\": {\"type\": \"CHART\", \"id\": \"CHART-IN6hV3zIGKC\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\", \"ROW-x8m0iyXwY\"], \"meta\": {\"width\": 8, \"height\": 57, \"chartId\": 3398, \"sliceName\": \"GERMANY MACRO GERMAN GDP YOY ECHARTS_TIMESERIES_BAR\"}}, \"CHART-EVYRGddmTXD\": {\"type\": \"CHART\", \"id\": \"CHART-EVYRGddmTXD\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\", \"ROW-k-vu4l49t\"], \"meta\": {\"width\": 12, \"height\": 52, \"chartId\": 3395, \"sliceName\": \"GERMANY MACRO GERMAN GDP ECHARTS_TIMESERIES\"}}, \"CHART-x-0pI11Ac-e\": {\"type\": \"CHART\", \"id\": \"CHART-x-0pI11Ac-e\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\", \"ROW-9WcMRqs8G\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3392, \"sliceName\": \"GERMANY MACRO GERMAN RETAIL SALES MOM TABLE\"}}, \"CHART-v9jM3-gF9Ec\": {\"type\": \"CHART\", \"id\": \"CHART-v9jM3-gF9Ec\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-VXwgaJNpC\", \"ROW-ICEKqsRlz\"], \"meta\": {\"width\": 12, \"height\": 56, \"chartId\": 3389, \"sliceName\": \"GERMANY MACRO GERMAN UNEMPLOYMENT RATE ECHARTS_TIMESERIES\"}}, \"CHART-luniphoSX0Y\": {\"type\": \"CHART\", \"id\": \"CHART-luniphoSX0Y\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\", \"ROW-rmoJfquxs\"], \"meta\": {\"width\": 4, \"height\": 50, \"chartId\": 3746, \"sliceName\": \"GERMANY MACRO GERMAN MANUFACTURING PMI TABLE\"}}, \"CHART-2hqbqUzClgu\": {\"type\": \"CHART\", \"id\": \"CHART-2hqbqUzClgu\", \"children\": [], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\", \"ROW-9A0KbXqGE\"], \"meta\": {\"width\": 8, \"height\": 51, \"chartId\": 3749, \"sliceName\": \"GERMANY MACRO GERMAN SERVICES PMI ECHARTS_TIMESERIES_BAR\"}}, \"ROW-6nXHHlUB1\": {\"type\": \"ROW\", \"id\": \"ROW-6nXHHlUB1\", \"children\": [\"CHART-hTZ7E8iohR\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-u-w02v5_I\": {\"type\": \"ROW\", \"id\": \"ROW-u-w02v5_I\", \"children\": [\"CHART-FqGEWIypPt\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-74unodQ1g\": {\"type\": \"ROW\", \"id\": \"ROW-74unodQ1g\", \"children\": [\"CHART-F4PM58WxoL\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-W-xrTOsYL\": {\"type\": \"ROW\", \"id\": \"ROW-W-xrTOsYL\", \"children\": [\"CHART-U-KVYiaqqZo\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-dtyByoJoQ\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-yqPRvdg7F\": {\"type\": \"ROW\", \"id\": \"ROW-yqPRvdg7F\", \"children\": [\"CHART-PyYTCJQ6i0V\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-r8ViiDDd4\": {\"type\": \"ROW\", \"id\": \"ROW-r8ViiDDd4\", \"children\": [\"CHART-79hBsb7jfv1\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-LXwYBVU1L\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-k-vu4l49t\": {\"type\": \"ROW\", \"id\": \"ROW-k-vu4l49t\", \"children\": [\"CHART-EVYRGddmTXD\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-ICEKqsRlz\": {\"type\": \"ROW\", \"id\": \"ROW-ICEKqsRlz\", \"children\": [\"CHART-v9jM3-gF9Ec\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-VXwgaJNpC\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-x8m0iyXwY\": {\"type\": \"ROW\", \"id\": \"ROW-x8m0iyXwY\", \"children\": [\"CHART-cKOFoSlrut\", \"CHART-IN6hV3zIGKC\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-b2ScX0zW2\": {\"type\": \"ROW\", \"id\": \"ROW-b2ScX0zW2\", \"children\": [\"CHART-1GMMD2si2w\", \"CHART-2ww5E_bzy3B\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-LXwYBVU1L\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-pKyGcGgPQ\": {\"type\": \"ROW\", \"id\": \"ROW-pKyGcGgPQ\", \"children\": [\"CHART-K8uX7WSC7L\", \"CHART-Qr893tMibS\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-dtyByoJoQ\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-wD4xiRCj-\": {\"type\": \"ROW\", \"id\": \"ROW-wD4xiRCj-\", \"children\": [\"CHART-70yQ1D8bzO\", \"CHART-TQD-Lh9siS0\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-TzMt0FHju\": {\"type\": \"ROW\", \"id\": \"ROW-TzMt0FHju\", \"children\": [\"CHART-5QursGkZI2t\", \"CHART-HcK1TOq8Ck\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-jOq_PzJnu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-9A0KbXqGE\": {\"type\": \"ROW\", \"id\": \"ROW-9A0KbXqGE\", \"children\": [\"CHART-bo7EGpGuoGo\", \"CHART-2hqbqUzClgu\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-1CnHb2nNj\": {\"type\": \"ROW\", \"id\": \"ROW-1CnHb2nNj\", \"children\": [\"CHART-z0V3QmRgik0\", \"CHART-ySCx1pySMT\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-1ZbU641en3\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-Fn1t2l6Tn\": {\"type\": \"ROW\", \"id\": \"ROW-Fn1t2l6Tn\", \"children\": [\"CHART-S7gSAIrjqJ-\", \"CHART-t6dua_C2U64\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-t3w5AGcg0\": {\"type\": \"ROW\", \"id\": \"ROW-t3w5AGcg0\", \"children\": [\"CHART-sAPfP5uTn8q\", \"CHART-wC1k0J3rcXr\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-VXwgaJNpC\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-9WcMRqs8G\": {\"type\": \"ROW\", \"id\": \"ROW-9WcMRqs8G\", \"children\": [\"CHART-x-0pI11Ac-e\", \"CHART-WoHyN6NMDRn\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-nkwz3OWrH\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-rmoJfquxs\": {\"type\": \"ROW\", \"id\": \"ROW-rmoJfquxs\", \"children\": [\"CHART-luniphoSX0Y\", \"CHART-nGoaMSC_x1\"], \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"TABS-pmfs_hg03l\", \"TAB-UHY-WUOLu\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}}, \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"remote_id\": 10}",
+                "position_json": "{\"CHART-1GMMD2si2w\":{\"children\":[],\"id\":\"CHART-1GMMD2si2w\",\"meta\":{\"chartId\":3387,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION MOM TABLE\",\"uuid\":\"95b44855-72c5-496f-86cd-0fc1941f4486\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-LXwYBVU1L\",\"ROW-b2ScX0zW2\"],\"type\":\"CHART\"},\"CHART-2hqbqUzClgu\":{\"children\":[],\"id\":\"CHART-2hqbqUzClgu\",\"meta\":{\"chartId\":3749,\"height\":51,\"sliceName\":\"GERMANY MACRO GERMAN SERVICES PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"27d3f2d6-ddcc-48cc-8637-5ed3b8fc181b\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\",\"ROW-9A0KbXqGE\"],\"type\":\"CHART\"},\"CHART-2ww5E_bzy3B\":{\"children\":[],\"id\":\"CHART-2ww5E_bzy3B\",\"meta\":{\"chartId\":3388,\"height\":56,\"sliceName\":\"GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"8df6832f-47c2-445a-8345-6ebd63e0b0b8\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-LXwYBVU1L\",\"ROW-b2ScX0zW2\"],\"type\":\"CHART\"},\"CHART-5QursGkZI2t\":{\"children\":[],\"id\":\"CHART-5QursGkZI2t\",\"meta\":{\"chartId\":3397,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN GDP QOQ TABLE\",\"uuid\":\"69375e1f-97f7-49e1-908d-f4228989e422\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\",\"ROW-TzMt0FHju\"],\"type\":\"CHART\"},\"CHART-70yQ1D8bzO\":{\"children\":[],\"id\":\"CHART-70yQ1D8bzO\",\"meta\":{\"chartId\":3380,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN CPI MOM TABLE\",\"uuid\":\"4ffa05e8-1667-4baa-b172-5c1a5509b078\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\",\"ROW-wD4xiRCj-\"],\"type\":\"CHART\"},\"CHART-79hBsb7jfv1\":{\"children\":[],\"id\":\"CHART-79hBsb7jfv1\",\"meta\":{\"chartId\":3386,\"height\":55,\"sliceName\":\"GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES\",\"uuid\":\"d43dd4f9-4137-4571-871c-8011849e603a\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-LXwYBVU1L\",\"ROW-r8ViiDDd4\"],\"type\":\"CHART\"},\"CHART-EVYRGddmTXD\":{\"children\":[],\"id\":\"CHART-EVYRGddmTXD\",\"meta\":{\"chartId\":3395,\"height\":52,\"sliceName\":\"GERMANY MACRO GERMAN GDP ECHARTS_TIMESERIES\",\"uuid\":\"f4e792f3-1aa1-436b-a4e8-0b68b212117c\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\",\"ROW-k-vu4l49t\"],\"type\":\"CHART\"},\"CHART-F4PM58WxoL\":{\"children\":[],\"id\":\"CHART-F4PM58WxoL\",\"meta\":{\"chartId\":3390,\"height\":52,\"sliceName\":\"GERMANY MACRO GERMAN RETAIL SALES ECHARTS_TIMESERIES\",\"uuid\":\"271fd89b-9ae4-4b0f-89d1-c7799c2e889a\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\",\"ROW-74unodQ1g\"],\"type\":\"CHART\"},\"CHART-FqGEWIypPt\":{\"children\":[],\"id\":\"CHART-FqGEWIypPt\",\"meta\":{\"chartId\":3378,\"height\":53,\"sliceName\":\"GERMANY MACRO GERMAN CPI ECHARTS_TIMESERIES\",\"uuid\":\"c16de773-9e7e-42d7-9b4a-12ac0d7ccbfd\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\",\"ROW-u-w02v5_I\"],\"type\":\"CHART\"},\"CHART-HcK1TOq8Ck\":{\"children\":[],\"id\":\"CHART-HcK1TOq8Ck\",\"meta\":{\"chartId\":3399,\"height\":51,\"sliceName\":\"GERMANY MACRO GERMAN GDP QOQ ECHARTS_TIMESERIES_BAR\",\"uuid\":\"ab0abf52-c217-45c2-af41-c6cf6d46e00c\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\",\"ROW-TzMt0FHju\"],\"type\":\"CHART\"},\"CHART-IN6hV3zIGKC\":{\"children\":[],\"id\":\"CHART-IN6hV3zIGKC\",\"meta\":{\"chartId\":3398,\"height\":57,\"sliceName\":\"GERMANY MACRO GERMAN GDP YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"7e0b9d34-921d-4c98-ba66-0ff776900ca5\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\",\"ROW-x8m0iyXwY\"],\"type\":\"CHART\"},\"CHART-K8uX7WSC7L\":{\"children\":[],\"id\":\"CHART-K8uX7WSC7L\",\"meta\":{\"chartId\":3384,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN FACTORY ORDERS MOM TABLE\",\"uuid\":\"7676c8cd-c447-4976-9956-df7e61ce19d5\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-dtyByoJoQ\",\"ROW-pKyGcGgPQ\"],\"type\":\"CHART\"},\"CHART-PyYTCJQ6i0V\":{\"children\":[],\"id\":\"CHART-PyYTCJQ6i0V\",\"meta\":{\"chartId\":3401,\"height\":48,\"sliceName\":\"GERMANY MACRO GERMAN SERVICES PMI ECHARTS_TIMESERIES\",\"uuid\":\"5d554976-0579-4b29-96be-79830accbd58\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\",\"ROW-yqPRvdg7F\"],\"type\":\"CHART\"},\"CHART-Qr893tMibS\":{\"children\":[],\"id\":\"CHART-Qr893tMibS\",\"meta\":{\"chartId\":3385,\"height\":48,\"sliceName\":\"GERMANY MACRO GERMAN FACTORY ORDERS MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"83491074-f7c7-4082-8296-e13d73092b08\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-dtyByoJoQ\",\"ROW-pKyGcGgPQ\"],\"type\":\"CHART\"},\"CHART-S7gSAIrjqJ-\":{\"children\":[],\"id\":\"CHART-S7gSAIrjqJ-\",\"meta\":{\"chartId\":3391,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN RETAIL SALES YOY TABLE\",\"uuid\":\"b9c03856-6719-4806-922e-f5144dfbe72a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\",\"ROW-Fn1t2l6Tn\"],\"type\":\"CHART\"},\"CHART-TQD-Lh9siS0\":{\"children\":[],\"id\":\"CHART-TQD-Lh9siS0\",\"meta\":{\"chartId\":3382,\"height\":49,\"sliceName\":\"GERMANY MACRO GERMAN CPI MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"96561874-73da-492c-be6c-bc36d82797fe\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\",\"ROW-wD4xiRCj-\"],\"type\":\"CHART\"},\"CHART-U-KVYiaqqZo\":{\"children\":[],\"id\":\"CHART-U-KVYiaqqZo\",\"meta\":{\"chartId\":3383,\"height\":56,\"sliceName\":\"GERMANY MACRO GERMAN FACTORY ORDERS ECHARTS_TIMESERIES\",\"uuid\":\"d184af85-e6e9-4b5f-aa00-8fde97d7fa5f\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-dtyByoJoQ\",\"ROW-W-xrTOsYL\"],\"type\":\"CHART\"},\"CHART-WoHyN6NMDRn\":{\"children\":[],\"id\":\"CHART-WoHyN6NMDRn\",\"meta\":{\"chartId\":3394,\"height\":55,\"sliceName\":\"GERMANY MACRO GERMAN RETAIL SALES MOM ECHARTS_TIMESERIES_BAR\",\"uuid\":\"f4e2dc51-afa3-4a3a-afe9-8bcdead39d67\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\",\"ROW-9WcMRqs8G\"],\"type\":\"CHART\"},\"CHART-bo7EGpGuoGo\":{\"children\":[],\"id\":\"CHART-bo7EGpGuoGo\",\"meta\":{\"chartId\":3748,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN SERVICES PMI TABLE\",\"uuid\":\"95e89a30-d6a2-41fd-8974-e654d0561e3e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\",\"ROW-9A0KbXqGE\"],\"type\":\"CHART\"},\"CHART-cKOFoSlrut\":{\"children\":[],\"id\":\"CHART-cKOFoSlrut\",\"meta\":{\"chartId\":3396,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN GDP YOY TABLE\",\"uuid\":\"231d1845-c629-4235-908e-4d12c1bcef23\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\",\"ROW-x8m0iyXwY\"],\"type\":\"CHART\"},\"CHART-hTZ7E8iohR\":{\"children\":[],\"id\":\"CHART-hTZ7E8iohR\",\"meta\":{\"chartId\":3400,\"height\":53,\"sliceName\":\"GERMANY MACRO GERMAN MANUFACTURING PMI ECHARTS_TIMESERIES\",\"uuid\":\"9b666a29-836f-4995-92a9-6d51e8a926d2\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\",\"ROW-6nXHHlUB1\"],\"type\":\"CHART\"},\"CHART-luniphoSX0Y\":{\"children\":[],\"id\":\"CHART-luniphoSX0Y\",\"meta\":{\"chartId\":3746,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN MANUFACTURING PMI TABLE\",\"uuid\":\"279a1a05-2bee-4528-920f-732906ce2f6b\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\",\"ROW-rmoJfquxs\"],\"type\":\"CHART\"},\"CHART-nGoaMSC_x1\":{\"children\":[],\"id\":\"CHART-nGoaMSC_x1\",\"meta\":{\"chartId\":3747,\"height\":51,\"sliceName\":\"GERMANY MACRO GERMAN MANUFACTURING PMI ECHARTS_TIMESERIES_BAR\",\"uuid\":\"7e7be981-bbb1-4d20-8258-47338d4d5a69\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\",\"ROW-rmoJfquxs\"],\"type\":\"CHART\"},\"CHART-sAPfP5uTn8q\":{\"children\":[],\"id\":\"CHART-sAPfP5uTn8q\",\"meta\":{\"chartId\":3744,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN UNEMPLOYMENT RATE TABLE\",\"uuid\":\"54b50a50-407f-416e-8a27-40d21d00ee85\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-VXwgaJNpC\",\"ROW-t3w5AGcg0\"],\"type\":\"CHART\"},\"CHART-t6dua_C2U64\":{\"children\":[],\"id\":\"CHART-t6dua_C2U64\",\"meta\":{\"chartId\":3393,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN RETAIL SALES YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"e4e6069a-143d-47c6-9f1f-dc092e1031f3\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\",\"ROW-Fn1t2l6Tn\"],\"type\":\"CHART\"},\"CHART-v9jM3-gF9Ec\":{\"children\":[],\"id\":\"CHART-v9jM3-gF9Ec\",\"meta\":{\"chartId\":3389,\"height\":56,\"sliceName\":\"GERMANY MACRO GERMAN UNEMPLOYMENT RATE ECHARTS_TIMESERIES\",\"uuid\":\"207dbe1f-b693-4e0a-a5ff-b684d491e400\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-VXwgaJNpC\",\"ROW-ICEKqsRlz\"],\"type\":\"CHART\"},\"CHART-wC1k0J3rcXr\":{\"children\":[],\"id\":\"CHART-wC1k0J3rcXr\",\"meta\":{\"chartId\":3745,\"height\":58,\"sliceName\":\"GERMANY MACRO GERMAN UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR\",\"uuid\":\"c8b4218b-bbc1-441a-ad3c-6abdf5e53199\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-VXwgaJNpC\",\"ROW-t3w5AGcg0\"],\"type\":\"CHART\"},\"CHART-x-0pI11Ac-e\":{\"children\":[],\"id\":\"CHART-x-0pI11Ac-e\",\"meta\":{\"chartId\":3392,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN RETAIL SALES MOM TABLE\",\"uuid\":\"457f8995-5009-40c1-9f14-a1cf2fda33c7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\",\"ROW-9WcMRqs8G\"],\"type\":\"CHART\"},\"CHART-ySCx1pySMT\":{\"children\":[],\"id\":\"CHART-ySCx1pySMT\",\"meta\":{\"chartId\":3381,\"height\":54,\"sliceName\":\"GERMANY MACRO GERMAN CPI YOY ECHARTS_TIMESERIES_BAR\",\"uuid\":\"173f6910-c34a-4d3c-bccb-5d157bd3576b\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\",\"ROW-1CnHb2nNj\"],\"type\":\"CHART\"},\"CHART-z0V3QmRgik0\":{\"children\":[],\"id\":\"CHART-z0V3QmRgik0\",\"meta\":{\"chartId\":3379,\"height\":50,\"sliceName\":\"GERMANY MACRO GERMAN CPI YOY TABLE\",\"uuid\":\"8f45b9c2-b0ef-42ff-90a7-3bf01808f03b\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\",\"ROW-1CnHb2nNj\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-pmfs_hg03l\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"GERMANY MACRO\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-1CnHb2nNj\":{\"children\":[\"CHART-z0V3QmRgik0\",\"CHART-ySCx1pySMT\"],\"id\":\"ROW-1CnHb2nNj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\"],\"type\":\"ROW\"},\"ROW-6nXHHlUB1\":{\"children\":[\"CHART-hTZ7E8iohR\"],\"id\":\"ROW-6nXHHlUB1\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\"],\"type\":\"ROW\"},\"ROW-74unodQ1g\":{\"children\":[\"CHART-F4PM58WxoL\"],\"id\":\"ROW-74unodQ1g\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\"],\"type\":\"ROW\"},\"ROW-9A0KbXqGE\":{\"children\":[\"CHART-bo7EGpGuoGo\",\"CHART-2hqbqUzClgu\"],\"id\":\"ROW-9A0KbXqGE\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\"],\"type\":\"ROW\"},\"ROW-9WcMRqs8G\":{\"children\":[\"CHART-x-0pI11Ac-e\",\"CHART-WoHyN6NMDRn\"],\"id\":\"ROW-9WcMRqs8G\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\"],\"type\":\"ROW\"},\"ROW-Fn1t2l6Tn\":{\"children\":[\"CHART-S7gSAIrjqJ-\",\"CHART-t6dua_C2U64\"],\"id\":\"ROW-Fn1t2l6Tn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-nkwz3OWrH\"],\"type\":\"ROW\"},\"ROW-ICEKqsRlz\":{\"children\":[\"CHART-v9jM3-gF9Ec\"],\"id\":\"ROW-ICEKqsRlz\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-VXwgaJNpC\"],\"type\":\"ROW\"},\"ROW-TzMt0FHju\":{\"children\":[\"CHART-5QursGkZI2t\",\"CHART-HcK1TOq8Ck\"],\"id\":\"ROW-TzMt0FHju\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\"],\"type\":\"ROW\"},\"ROW-W-xrTOsYL\":{\"children\":[\"CHART-U-KVYiaqqZo\"],\"id\":\"ROW-W-xrTOsYL\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-dtyByoJoQ\"],\"type\":\"ROW\"},\"ROW-b2ScX0zW2\":{\"children\":[\"CHART-1GMMD2si2w\",\"CHART-2ww5E_bzy3B\"],\"id\":\"ROW-b2ScX0zW2\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-LXwYBVU1L\"],\"type\":\"ROW\"},\"ROW-k-vu4l49t\":{\"children\":[\"CHART-EVYRGddmTXD\"],\"id\":\"ROW-k-vu4l49t\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\"],\"type\":\"ROW\"},\"ROW-pKyGcGgPQ\":{\"children\":[\"CHART-K8uX7WSC7L\",\"CHART-Qr893tMibS\"],\"id\":\"ROW-pKyGcGgPQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-dtyByoJoQ\"],\"type\":\"ROW\"},\"ROW-r8ViiDDd4\":{\"children\":[\"CHART-79hBsb7jfv1\"],\"id\":\"ROW-r8ViiDDd4\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-LXwYBVU1L\"],\"type\":\"ROW\"},\"ROW-rmoJfquxs\":{\"children\":[\"CHART-luniphoSX0Y\",\"CHART-nGoaMSC_x1\"],\"id\":\"ROW-rmoJfquxs\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\"],\"type\":\"ROW\"},\"ROW-t3w5AGcg0\":{\"children\":[\"CHART-sAPfP5uTn8q\",\"CHART-wC1k0J3rcXr\"],\"id\":\"ROW-t3w5AGcg0\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-VXwgaJNpC\"],\"type\":\"ROW\"},\"ROW-u-w02v5_I\":{\"children\":[\"CHART-FqGEWIypPt\"],\"id\":\"ROW-u-w02v5_I\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\"],\"type\":\"ROW\"},\"ROW-wD4xiRCj-\":{\"children\":[\"CHART-70yQ1D8bzO\",\"CHART-TQD-Lh9siS0\"],\"id\":\"ROW-wD4xiRCj-\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-1ZbU641en3\"],\"type\":\"ROW\"},\"ROW-x8m0iyXwY\":{\"children\":[\"CHART-cKOFoSlrut\",\"CHART-IN6hV3zIGKC\"],\"id\":\"ROW-x8m0iyXwY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-jOq_PzJnu\"],\"type\":\"ROW\"},\"ROW-yqPRvdg7F\":{\"children\":[\"CHART-PyYTCJQ6i0V\"],\"id\":\"ROW-yqPRvdg7F\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\",\"TAB-UHY-WUOLu\"],\"type\":\"ROW\"},\"TAB-1ZbU641en3\":{\"children\":[\"ROW-u-w02v5_I\",\"ROW-wD4xiRCj-\",\"ROW-1CnHb2nNj\"],\"id\":\"TAB-1ZbU641en3\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"CPI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TAB-LXwYBVU1L\":{\"children\":[\"ROW-r8ViiDDd4\",\"ROW-b2ScX0zW2\"],\"id\":\"TAB-LXwYBVU1L\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"INDUSTRIAL PRODUCTION\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TAB-UHY-WUOLu\":{\"children\":[\"ROW-6nXHHlUB1\",\"ROW-yqPRvdg7F\",\"ROW-9A0KbXqGE\",\"ROW-rmoJfquxs\"],\"id\":\"TAB-UHY-WUOLu\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"PMI\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TAB-VXwgaJNpC\":{\"children\":[\"ROW-ICEKqsRlz\",\"ROW-t3w5AGcg0\"],\"id\":\"TAB-VXwgaJNpC\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"UNEMPLOYMENT RATE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TAB-dtyByoJoQ\":{\"children\":[\"ROW-W-xrTOsYL\",\"ROW-pKyGcGgPQ\"],\"id\":\"TAB-dtyByoJoQ\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"FACTORY ORDERS\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TAB-jOq_PzJnu\":{\"children\":[\"ROW-k-vu4l49t\",\"ROW-x8m0iyXwY\",\"ROW-TzMt0FHju\"],\"id\":\"TAB-jOq_PzJnu\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"GDP\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TAB-nkwz3OWrH\":{\"children\":[\"ROW-74unodQ1g\",\"ROW-Fn1t2l6Tn\",\"ROW-9WcMRqs8G\"],\"id\":\"TAB-nkwz3OWrH\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"RETAIL SALES\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-pmfs_hg03l\"],\"type\":\"TAB\"},\"TABS-pmfs_hg03l\":{\"children\":[\"TAB-1ZbU641en3\",\"TAB-VXwgaJNpC\",\"TAB-UHY-WUOLu\",\"TAB-nkwz3OWrH\",\"TAB-dtyByoJoQ\",\"TAB-LXwYBVU1L\",\"TAB-jOq_PzJnu\"],\"id\":\"TABS-pmfs_hg03l\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3400,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Manufacturing PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3400, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN MANUFACTURING PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3396,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3396, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN GDP YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3387,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Industrial Production (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3387, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": "{\"datasource\":{\"id\":14,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"Date\",\"filters\":[{\"col\":\"zone\",\"op\":\"==\",\"val\":\"germany\"},{\"col\":\"event\",\"op\":\"LIKE\",\"val\":\"German Industrial Production (MoM)%\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"Date\",\"event\",\"actual\"],\"orderby\":[[\"Date\",false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"adhoc_filters\":[{\"clause\":\"WHERE\",\"comparator\":\"germany\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_6x2l66ryxjq_7elg3m2fcfs\",\"isExtra\":false,\"isNew\":false,\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"sqlExpression\":null,\"subject\":\"zone\"},{\"clause\":\"WHERE\",\"comparator\":\"German Industrial Production (MoM)%\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_9dcimmv4f8s_dwmacq3ilnu\",\"isExtra\":false,\"isNew\":false,\"operator\":\"LIKE\",\"operatorId\":\"LIKE\",\"sqlExpression\":null,\"subject\":\"event\"}],\"all_columns\":[\"Date\",\"event\",\"actual\"],\"color_pn\":true,\"datasource\":\"14__table\",\"extra_form_data\":{},\"granularity_sqla\":\"Date\",\"groupby\":[],\"order_by_cols\":[\"[\\\"Date\\\", false]\"],\"order_desc\":true,\"percent_metrics\":[],\"query_mode\":\"raw\",\"row_limit\":10000,\"server_page_length\":10,\"show_cell_bars\":true,\"table_timestamp_format\":\"smart_date\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"url_params\":{},\"viz_type\":\"table\",\"slice_id\":3387,\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\",\"include_time\":false},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3385,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Factory Orders (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3385, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN FACTORY ORDERS MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3381,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3381, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN CPI YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3378,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German CPI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3378, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN CPI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3399,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3399, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN GDP QOQ ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3390,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Retail Sales\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3390, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN RETAIL SALES ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3384,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Factory Orders (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3384, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN FACTORY ORDERS MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3380,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3380, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN CPI MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3747,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'German Manufacturing PMI' or event like 'German Manufacturing PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3747, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN MANUFACTURING PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3397,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German GDP (QoQ)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3397, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN GDP QOQ TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3394,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Retail Sales (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3394, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN RETAIL SALES MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3388,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Industrial Production (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3388, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3383,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Factory Orders\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3383, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN FACTORY ORDERS ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3379,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German CPI (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3379, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN CPI YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3748,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'German Services PMI' or event like 'German Services PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3748, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN SERVICES PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3745,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'German Unemployment Rate' or event like 'German Unemployment Rate  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3745, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN UNEMPLOYMENT RATE ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3401,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Services PMI\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3401, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN SERVICES PMI ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3393,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3393, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN RETAIL SALES YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3391,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Retail Sales (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3391, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN RETAIL SALES YOY TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3386,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Industrial Production\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3386, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN INDUSTRIAL PRODUCTION ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3382,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German CPI (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3382, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN CPI MOM ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3744,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'German Unemployment Rate' or event like 'German Unemployment Rate  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3744, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN UNEMPLOYMENT RATE TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3398,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German GDP (YoY)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_60rj4ivibzv_wqiw5fhrzwm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3398, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN GDP YOY ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3395,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German GDP\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3395, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN GDP ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3392,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Retail Sales (MoM)%\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9dcimmv4f8s_dwmacq3ilnu\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"event\"}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3392, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN RETAIL SALES MOM TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar_processed",
+                            "datasource_type": "table",
+                            "id": 3389,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_n5afrrwq48o_arqypsa3fw4\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": \"German Unemployment Rate\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_lk2k5qzdets_nk717k4fdyn\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"event\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"19__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 179, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_pbw7csh5cva_acegetip00i\", \"sqlExpression\": null}], \"only_total\": true, \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3389, \"datasource_name\": \"calendar_processed\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN UNEMPLOYMENT RATE ECHARTS_TIMESERIES",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3746,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6x2l66ryxjq_7elg3m2fcfs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'German Manufacturing PMI' or event like 'German Manufacturing PMI  (%'\", \"subject\": null}], \"all_columns\": [\"Date\", \"event\", \"actual\"], \"color_pn\": true, \"datasource\": \"14__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"Date\", \"groupby\": [], \"order_by_cols\": [\"[\\\"Date\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3746, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN MANUFACTURING PMI TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "market_data.calendar",
+                            "datasource_type": "table",
+                            "id": 3749,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"germany\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_l9e9pvg2rh_ejex0jhpcy\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"zone\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_sll5awfoy39_vzla23miei\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"event LIKE 'German Services PMI' or event like 'German Services PMI  (%'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"14__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"Date\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"actual\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 145, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(actual)\", \"optionName\": \"metric_ntt6hh2zo0g_bqnlnm9cpuo\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 3089, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -5, year) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 3749, \"datasource_name\": \"calendar\", \"schema\": \"market_data\", \"database_name\": \"market_data\"}",
+                            "query_context": null,
+                            "slice_name": "GERMANY MACRO GERMAN SERVICES PMI ECHARTS_TIMESERIES_BAR",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 176,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DATE",
+                            "uuid": "91e94ca0-90ac-424b-a5e5-e63f104ebaed",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 177,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f24deb65-b639-46df-a422-fa6cbc15075e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 178,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "f6719d13-6f50-49da-9043-9b8785fbb183",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 179,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DOUBLE",
+                            "uuid": "87ddd675-be18-4bff-9e79-c68b622df84e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 180,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "34fe73b8-0111-4b83-9062-8c85cc9d462a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 181,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "VARCHAR(100)",
+                            "uuid": "db84ccf7-b2fe-4b81-b8f5-35722db1a8e5",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-25T17:44:11"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 19,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 19,
+                            "uuid": "eb25a047-7038-47ea-be3e-40363ddb4790",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 19, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar_processed",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 139,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER(11)",
+                            "uuid": "06c80d3d-4648-406f-91eb-74744acadc37",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 140,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DATE",
+                            "uuid": "331879bb-c27a-4c01-9ba4-17460c76c3e6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "zone",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 141,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "3db4be2f-3511-42ee-afd7-8c2ca0225ef3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "currency",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 142,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "b1e9b66c-8fcb-4930-9175-4c75a16fba46",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "importance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 143,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "8429e005-222a-43f9-a3bb-39544d992c8f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "event",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 144,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "VARCHAR(100)",
+                            "uuid": "955da8e5-8655-4bab-b6f8-27be7f2d34f1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "actual",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 145,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "630c3a65-cd6c-43d2-9390-a7cb5309c59a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "column_name": "forecast",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 146,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "DOUBLE",
+                            "uuid": "5ecba931-ca32-4daa-9b39-5d40f2d3e6ac",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2022-06-05T15:36:22"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 14,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 14,
+                            "uuid": "037556b5-747e-43ec-aab9-98eab1f575e8",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 14, \"database_name\": \"market_data\"}",
+                "schema": "market_data",
+                "sql": null,
+                "table_name": "calendar",
+                "template_params": null
+            }
+        }
+    ]
+}

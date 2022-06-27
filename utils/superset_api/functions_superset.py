@@ -8,3 +8,13 @@ def delete_fields_model(data):
         if e in data.keys():
             data.pop(e)
     return data
+def create_chart(data,headers,session):
+    format_chart_json_to_save(data)
+    session.post("http://localhost:8088/api/v1/chart/", headers=headers, json=data)
+def format_chart_json_to_save(data):
+    if "datasource_name_text" in data.keys():
+        data["datasource_name"] = data["datasource_name_text"]
+    data = delete_fields_model(data)
+    if data['datasource_name'] == "market_data.calendar":
+        data["owners"] = [1]
+    return data

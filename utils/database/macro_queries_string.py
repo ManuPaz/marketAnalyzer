@@ -20,4 +20,6 @@ CREATE_TABLE_MACRO_PROCESSED="create table if not exists {} " \
                             "PRIMARY KEY(date,zone,event))"
 GET_MACRO_EVENT_BY_COUNTRY="select distinct(event) from {} where zone=%s"
 GET_COUNTRIES_FROM_CALENDAR="select distinct(zone) from {}"
-GET_DATA_BY_EVENT_AND_ZONE="select * from {} where zone=%s and event like %s"
+GET_DATA_BY_EVENT_AND_ZONE_LIKE= "select * from {} where zone=%s and event like %s"
+GET_DATA_BY_EVENT_AND_ZONE_EQUALS="select * from {} where zone=%s and event = %s"
+GET_DATA_BY_EVENT_AND_ZONE_DOUBLE_LIKE="select * from {} where zone=%s and (event like %s OR event like %s)"

@@ -1,3 +1,8 @@
+"""
+Configuration and logic dependencies:
+    uses config.yaml : to events and countries
+    dependencies on create_charts, create_charts_from models (charts are creted there before)
+"""
 import os
 os.chdir("../../")
 from utils.database import bd_handler
