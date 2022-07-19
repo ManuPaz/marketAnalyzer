@@ -48,11 +48,26 @@ def diff_to_absolute(data,column,diff):
     for i, indice in enumerate(data[column].index):
 
         if i >= diff:
-            if data.loc[data.index[i - diff],column] is not None and data.loc[indice, column] is not None:
+
                 data.loc[indice, column] = data.loc[data.index[i - diff], column] * (1 + 0.01 * data.loc[indice, column])
-            else:
-                data.loc[indice, column] =None
+
 
 
     data
     return data
+
+def concat_dataframes(dataframe_aux, dataframe_total):
+    if dataframe_aux is not None:
+        if dataframe_total is None:
+            dataframe_total = dataframe_aux
+        else:
+            dataframe_total = pd.concat([dataframe_total, dataframe_aux],
+                                        axis=0)
+    return dataframe_total
+
+def add_constant_columns(*dataframe_array, **columns):
+    for dataframe in dataframe_array:
+        if dataframe is not None:
+            for column_name,column_value in columns.items():
+                dataframe[column_name] =column_value
+                dataframe[column_name] = column_value

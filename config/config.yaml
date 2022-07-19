@@ -58,7 +58,7 @@ macro:
 
   events_to_save: ["core cpi", "cpi", "house prizes", "interest rate decision", "retail sales",
                   "unemployment rate", "building permits", "industrial production", "factory orders", "manufacturing pmi", "services pmi",
-                  "gdp","consumer confidence"]
+                  "gdp","consumer confidence","price index","oil","goods orders","employment","pmi","import","export"]
   countries_working: [ "germany",  "spain", "france",
                       "euro zone", "united kingdom", "australia", "russia", "china", "japan", "united states"]
   indices: ["s&p 500","dax","ibex 35","ftse 100","s&p/tsx 60","nasdaq","cac 40"]
@@ -136,6 +136,7 @@ superset:
   country_ref: "UNITED STATES"
   filters_replace: {"UNITED STATES": {"%cpi":"cpi","%retail sales":"retail sales", "%manufacturing":"ism manufacturing", "%unemployment":"unemployment" },
                     "CHINA":{"%manufacturing":"manufacturing"}, "UNITED KINGDOM":{"%cpi":"cpi"},"EURO ZONE":{"%cpi":"cpi"}}
+  dashboards_completed: ["UNITED STATES" ]
 
 analyze_groups_stocks:
   base_dir: "reports/stocks/"

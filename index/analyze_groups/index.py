@@ -7,13 +7,13 @@ logging.config.fileConfig('logs/logging.conf')
 logger = logging.getLogger('analyzing_data')
 import datetime as dt
 from utils.database import bd_handler, database_functions
-from utils.get_new_data import update_stock
+from utils.get_new_data.get_stocks_easy_logic import update_stocks
 from dateutil.relativedelta import relativedelta
 from plots.plot_specific_series import plot_specific_series
 import pandas as pd
 fecha_corte_plots = "2010-01-01"
-indice = "ibex 35"
-exchange = "MC"
+indice = "nasdaq"
+exchange = "US"
 update = True
 fecha_ini = dt.datetime.today() - relativedelta(years=15)
 base_dir = config["analyze_groups_stocks"]["base_dir"]
@@ -32,15 +32,14 @@ if __name__ == "__main__":
     bd = bd_handler.bd_handler("stocks")
     stocks = database_functions.filter_by_indice(indice, exchange, bd)
     stocks = stocks.accion.values.reshape(-1)
-    if update:
-        update_stock.update_all_stocks_in_all_tables(stocks,bd)
+
 
     data = database_functions.obtener_multiples_series("precios",
-                                                       "B", *stocks, bd=bd)
+                                                       "B",bd,*stocks)
 
     data = data.loc[data.index > dt.datetime.strptime(config["fecha_ini_default"], "%Y-%m-%d")]
 
-    data = data.dropna()
+
     len0 = data.shape[0]
     logger.info("indice.py: Len of {} data:  {}".format(indice, len0))
 
@@ -63,24 +62,18 @@ if __name__ == "__main__":
     df_changes.sort_values(by=str((hoy - fechas[2]).days), inplace=True)
     df_changes.to_csv(base_dir + "tablas/" + "pct_changes.csv")
 
-    query_next_results = "select report_date,date,stock from (select * from calendarioResultados where exchange=%s and report_date>%s) as e inner  join (select * from indices where indice=%s) as n " \
-                         "on e.stock=n.company order by report_date desc;"
-    df_next_results = bd.execute_query_dataframe(query_next_results, (exchange, dt.datetime.today(), indice))
-    df_next_results.to_csv(base_dir + "tablas/" + "next_results.csv")
 
-    query_last_highlights = "select fecha, stock, MarketCapitalizationMln, ebitda,peratio, EPSEstimateCurrentQuarter,EPSEstimateCurrentYear,EPSEstimateNextQuarter,EPSEstimateNextYear," \
-                            "QuarterlyEarningsGrowthYOY,QuarterlyRevenueGrowthYOY " \
-                            "from (select * from last_highlights where  exchange=%s ) as e inner  join (select * from indices where indice=%s) as n on e.stock=n.company;"
+    query_info ="select * from {}_dailyinfo order by fecha asc"
+    df_info = bd.execute_query_dataframe(query_info.format(exchange))
+    df_info=df_info.groupby("stock").last()
+    df_info.index=exchange+"_"+df_info.index
+    df_info.drop("exchange",axis=1,inplace=True)
+    df_info["last_close"]= data.iloc[-1]
 
-    df_last_highlights = bd.execute_query_dataframe(query_last_highlights, (exchange, indice))
-    df_last_highlights["pct_change_ESTIMATE_EPS"] = round((
-                                                                  df_last_highlights.EPSEstimateNextYear - df_last_highlights.EPSEstimateCurrentYear) / df_last_highlights.EPSEstimateCurrentYear,
-                                                          3)
-    df_last_highlights["stock"] = exchange + "_" + df_last_highlights.stock
-    df_last_highlights.set_index("stock", inplace=True)
-    df_last_highlights["pct_change"] = df_changes[str((hoy - fechas[2]).days)]
 
-    df_last_highlights.to_csv(base_dir + "tablas/" + "last_highlights.csv")
+    df_info["pct_change"] = df_changes[str((hoy - fechas[2]).days)]
+
+    df_info.to_csv(base_dir + "tablas/" + "info.csv")
     for stock in df_changes.index:
         code = stock
         stock = stock.split("_")[1]
@@ -88,7 +81,7 @@ if __name__ == "__main__":
         if not os.path.isdir(directorio):
             os.mkdir(directorio)
 
-        nombre_serie = ["netIncome", "totalrevenue", "totalAssets", "totalLiab"]
+        nombre_serie = ["netIncome", "totalrevenue", "totalAssets"]
         # nombre_serie="netIncome"
         # nombre_serie="adjusted_close"
         freq = "D"

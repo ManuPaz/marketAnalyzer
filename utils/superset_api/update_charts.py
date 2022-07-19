@@ -17,7 +17,7 @@ from utils.superset_api.functions_superset import delete_fields_model
 import utils.superset_api.authenticate_superset as authenticate_superset
 import json
 dashboards_completed = []
-
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 add_charts = True
 add_zoom = False
 modifying_like_clause = False
@@ -28,18 +28,32 @@ def update_chart(data):
     respuesta = session.put("http://localhost:8088/api/v1/chart/{}".format(str(id)), headers=headers, json=data)
     return respuesta
 def add_charts_to_macro_dashboards(chart, dashboards, nombre):
-    dashboards_aux = []
-    if "dashboards" in chart.keys():
-        dashboards_aux = chart["dashboards"]
-    for dashboard in dashboards:
-        id = dashboard["id"]
-        if dashboard['dashboard_title'] == nombre + " MACRO" and dashboard[
-            "dashboard_title"] not in dashboards_completed:
-            if id not in dashboards_aux:
-                dashboards_aux.append(id)
-    chart["dashboards"] = dashboards_aux
+    if chart["id"] not in charts_in_dashboard:
+        dashboards_aux = []
+        if "dashboards" in chart.keys():
+            dashboards_aux = chart["dashboards"]
+        for dashboard in dashboards:
 
-    update_chart(chart)
+            id = dashboard["id"]
+            if nombre not in config["superset"]["dashboards_completed"]  and dashboard['dashboard_title'] == nombre + " MACRO" and dashboard[
+                "dashboard_title"] not in dashboards_completed:
+                if id not in dashboards_aux:
+                    print(chart["slice_name"]+":   "+ dashboard['dashboard_title'])
+                    dashboards_aux.append(id)
+            elif nombre  in config["superset"]["dashboards_completed"] and dashboard['dashboard_title'] == nombre + " MACRO SECONDARY" and \
+                    dashboard[ "dashboard_title"] not in dashboards_completed:
+                if id not in dashboards_aux and len(dashboards_aux )==0:
+                        print(chart["slice_name"]+":   "+ dashboard['dashboard_title'])
+                        dashboards_aux.append(id)
+
+        print("update",nombre)
+        chart["dashboards"] = dashboards_aux
+        update_chart(chart)
+    else:
+            print("no update")
+
+
+
 def modify_order(chart):
     params = chart["params"]
     params = json.loads(params)
@@ -73,6 +87,15 @@ if __name__ == "__main__":
     slices_names = []
     charts = get_charts(session, headers)
     dashboards = get_dashboards(session, headers)
+    charts_in_dashboard=[]
+    for dashboard in dashboards:
+        dic=json.loads(dashboard["json_metadata"])["positions"]
+        for key in dic.keys():
+            try:
+                if "meta" in dic[key].keys() and  "chartId" in dic[key]["meta"].keys():
+                    charts_in_dashboard.append( dic[key]["meta"]["chartId"])
+            except Exception:
+                pass
 
     for section in charts:
         slices_names.append(section["slice_name"])

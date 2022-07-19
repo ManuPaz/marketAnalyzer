@@ -72,6 +72,7 @@ if __name__ == "__main__":
             macro_queries_string.GET_MACRO_EVENT_BY_COUNTRY.format(macro_queries_string.TABLE_CALENDAR_PROCESSED),
             (country,))
         for event in events:
+            print(country,event)
             for k,model_aux in enumerate(models):
                     model = model_aux.copy()
                 #if model["slice_name"] not in slices_names:

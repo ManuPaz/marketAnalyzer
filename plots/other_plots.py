@@ -49,6 +49,27 @@ def grouped_bar_plots(dataframe, groups):
     fig.tight_layout()
     plt.show()
 
+
+def bar_plot(dataframe,key,value,rotation=0):
+
+    plt.figure(figsize=(8,10))
+    g = sns.barplot(key, value, data=dataframe)
+    g.set_xticklabels(
+        g.get_xticklabels(), rotation=rotation)
+    plt.show()
+
+def plot_series(series):
+    plt.figure(figsize=(10,10))
+    plt.plot(series.index,series.values)
+    plt.title(series.name)
+    plt.show()
+
+def plot_series_bar(series):
+        plt.figure(figsize=(10, 10))
+        plt.bar(series.index, series.values)
+        plt.xticks(range(len(series.index)), series.index, rotation=90)
+        plt.title(series.name)
+        plt.show()
 if __name__=="__main__":
     dataframe=pd.DataFrame({"clase":["uno","dos","tres"],"valor1":[1,2,5],"valor2":[3,4,10]})
     grouped_bar_plots(dataframe, "clase")

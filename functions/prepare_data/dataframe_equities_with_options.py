@@ -26,8 +26,8 @@ def get_dataframe_default():
 
     feature = "nasdaq"
     variables_externas = ["U.S. 3M", "U.S. 7Y", "U.S. 10Y", "U.S. 30Y"]
-    data = database_functions.obtener_multiples_series("index", "D", *["ibex 35", "nasdaq", "s&p 500"],
-                                                       bd=bd_market_data)
+    data = database_functions.obtener_multiples_series("index", "D",bd_market_data, *["ibex 35", "nasdaq", "s&p 500"],
+                                                       )
     data = database_functions.get_series_activos_diferentes_de_acciones("", "gold", "commodities", "D", "gold",
                                                                         bd=bd_market_data)
 

@@ -1,4 +1,5 @@
 .idea/**
+**/*.jpg
 **/.idea/**
 **/market_data.sql
 **/stocks.sql
@@ -19,6 +20,7 @@ savedModels/
 assets/results/nasdaq/plots
 **/resultados
 **/backup_stocks.sql
+**/*.jpg
 **/*.csv
 **/modelos/**
 **/plotsPrecios/**

@@ -50,6 +50,8 @@ select * from preciosindices where indice='sp500';
 select * from preciosindices where indice='dow';
 -------------------------------------------------------
 
+
+
 --OTHER EQUITIES
 SHOW TABLES;
 select distinct(name) from commodities;

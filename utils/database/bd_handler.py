@@ -7,6 +7,7 @@ config=load_config.config()
 import sqlalchemy
 class bd_handler:
     def __init__(self, database=None):
+        self.data=None
         self.properties=config["bd"]
         if database is None:
             database= self.properties["database"]
@@ -21,13 +22,30 @@ class bd_handler:
         self.engine = sqlalchemy.create_engine('mysql+mysqlconnector://{0}:{1}@{2}/{3}?charset=utf8'.format(
             self.properties["user"], self.properties["password"], self.properties["host"] + ":" + str(self.properties["port"]), database), pool_recycle=3600, pool_size=5).connect()
 
-    def execute(self,statement,params=None):
+    def execute(self,statement,params=None,commit=True):
         if params is not None:
             self.cursor.execute(statement,params)
         else:
             self.cursor.execute(statement)
+        if commit:
+            self.connection.commit()
+
+    def execute_manual_rollback_option(self, statement,table, params=None):
+        query=statement.replace("delete","select *  ")
+        self.data=self.execute_query_dataframe(query,params)
+        self.data=self.data.set_index(self.data.columns[0])
+        self.table=table
+        if params is not None:
+            self.cursor.execute(statement, params)
+        else:
+            self.cursor.execute(statement)
+
         self.connection.commit()
 
+    def manual_rollback(self):
+        if self.data is not None:
+            self.bulk_insert(self.data,self.table)
+        self.data=None
     def execute_query(self, statement, params=None):
         if params is not None:
             self.cursor.execute(statement,params)
@@ -38,7 +56,10 @@ class bd_handler:
         if len(data)==0:
             return None
         return data
-
+    def commit(self):
+        self.connection.commit()
+    def rollback(self):
+        self.connection.rollback()
 
     def execute_query__get_list(self, statement, params=None):
         data= self.execute_query(statement, params)

@@ -22,6 +22,7 @@ There are several tools to analyze financial data, visualize data and develop st
 
 Properties file called **config.properties** must edited to add your credendials for the external API's , as shown in **example_config.properties**.
 <br>
+
 ###Run docker. 
 As me you can use a external disk to store your data because it can grow until hundreds of GB.
 ```

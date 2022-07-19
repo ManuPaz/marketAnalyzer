@@ -9,9 +9,10 @@ import datetime as dt
 import logging.config
 import time
 from datetime import timedelta
+from utils.database import stocks_queries_string
+import pandas as pd
 
 from market_data_implementations import investing_market_data
-import pandas as pd
 logging.config.fileConfig('logs/logging.conf')
 logger = logging.getLogger('getting_data')
 # columns to return in the dataframe
@@ -108,26 +109,30 @@ def calendar_data(bd):
         name)
     bd.execute(query)
     date_delete = dt.date.today() - timedelta(days=150)
-    bd.execute("delete from {} where date>=%s".format(name), (date_delete,))
+    query_delete =stocks_queries_string.DELETE_SINCE_DATE.format(name, "date")
+
+    bd.execute_manual_rollback_option( query_delete ,name, (date_delete,))
     logger.info("market_data: Delete on {}, from date {}".format(name, date_delete))
-    date_query = "select max(Date) from {} ".format(name)
-    date = bd.execute_query(date_query)[0][0]
-    next_day = dt.datetime.today() + timedelta(days=60)
-    next_day_string = dt.datetime.strftime(next_day, "%d/%m/%Y")
-    external_data = investing_market_data.external_calendar_data(None, None)
 
-    if date is None:
-        dates=list([e.to_pydatetime() for e in pd.date_range(start="20/01/1990",end=dt.datetime.strftime(dt.datetime.today()+ timedelta(days=365),"%d-%m-%Y"),freq="Y")])
-        for i,date in enumerate(dates[:-1]):
-            print(date)
-            data = external_data.get_data(from_date=dt.datetime.strftime(date+timedelta(days=1),"%d/%m/%Y"),
-                                      to_date=dt.datetime.strftime(dates[i+1],"%d/%m/%Y"))
+    try:
+        date_query = "select max(Date) from {} ".format(name)
+        date = bd.execute_query(date_query)[0][0]
+        next_day = dt.datetime.today() + timedelta(days=60)
+        next_day_string = dt.datetime.strftime(next_day, "%d/%m/%Y")
+        external_data = investing_market_data.external_calendar_data(None, None)
 
-            bd.bulk_insert(data, name)
+        if date is None:
+            dates = list([e.to_pydatetime() for e in pd.date_range(start="20/01/1990", end=dt.datetime.strftime(
+                dt.datetime.today() + timedelta(days=365), "%d-%m-%Y"), freq="Y")])
+            for i, date in enumerate(dates[:-1]):
+                print(date)
+                data = external_data.get_data(from_date=dt.datetime.strftime(date + timedelta(days=1), "%d/%m/%Y"),
+                                              to_date=dt.datetime.strftime(dates[i + 1], "%d/%m/%Y"))
 
-    else:
-        if date < (next_day).date():
-            try:
+                bd.bulk_insert(data, name)
+
+        else:
+            if date < (next_day).date():
                 data = external_data.get_data(
                     from_date=dt.datetime.strftime(date, "%d/%m/%Y"),
                     to_date=next_day_string)
@@ -136,9 +141,12 @@ def calendar_data(bd):
                 bd.bulk_insert(data, name)
                 logger.info("market_data: Inserted on {}, from date {} to date {}".format(name, date, next_day_string))
 
-            except Exception as e:
-                logger.error("market_data:Error al guardar market_data de {}".format(name))
-                time.sleep(3)
+
+
+    except Exception as e:
+        logger.error("market_data:Error al guardar market_data de {}, {}".format(name, e))
+        bd.manual_rollback()
+        time.sleep(3)
 
     time.sleep(1)
 
@@ -151,16 +159,22 @@ def calendar_next_data(bd):
                 "actual double, forecast double)".format(
             name)
         bd.execute(query)
+
         execute = "delete  from {} where 1=1".format(name)
         logger.info("market_data: Delete * from {}".format(name))
-        bd.execute(execute)
-        external_data = investing_market_data.external_calendar_data(None, None)
-        data = external_data.get_data(
-            from_date=dt.datetime.strftime(dt.date.today(), "%d/%m/%Y"),
-            to_date=dt.datetime.strftime(dt.date.today() + timedelta(days=7), "%d/%m/%Y"), )
-        logger.info("market_data: Inserted on {}, from date {} to date {}".format(name, dt.date.today(),
-                                                                                  dt.date.today() + timedelta(days=7)))
-        bd.bulk_insert(data, name)
+        bd.execute_manual_rollback_option(execute, name)
+        try:
+            external_data = investing_market_data.external_calendar_data(None, None)
+            data = external_data.get_data(
+                from_date=dt.datetime.strftime(dt.date.today(), "%d/%m/%Y"),
+                to_date=dt.datetime.strftime(dt.date.today() + timedelta(days=7), "%d/%m/%Y"), )
+            logger.info("market_data: Inserted on {}, from date {} to date {}".format(name, dt.date.today(),
+                                                                                      dt.date.today() + timedelta(days=7)))
+            bd.bulk_insert(data, name)
+        except Exception as e:
+            logger.error("market_data: Error al guardar market_data de {}".format(name))
+            bd.manual_rollback()
+            time.sleep(3)
 
     except Exception as e:
         logger.error("market_data: Error al guardar market_data de {}".format(name))
