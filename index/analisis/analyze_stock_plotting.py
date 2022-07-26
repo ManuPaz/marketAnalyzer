@@ -1,5 +1,5 @@
 import os
-os.chdir("../")
+os.chdir("../../")
 from utils.database import database_functions,bd_handler
 from plots.plot_specific_series import plot_specific_series
 if __name__=="__main__":

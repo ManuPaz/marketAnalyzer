@@ -122,7 +122,7 @@ def calendar_data(bd):
         external_data = investing_market_data.external_calendar_data(None, None)
 
         if date is None:
-            dates = list([e.to_pydatetime() for e in pd.date_range(start="20/01/1990", end=dt.datetime.strftime(
+            dates = list([e.to_pydatetime() for e in pd.date_range(start="20/01/1970", end=dt.datetime.strftime(
                 dt.datetime.today() + timedelta(days=365), "%d-%m-%Y"), freq="Y")])
             for i, date in enumerate(dates[:-1]):
                 print(date)

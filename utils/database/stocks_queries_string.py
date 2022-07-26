@@ -19,7 +19,7 @@ SECTORS_BY_EXCHANGE= "select concat(exchange,'_',stock) as stock, sector   from 
 DESCRIPTIONS_BY_EXCHANGE= "select concat(exchange,'_',stock) as stock, description  from descriptions where exchange=%s"
 CREATE_DAILY_INFO_TABLE_BY_EXCHANGE="create table if not exists {}_dailyinfo(stock varchar(100)," \
 "exchange varchar(100),fecha date,per double,marketcap double,revenue double,eps_annual double, revenue_annual double ,eps double,shares_outstanding double,"\
-"next_earnings_date date,eps_estimation double,eps_estimation_high double,eps_estimation_low double," \
+"eps_estimation double,eps_estimation_high double,eps_estimation_low double," \
 "revenue_estimation double ,revenue_estimation_high double ,revenue_estimation_low double,adjusted_close double, "\
 "PRIMARY KEY(fecha,stock,exchange));"
 CREATE_TABLE_NEWS="create table if not exists {}_stocknews (exchange varchar(100),stock varchar(100), fecha date, link varchar(600), title varchar(600)," \

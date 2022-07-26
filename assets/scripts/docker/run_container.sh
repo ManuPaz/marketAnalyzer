@@ -2,7 +2,4 @@ docker run -v /media/$(whoami)/$DISKNAME/$DIRNAME/databaseStocks:/var/lib/mysql 
     --name containerStocks \
     --publish 33062:3306 \
     -e  MYSQL_ROOT_PASSWORD=$PASSWORD \
-     mysql:5.7
-~                                                                               
-~                                                                               
-~                      
+     mysql:5.7                      

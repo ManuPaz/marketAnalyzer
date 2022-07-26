@@ -33,7 +33,8 @@ class bd_handler:
     def execute_manual_rollback_option(self, statement,table, params=None):
         query=statement.replace("delete","select *  ")
         self.data=self.execute_query_dataframe(query,params)
-        self.data=self.data.set_index(self.data.columns[0])
+        if self.data is not None:
+            self.data=self.data.set_index(self.data.columns[0])
         self.table=table
         if params is not None:
             self.cursor.execute(statement, params)

@@ -54,8 +54,9 @@ if __name__ == "__main__":
                 dataframe["exchange"] = dataframe["code"].transform(
                     lambda x: x.split(".")[1])
                 dataframe.drop("code", inplace=True, axis=1)
-                dataframe.set_index(["report_date"],drop=True,inplace=True)
+                dataframe.set_index(["report_date","stock","exchange"],drop=True,inplace=True)
+                dataframe = dataframe[~dataframe.index.duplicated(keep='first')]
                 logger.info("main_results: Número de resultados  en este rango (fecha1={}, fecha2={}): {}".format(fecha1,fecha2,len(dataframe)))
-                bd.bulk_insert(dataframe, "calendarioResultados")
+                bd.upsert_( "calendarioResultados",dataframe)
 
 

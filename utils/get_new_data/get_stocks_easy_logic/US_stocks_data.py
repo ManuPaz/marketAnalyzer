@@ -12,5 +12,6 @@ if __name__ == "__main__":
     tickers, columns_bd, dates,exchange,bd_stocks =init_us_stocks()
     for stock, ticker in tickers.tickers.items():
         print(stock)
+        ticker=tickers.tickers[stock]
         update_stock_us(ticker, stock, columns_bd, dates, exchange, bd_stocks)
 

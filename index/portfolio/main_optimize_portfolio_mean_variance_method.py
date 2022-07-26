@@ -1,5 +1,5 @@
 import os
-os.chdir("../")
+os.chdir("../../")
 from config import load_config
 config=load_config.config()
 import logging.config
