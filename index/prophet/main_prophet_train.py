@@ -12,7 +12,7 @@ import pandas as pd
 from config import load_config
 from functions.prophet import prophet_, logs_prophet
 from plots import plots_prophet
-from functions.prepare_data import dataframe_equities_with_options
+from functions.prepare_data import dataframe_different_equities
 from datetime import timedelta
 from functions.estacionaridad import estacionaridadYCointegracion
 from functions.estacionaridad import logs_estacionaridad

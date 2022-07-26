@@ -30,7 +30,7 @@ def get_precios(ticker,dates,stock):
         from_date = dt.date(1990, 1, 1)
         if stock in dates.keys():
             from_date = dates[stock]
-        to_date  = dt.date.today() - timedelta(days=1)
+        to_date  = dt.date.today()
         if to_date>from_date:
             to_date = dt.datetime.strftime(to_date, "%Y-%m-%d")
             from_date = dt.datetime.strftime(from_date, "%Y-%m-%d")

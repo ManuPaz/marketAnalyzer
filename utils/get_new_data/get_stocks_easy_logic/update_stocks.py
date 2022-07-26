@@ -3,8 +3,7 @@ import logging.config
 
 import investpy
 import yfinance as yf
-import datetime as dt
-from datetime import timedelta
+
 from utils.time_measure import time_measure
 logging.config.fileConfig('logs/logging.conf')
 logger = logging.getLogger('getting_data')
@@ -149,39 +148,35 @@ def init_indice_europe(indice, exchange, country, bd_stocks, filter=None):
 
     return dates, isins_investing, isins, stocks, columns_bd
 def update_stock_us(ticker, stock, columns_bd, dates, exchange, bd_stocks):
-    query_date="select last(fecha) from {}_precios where stock=%s".format(exchange)
-    fecha=bd_stocks.execute_query(query_date)
-    if fecha is None or fecha<dt.datetime.today()-timedelta(days=1):
+    dataframe_fundamental = get_fundamental(ticker, stock)
 
-        dataframe_fundamental = get_fundamental(ticker, stock)
+    dataframe_info = get_info(ticker, stock)
+    dataframe_dividends = get_dividends(ticker, stock)
+    dataframe_splits = get_splits(ticker, stock)
+    dataframe_info_complete_us = get_info_complete_us(ticker, columns_bd, stock)
 
-        dataframe_info = get_info(ticker, stock)
-        dataframe_dividends = get_dividends(ticker, stock)
-        dataframe_splits = get_splits(ticker, stock)
-        dataframe_info_complete_us = get_info_complete_us(ticker, columns_bd, stock)
+    dataframe_news = get_news(ticker, stock)
+    dataframe_institutional_holders = get_institutional_holders(ticker, stock)
+    dataframe_precios = get_precios(ticker, dates, stock)
+    work_dataframes.add_constant_columns(dataframe_fundamental, dataframe_precios, dataframe_info, dataframe_splits,
+                                         dataframe_dividends, dataframe_info_complete_us, dataframe_news,
+                                         dataframe_institutional_holders,
+                                         exchange=exchange, stock=stock)
 
-        dataframe_news = get_news(ticker, stock)
-        dataframe_institutional_holders = get_institutional_holders(ticker, stock)
-        dataframe_precios = get_precios(ticker, dates, stock)
-        work_dataframes.add_constant_columns(dataframe_fundamental, dataframe_precios, dataframe_info, dataframe_splits,
-                                             dataframe_dividends, dataframe_info_complete_us, dataframe_news,
-                                             dataframe_institutional_holders,
-                                             exchange=exchange, stock=stock)
+    for WORD, dataframe in zip([stocks_queries_string.PRICES_WORD, stocks_queries_string.FUNDAMENTAL_WORD,
+                                stocks_queries_string.DIVIDENDS_WORD, stocks_queries_string.SPLITS_WORD],
+                               [dataframe_precios, dataframe_fundamental, dataframe_dividends, dataframe_splits]):
+        update_data(columns_bd[WORD], dataframe, bd_stocks, WORD, exchange)
 
-        for WORD, dataframe in zip([stocks_queries_string.PRICES_WORD, stocks_queries_string.FUNDAMENTAL_WORD,
-                                    stocks_queries_string.DIVIDENDS_WORD, stocks_queries_string.SPLITS_WORD],
-                                   [dataframe_precios, dataframe_fundamental, dataframe_dividends, dataframe_splits]):
-            update_data(columns_bd[WORD], dataframe, bd_stocks, WORD, exchange)
-
-        update_data(columns_bd[stocks_queries_string.DAILY_INFO_WORD], dataframe_info, bd_stocks,
-                    stocks_queries_string.DAILY_INFO_WORD, exchange, all_numeric=False)
-        update_data(columns_bd[stocks_queries_string.INFO_COMPLETE_US_WORD], dataframe_info_complete_us, bd_stocks,
-                    stocks_queries_string.INFO_COMPLETE_US_WORD.replace("us_", ""), exchange, all_numeric=False)
-        update_data(columns_bd[stocks_queries_string.INSTITUTIONAL_HOLDERS_WORD], dataframe_institutional_holders,
-                    bd_stocks,
-                    stocks_queries_string.INSTITUTIONAL_HOLDERS_WORD, exchange, all_numeric=False)
-        update_data(columns_bd[stocks_queries_string.STOCKS_NEWS_WORD], dataframe_news, bd_stocks,
-                    stocks_queries_string.STOCKS_NEWS_WORD, exchange, all_numeric=False)
+    update_data(columns_bd[stocks_queries_string.DAILY_INFO_WORD], dataframe_info, bd_stocks,
+                stocks_queries_string.DAILY_INFO_WORD, exchange, all_numeric=False)
+    update_data(columns_bd[stocks_queries_string.INFO_COMPLETE_US_WORD], dataframe_info_complete_us, bd_stocks,
+                stocks_queries_string.INFO_COMPLETE_US_WORD.replace("us_", ""), exchange, all_numeric=False)
+    update_data(columns_bd[stocks_queries_string.INSTITUTIONAL_HOLDERS_WORD], dataframe_institutional_holders,
+                bd_stocks,
+                stocks_queries_string.INSTITUTIONAL_HOLDERS_WORD, exchange, all_numeric=False)
+    update_data(columns_bd[stocks_queries_string.STOCKS_NEWS_WORD], dataframe_news, bd_stocks,
+                stocks_queries_string.STOCKS_NEWS_WORD, exchange, all_numeric=False)
 def upate_stocks_europe(stocks, isins, isins_investing, country, dates, exchange, columns_bd, bd_stocks):
     dataframe_info_index = dataframe_precios_index = dataframe_fundamental_index = dataframe_dividends_index = None
     for stock in stocks:
